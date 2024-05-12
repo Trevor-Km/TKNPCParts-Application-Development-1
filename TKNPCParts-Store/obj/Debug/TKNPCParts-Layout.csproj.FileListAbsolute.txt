@@ -1,0 +1,9 @@
+C:\Users\trevo\source\repos\TKNPCParts-Layout\bin\Debug\TKNPCParts-Layout.dll
+C:\Users\trevo\source\repos\TKNPCParts-Layout\bin\Debug\TKNPCParts-Layout.pdb
+C:\Users\trevo\source\repos\TKNPCParts-Layout\obj\Debug\TKNPCParts-Layout.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\TKNPCParts-Layout\obj\Debug\TKNPCParts_Layout.Properties.Resources.resources
+C:\Users\trevo\source\repos\TKNPCParts-Layout\obj\Debug\TKNPCParts_Layout.TKNPCPart_Layout.resources
+C:\Users\trevo\source\repos\TKNPCParts-Layout\obj\Debug\TKNPCParts-Layout.csproj.GenerateResource.cache
+C:\Users\trevo\source\repos\TKNPCParts-Layout\obj\Debug\TKNPCParts-Layout.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\TKNPCParts-Layout\obj\Debug\TKNPCParts-Layout.dll
+C:\Users\trevo\source\repos\TKNPCParts-Layout\obj\Debug\TKNPCParts-Layout.pdb
