@@ -1,0 +1,10 @@
+C:\Users\trevo\source\repos\TKN-PC-Layout\bin\Debug\TKN-PC-Layout.pdb
+C:\Users\trevo\source\repos\TKN-PC-Layout\obj\Debug\TKN-PC-Layout.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\TKN-PC-Layout\obj\Debug\TKN_PC_Layout.Properties.Resources.resources
+C:\Users\trevo\source\repos\TKN-PC-Layout\obj\Debug\TKN-PC-Layout.csproj.GenerateResource.cache
+C:\Users\trevo\source\repos\TKN-PC-Layout\obj\Debug\TKN-PC-Layout.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\TKN-PC-Layout\obj\Debug\TKN-PC-Layout.pdb
+C:\Users\trevo\source\repos\TKN-PC-Layout\obj\Debug\TKN_PC_Layout.TKNLayout.resources
+C:\Users\trevo\source\repos\TKN-PC-Layout\bin\Debug\TKN-PC-Layout.dll.config
+C:\Users\trevo\source\repos\TKN-PC-Layout\bin\Debug\TKN-PC-Layout.dll
+C:\Users\trevo\source\repos\TKN-PC-Layout\obj\Debug\TKN-PC-Layout.dll
