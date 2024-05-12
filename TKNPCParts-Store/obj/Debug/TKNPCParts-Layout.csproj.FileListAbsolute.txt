@@ -7,3 +7,16 @@ C:\Users\trevo\source\repos\TKNPCParts-Layout\obj\Debug\TKNPCParts-Layout.csproj
 C:\Users\trevo\source\repos\TKNPCParts-Layout\obj\Debug\TKNPCParts-Layout.csproj.CoreCompileInputs.cache
 C:\Users\trevo\source\repos\TKNPCParts-Layout\obj\Debug\TKNPCParts-Layout.dll
 C:\Users\trevo\source\repos\TKNPCParts-Layout\obj\Debug\TKNPCParts-Layout.pdb
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\bin\Debug\TKNPcPartsDB.mdf
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\bin\Debug\TKNPcPartsDB_log.ldf
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\bin\Debug\TKNPCParts-Layout.dll
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\bin\Debug\TKNPCParts-Layout.pdb
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts-Layout.csproj.AssemblyReference.cache
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.AllItems.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Properties.Resources.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.TKNPCPart_Layout.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts-Layout.csproj.GenerateResource.cache
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts-Layout.csproj.CoreCompileInputs.cache
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts-Layout.dll
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts-Layout.pdb
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\bin\Debug\TKNPCParts-Layout.dll.config

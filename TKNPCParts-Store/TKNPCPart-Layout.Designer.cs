@@ -38,12 +38,12 @@
             this.storageDevicesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.peripheralsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.allItemsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allItemsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.informationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.termsAndAgreementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.licenseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logoBox = new System.Windows.Forms.PictureBox();
-            this.allItemsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox)).BeginInit();
             this.SuspendLayout();
@@ -90,12 +90,14 @@
             this.processorsToolStripMenuItem.Name = "processorsToolStripMenuItem";
             this.processorsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.processorsToolStripMenuItem.Text = "&Main";
+            this.processorsToolStripMenuItem.Click += new System.EventHandler(this.processorsToolStripMenuItem_Click);
             // 
             // graphicsCardsToolStripMenuItem
             // 
             this.graphicsCardsToolStripMenuItem.Name = "graphicsCardsToolStripMenuItem";
             this.graphicsCardsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.graphicsCardsToolStripMenuItem.Text = "&Graphics Cards";
+            this.graphicsCardsToolStripMenuItem.Click += new System.EventHandler(this.graphicsCardsToolStripMenuItem_Click);
             // 
             // motherboardsToolStripMenuItem
             // 
@@ -120,6 +122,13 @@
             this.allItemsToolStripMenuItem.Name = "allItemsToolStripMenuItem";
             this.allItemsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.allItemsToolStripMenuItem.Text = "P&rocessors";
+            // 
+            // allItemsToolStripMenuItem1
+            // 
+            this.allItemsToolStripMenuItem1.Name = "allItemsToolStripMenuItem1";
+            this.allItemsToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.allItemsToolStripMenuItem1.Text = "&All Items";
+            this.allItemsToolStripMenuItem1.Click += new System.EventHandler(this.allItemsToolStripMenuItem1_Click);
             // 
             // informationToolStripMenuItem
             // 
@@ -160,12 +169,6 @@
             this.logoBox.TabIndex = 3;
             this.logoBox.TabStop = false;
             // 
-            // allItemsToolStripMenuItem1
-            // 
-            this.allItemsToolStripMenuItem1.Name = "allItemsToolStripMenuItem1";
-            this.allItemsToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
-            this.allItemsToolStripMenuItem1.Text = "&All Items";
-            // 
             // TKNPCPart_Layout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -176,6 +179,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "TKNPCPart_Layout";
+            this.Load += new System.EventHandler(this.TKNPCPart_Layout_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox)).EndInit();

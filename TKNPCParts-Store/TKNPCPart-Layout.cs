@@ -21,5 +21,28 @@ namespace TKNPCParts_Layout
         {
             Application.Exit();
         }
+
+        private void graphicsCardsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GraphicsCards graphicsCardsFrame = new GraphicsCards();
+            graphicsCardsFrame.Show();
+        }
+
+        private void processorsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MainPage mainFrame = new MainPage();
+            mainFrame.Show();
+        }
+
+        private void allItemsToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            AllItems allItemsFrame = new AllItems();
+            allItemsFrame.Show();
+        }
+
+        private void TKNPCPart_Layout_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
