@@ -11,9 +11,9 @@ using TKN_PC_Layout;
 
 namespace TKNPCPartsStore
 {
-    public partial class Form1 : TKNLayout
+    public partial class TKNMainPage : TKNLayout
     {
-        public Form1()
+        public TKNMainPage()
         {
             InitializeComponent();
         }

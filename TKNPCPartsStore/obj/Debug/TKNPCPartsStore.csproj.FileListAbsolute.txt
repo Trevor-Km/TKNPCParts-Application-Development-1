@@ -11,3 +11,4 @@ C:\Users\trevo\source\repos\TKNPCPartsStore\obj\Debug\TKNPCPartsStore.csproj.Cor
 C:\Users\trevo\source\repos\TKNPCPartsStore\obj\Debug\TKNPCPar.E0197DF9.Up2Date
 C:\Users\trevo\source\repos\TKNPCPartsStore\obj\Debug\TKNPCPartsStore.exe
 C:\Users\trevo\source\repos\TKNPCPartsStore\obj\Debug\TKNPCPartsStore.pdb
+C:\Users\trevo\source\repos\TKNPCPartsStore\obj\Debug\TKNPCPartsStore.TKNMainPage.resources
