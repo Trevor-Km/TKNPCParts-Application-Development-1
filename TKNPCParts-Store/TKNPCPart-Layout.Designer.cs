@@ -88,46 +88,48 @@
             // mainToolStripMenuItem
             // 
             this.mainToolStripMenuItem.Name = "mainToolStripMenuItem";
-            this.mainToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
+            this.mainToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.mainToolStripMenuItem.Text = "&Main";
             this.mainToolStripMenuItem.Click += new System.EventHandler(this.mainPageToolStripMenuItem_Click);
             // 
             // graphicsCardsToolStripMenuItem
             // 
             this.graphicsCardsToolStripMenuItem.Name = "graphicsCardsToolStripMenuItem";
-            this.graphicsCardsToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
+            this.graphicsCardsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.graphicsCardsToolStripMenuItem.Text = "&Graphics Cards";
             this.graphicsCardsToolStripMenuItem.Click += new System.EventHandler(this.graphicsCardsToolStripMenuItem_Click);
             // 
             // motherboardsToolStripMenuItem
             // 
             this.motherboardsToolStripMenuItem.Name = "motherboardsToolStripMenuItem";
-            this.motherboardsToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
+            this.motherboardsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.motherboardsToolStripMenuItem.Text = "&Motherboards";
+            this.motherboardsToolStripMenuItem.Click += new System.EventHandler(this.motherboardsToolStripMenuItem_Click);
             // 
             // storageDevicesToolStripMenuItem
             // 
             this.storageDevicesToolStripMenuItem.Name = "storageDevicesToolStripMenuItem";
-            this.storageDevicesToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
+            this.storageDevicesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.storageDevicesToolStripMenuItem.Text = "&Storage Devices";
             // 
             // peripheralsToolStripMenuItem
             // 
             this.peripheralsToolStripMenuItem.Name = "peripheralsToolStripMenuItem";
-            this.peripheralsToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
+            this.peripheralsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.peripheralsToolStripMenuItem.Text = "P&eripherals";
+            this.peripheralsToolStripMenuItem.Click += new System.EventHandler(this.peripheralsToolStripMenuItem_Click);
             // 
             // processorsToolStripMenuItem
             // 
             this.processorsToolStripMenuItem.Name = "processorsToolStripMenuItem";
-            this.processorsToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
+            this.processorsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.processorsToolStripMenuItem.Text = "P&rocessors";
             this.processorsToolStripMenuItem.Click += new System.EventHandler(this.processorsToolStripMenuItem_Click);
             // 
             // allItemsToolStripMenuItem
             // 
             this.allItemsToolStripMenuItem.Name = "allItemsToolStripMenuItem";
-            this.allItemsToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
+            this.allItemsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.allItemsToolStripMenuItem.Text = "&All Items";
             this.allItemsToolStripMenuItem.Click += new System.EventHandler(this.allItemsToolStripMenuItem1_Click);
             // 

@@ -114,7 +114,7 @@
             this.intelPanel.Controls.Add(this.groupBoxG915);
             this.intelPanel.Location = new System.Drawing.Point(12, 66);
             this.intelPanel.Name = "intelPanel";
-            this.intelPanel.Size = new System.Drawing.Size(1079, 320);
+            this.intelPanel.Size = new System.Drawing.Size(1079, 328);
             this.intelPanel.TabIndex = 22;
             // 
             // priceLabel4
@@ -238,6 +238,7 @@
             // descLabel2
             // 
             this.descLabel2.AutoSize = true;
+            this.descLabel2.BackColor = System.Drawing.SystemColors.Control;
             this.descLabel2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.descLabel2.Location = new System.Drawing.Point(336, 236);
             this.descLabel2.Name = "descLabel2";

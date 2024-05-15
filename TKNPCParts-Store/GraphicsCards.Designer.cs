@@ -172,7 +172,7 @@
             this.groupBoxAmd7600Xt.Size = new System.Drawing.Size(277, 217);
             this.groupBoxAmd7600Xt.TabIndex = 14;
             this.groupBoxAmd7600Xt.TabStop = false;
-            this.groupBoxAmd7600Xt.Text = "AMD Radeon™ RX 7600 XT";
+            this.groupBoxAmd7600Xt.Text = "Radeon™ RX 7600 XT";
             // 
             // pictureBoxAmd7600Xt
             // 
@@ -226,7 +226,7 @@
             this.groupBoxAmd7700Xt.Size = new System.Drawing.Size(277, 217);
             this.groupBoxAmd7700Xt.TabIndex = 10;
             this.groupBoxAmd7700Xt.TabStop = false;
-            this.groupBoxAmd7700Xt.Text = "AMD Radeon™ RX 7700 XT";
+            this.groupBoxAmd7700Xt.Text = "Radeon™ RX 7700 XT";
             // 
             // pictureBoxAmd7700Xt
             // 
@@ -280,7 +280,7 @@
             this.groupBoxAmd7800Xt.Size = new System.Drawing.Size(277, 217);
             this.groupBoxAmd7800Xt.TabIndex = 6;
             this.groupBoxAmd7800Xt.TabStop = false;
-            this.groupBoxAmd7800Xt.Text = "AMD Radeon™ RX 7800 XT";
+            this.groupBoxAmd7800Xt.Text = "Radeon™ RX 7800 XT";
             // 
             // pictureBoxAmd7800Xt
             // 
@@ -334,7 +334,7 @@
             this.groupBoxAmdRadeon7900.Size = new System.Drawing.Size(288, 217);
             this.groupBoxAmdRadeon7900.TabIndex = 2;
             this.groupBoxAmdRadeon7900.TabStop = false;
-            this.groupBoxAmdRadeon7900.Text = "AMD Radeon™ RX 7900 XTX";
+            this.groupBoxAmdRadeon7900.Text = "Radeon™ RX 7900 XTX";
             // 
             // pictureBoxAmdRadeon7900
             // 
