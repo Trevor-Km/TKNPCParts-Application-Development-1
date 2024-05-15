@@ -380,7 +380,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(45, 20);
             this.label1.TabIndex = 17;
-            this.label1.Text = "$400";
+            this.label1.Text = "$380";
             // 
             // amdLabel
             // 

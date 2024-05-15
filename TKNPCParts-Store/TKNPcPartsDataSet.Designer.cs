@@ -279,9 +279,9 @@ namespace TKNPCParts_Layout {
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class TKNPcPartsDBDataTable : global::System.Data.TypedTableBase<TKNPcPartsDBRow> {
             
-            private global::System.Data.DataColumn columnItemID;
-            
             private global::System.Data.DataColumn columnItemName;
+            
+            private global::System.Data.DataColumn columnItemID;
             
             private global::System.Data.DataColumn columnItemDescription;
             
@@ -322,17 +322,17 @@ namespace TKNPCParts_Layout {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn ItemIDColumn {
+            public global::System.Data.DataColumn ItemNameColumn {
                 get {
-                    return this.columnItemID;
+                    return this.columnItemName;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn ItemNameColumn {
+            public global::System.Data.DataColumn ItemIDColumn {
                 get {
-                    return this.columnItemName;
+                    return this.columnItemID;
                 }
             }
             
@@ -389,11 +389,11 @@ namespace TKNPCParts_Layout {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public TKNPcPartsDBRow AddTKNPcPartsDBRow(int ItemID, string ItemName, string ItemDescription, decimal ItemPrice) {
+            public TKNPcPartsDBRow AddTKNPcPartsDBRow(string ItemName, int ItemID, string ItemDescription, decimal ItemPrice) {
                 TKNPcPartsDBRow rowTKNPcPartsDBRow = ((TKNPcPartsDBRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
-                        ItemID,
                         ItemName,
+                        ItemID,
                         ItemDescription,
                         ItemPrice};
                 rowTKNPcPartsDBRow.ItemArray = columnValuesArray;
@@ -425,8 +425,8 @@ namespace TKNPCParts_Layout {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal void InitVars() {
-                this.columnItemID = base.Columns["ItemID"];
                 this.columnItemName = base.Columns["ItemName"];
+                this.columnItemID = base.Columns["ItemID"];
                 this.columnItemDescription = base.Columns["ItemDescription"];
                 this.columnItemPrice = base.Columns["ItemPrice"];
             }
@@ -434,20 +434,20 @@ namespace TKNPCParts_Layout {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             private void InitClass() {
-                this.columnItemID = new global::System.Data.DataColumn("ItemID", typeof(int), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnItemID);
                 this.columnItemName = new global::System.Data.DataColumn("ItemName", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnItemName);
+                this.columnItemID = new global::System.Data.DataColumn("ItemID", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnItemID);
                 this.columnItemDescription = new global::System.Data.DataColumn("ItemDescription", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnItemDescription);
                 this.columnItemPrice = new global::System.Data.DataColumn("ItemPrice", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnItemPrice);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnItemID}, true));
-                this.columnItemID.AllowDBNull = false;
-                this.columnItemID.Unique = true;
                 this.columnItemName.AllowDBNull = false;
                 this.columnItemName.MaxLength = 50;
+                this.columnItemID.AllowDBNull = false;
+                this.columnItemID.Unique = true;
                 this.columnItemDescription.AllowDBNull = false;
                 this.columnItemDescription.MaxLength = 50;
                 this.columnItemPrice.AllowDBNull = false;
@@ -593,23 +593,23 @@ namespace TKNPCParts_Layout {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public int ItemID {
-                get {
-                    return ((int)(this[this.tableTKNPcPartsDB.ItemIDColumn]));
-                }
-                set {
-                    this[this.tableTKNPcPartsDB.ItemIDColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string ItemName {
                 get {
                     return ((string)(this[this.tableTKNPcPartsDB.ItemNameColumn]));
                 }
                 set {
                     this[this.tableTKNPcPartsDB.ItemNameColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int ItemID {
+                get {
+                    return ((int)(this[this.tableTKNPcPartsDB.ItemIDColumn]));
+                }
+                set {
+                    this[this.tableTKNPcPartsDB.ItemIDColumn] = value;
                 }
             }
             
@@ -795,45 +795,11 @@ namespace TKNPCParts_Layout.TKNPcPartsDataSetTableAdapters {
             global::System.Data.Common.DataTableMapping tableMapping = new global::System.Data.Common.DataTableMapping();
             tableMapping.SourceTable = "Table";
             tableMapping.DataSetTable = "TKNPcPartsDB";
-            tableMapping.ColumnMappings.Add("ItemID", "ItemID");
             tableMapping.ColumnMappings.Add("ItemName", "ItemName");
+            tableMapping.ColumnMappings.Add("ItemID", "ItemID");
             tableMapping.ColumnMappings.Add("ItemDescription", "ItemDescription");
             tableMapping.ColumnMappings.Add("ItemPrice", "ItemPrice");
             this._adapter.TableMappings.Add(tableMapping);
-            this._adapter.DeleteCommand = new global::System.Data.SqlClient.SqlCommand();
-            this._adapter.DeleteCommand.Connection = this.Connection;
-            this._adapter.DeleteCommand.CommandText = "DELETE FROM [dbo].[TKNPcPartsDB] WHERE (([ItemID] = @Original_ItemID) AND ([ItemN" +
-                "ame] = @Original_ItemName) AND ([ItemDescription] = @Original_ItemDescription) A" +
-                "ND ([ItemPrice] = @Original_ItemPrice))";
-            this._adapter.DeleteCommand.CommandType = global::System.Data.CommandType.Text;
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ItemID", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ItemID", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ItemName", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ItemName", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ItemDescription", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ItemDescription", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ItemPrice", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 2, "ItemPrice", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
-            this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[TKNPcPartsDB] ([ItemID], [ItemName], [ItemDescription], [ItemP" +
-                "rice]) VALUES (@ItemID, @ItemName, @ItemDescription, @ItemPrice);\r\nSELECT ItemID" +
-                ", ItemName, ItemDescription, ItemPrice FROM TKNPcPartsDB WHERE (ItemID = @ItemID" +
-                ")";
-            this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ItemID", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ItemID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ItemName", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ItemName", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ItemDescription", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ItemDescription", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ItemPrice", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 2, "ItemPrice", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
-            this._adapter.UpdateCommand.Connection = this.Connection;
-            this._adapter.UpdateCommand.CommandText = @"UPDATE [dbo].[TKNPcPartsDB] SET [ItemID] = @ItemID, [ItemName] = @ItemName, [ItemDescription] = @ItemDescription, [ItemPrice] = @ItemPrice WHERE (([ItemID] = @Original_ItemID) AND ([ItemName] = @Original_ItemName) AND ([ItemDescription] = @Original_ItemDescription) AND ([ItemPrice] = @Original_ItemPrice));
-SELECT ItemID, ItemName, ItemDescription, ItemPrice FROM TKNPcPartsDB WHERE (ItemID = @ItemID)";
-            this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ItemID", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ItemID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ItemName", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ItemName", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ItemDescription", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ItemDescription", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ItemPrice", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 2, "ItemPrice", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ItemID", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ItemID", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ItemName", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ItemName", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ItemDescription", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ItemDescription", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ItemPrice", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 2, "ItemPrice", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -846,18 +812,111 @@ SELECT ItemID, ItemName, ItemDescription, ItemPrice FROM TKNPcPartsDB WHERE (Ite
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[13];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT ItemID, ItemName, ItemDescription, ItemPrice FROM dbo.TKNPcPartsDB";
+            this._commandCollection[0].CommandText = "SELECT ItemID, ItemName, ItemDescription, ItemPrice\r\nFROM     TKNPcPartsDB\r\nORDER" +
+                " BY ItemName DESC";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[1].Connection = this.Connection;
+            this._commandCollection[1].CommandText = @"SELECT 
+    a.ItemID,
+    a.ItemName,
+    a.ItemDescription,
+  a.ItemPrice 
+FROM 
+    TKNPcPartsDB a
+INNER JOIN 
+    (
+        SELECT 
+            ItemDescription, 
+            MIN(ItemPrice)  AS MinPrice  
+        FROM 
+            TKNPcPartsDB
+        GROUP BY 
+            ItemDescription
+    ) b ON a.ItemDescription = b.ItemDescription AND a.ItemPrice = b.MinPrice
+ORDER BY 
+    a.ItemDescription;
+";
+            this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[2] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[2].Connection = this.Connection;
+            this._commandCollection[2].CommandText = @"SELECT 
+    a.ItemID,
+    a.ItemName,
+    a.ItemDescription,
+  a.ItemPrice 
+FROM 
+    TKNPcPartsDB a
+INNER JOIN 
+    (
+        SELECT 
+            ItemDescription, 
+            MAX(ItemPrice)  AS MaxPrice  
+        FROM 
+            TKNPcPartsDB
+        GROUP BY 
+            ItemDescription
+    ) b ON a.ItemDescription = b.ItemDescription AND a.ItemPrice = b.MaxPrice
+ORDER BY 
+    a.ItemDescription;
+";
+            this._commandCollection[2].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[3] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[3].Connection = this.Connection;
+            this._commandCollection[3].CommandText = "SELECT ItemID, ItemDescription, ItemName, ItemPrice FROM TKNPcPartsDB WHERE (Item" +
+                "Name LIKE \'%\' + @value + \'%\')";
+            this._commandCollection[3].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[3].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@value", global::System.Data.SqlDbType.NVarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, "ItemName", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[4] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[4].Connection = this.Connection;
+            this._commandCollection[4].CommandText = "SELECT * FROM TKNPcPartsDB WHERE (ItemDescription LIKE \'%\' + @value + \'%\')";
+            this._commandCollection[4].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[4].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@value", global::System.Data.SqlDbType.NVarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, "ItemDescription", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[5] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[5].Connection = this.Connection;
+            this._commandCollection[5].CommandText = "SELECT ItemID, ItemName, ItemDescription, ItemPrice\r\nFROM     TKNPcPartsDB \r\n";
+            this._commandCollection[5].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[6] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[6].Connection = this.Connection;
+            this._commandCollection[6].CommandText = "SELECT * FROM TKNPcPartsDB WHERE (ItemDescription LIKE \'Graphics Card\')";
+            this._commandCollection[6].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[7] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[7].Connection = this.Connection;
+            this._commandCollection[7].CommandText = "SELECT * FROM TKNPcPartsDB WHERE (ItemDescription LIKE \'Motherboard\')";
+            this._commandCollection[7].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[8] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[8].Connection = this.Connection;
+            this._commandCollection[8].CommandText = "SELECT * FROM TKNPcPartsDB WHERE (ItemDescription LIKE \'Mouse\') OR (ItemDescripti" +
+                "on LIKE \'Keyboard\')";
+            this._commandCollection[8].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[9] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[9].Connection = this.Connection;
+            this._commandCollection[9].CommandText = "SELECT ItemID, ItemName, ItemDescription, ItemPrice\r\nFROM     TKNPcPartsDB\r\nOrder" +
+                " by ItemPrice ";
+            this._commandCollection[9].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[10] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[10].Connection = this.Connection;
+            this._commandCollection[10].CommandText = "SELECT ItemID, ItemName, ItemDescription, ItemPrice\r\nFROM     TKNPcPartsDB\r\nORDER" +
+                " BY ItemPrice DESC";
+            this._commandCollection[10].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[11] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[11].Connection = this.Connection;
+            this._commandCollection[11].CommandText = "SELECT * FROM TKNPcPartsDB WHERE (ItemDescription LIKE \'Processor\')";
+            this._commandCollection[11].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[12] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[12].Connection = this.Connection;
+            this._commandCollection[12].CommandText = "SELECT * FROM TKNPcPartsDB WHERE (ItemDescription LIKE \'SSD\')";
+            this._commandCollection[12].CommandType = global::System.Data.CommandType.Text;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(TKNPcPartsDataSet.TKNPcPartsDBDataTable dataTable) {
+        public virtual int sortByName(TKNPcPartsDataSet.TKNPcPartsDBDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -869,168 +928,169 @@ SELECT ItemID, ItemName, ItemDescription, ItemPrice FROM TKNPcPartsDB WHERE (Ite
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual TKNPcPartsDataSet.TKNPcPartsDBDataTable GetData() {
-            this.Adapter.SelectCommand = this.CommandCollection[0];
-            TKNPcPartsDataSet.TKNPcPartsDBDataTable dataTable = new TKNPcPartsDataSet.TKNPcPartsDBDataTable();
-            this.Adapter.Fill(dataTable);
-            return dataTable;
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int BudgetBuild(TKNPcPartsDataSet.TKNPcPartsDBDataTable dataTable) {
+            this.Adapter.SelectCommand = this.CommandCollection[1];
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(TKNPcPartsDataSet.TKNPcPartsDBDataTable dataTable) {
-            return this.Adapter.Update(dataTable);
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int FindHighEndBuild(TKNPcPartsDataSet.TKNPcPartsDBDataTable dataTable) {
+            this.Adapter.SelectCommand = this.CommandCollection[2];
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(TKNPcPartsDataSet dataSet) {
-            return this.Adapter.Update(dataSet, "TKNPcPartsDB");
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int SearchByName(TKNPcPartsDataSet.TKNPcPartsDBDataTable dataTable, string value) {
+            this.Adapter.SelectCommand = this.CommandCollection[3];
+            if ((value == null)) {
+                throw new global::System.ArgumentNullException("value");
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[0].Value = ((string)(value));
+            }
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(global::System.Data.DataRow dataRow) {
-            return this.Adapter.Update(new global::System.Data.DataRow[] {
-                        dataRow});
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int SearchDesc(TKNPcPartsDataSet.TKNPcPartsDBDataTable dataTable, string value) {
+            this.Adapter.SelectCommand = this.CommandCollection[4];
+            if ((value == null)) {
+                throw new global::System.ArgumentNullException("value");
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[0].Value = ((string)(value));
+            }
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(global::System.Data.DataRow[] dataRows) {
-            return this.Adapter.Update(dataRows);
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int showAllItems(TKNPcPartsDataSet.TKNPcPartsDBDataTable dataTable) {
+            this.Adapter.SelectCommand = this.CommandCollection[5];
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, true)]
-        public virtual int Delete(int Original_ItemID, string Original_ItemName, string Original_ItemDescription, decimal Original_ItemPrice) {
-            this.Adapter.DeleteCommand.Parameters[0].Value = ((int)(Original_ItemID));
-            if ((Original_ItemName == null)) {
-                throw new global::System.ArgumentNullException("Original_ItemName");
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int sortByGraphicsCard(TKNPcPartsDataSet.TKNPcPartsDBDataTable dataTable) {
+            this.Adapter.SelectCommand = this.CommandCollection[6];
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
             }
-            else {
-                this.Adapter.DeleteCommand.Parameters[1].Value = ((string)(Original_ItemName));
-            }
-            if ((Original_ItemDescription == null)) {
-                throw new global::System.ArgumentNullException("Original_ItemDescription");
-            }
-            else {
-                this.Adapter.DeleteCommand.Parameters[2].Value = ((string)(Original_ItemDescription));
-            }
-            this.Adapter.DeleteCommand.Parameters[3].Value = ((decimal)(Original_ItemPrice));
-            global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
-            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
-                        != global::System.Data.ConnectionState.Open)) {
-                this.Adapter.DeleteCommand.Connection.Open();
-            }
-            try {
-                int returnValue = this.Adapter.DeleteCommand.ExecuteNonQuery();
-                return returnValue;
-            }
-            finally {
-                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
-                    this.Adapter.DeleteCommand.Connection.Close();
-                }
-            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(int ItemID, string ItemName, string ItemDescription, decimal ItemPrice) {
-            this.Adapter.InsertCommand.Parameters[0].Value = ((int)(ItemID));
-            if ((ItemName == null)) {
-                throw new global::System.ArgumentNullException("ItemName");
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int sortByMotherboard(TKNPcPartsDataSet.TKNPcPartsDBDataTable dataTable) {
+            this.Adapter.SelectCommand = this.CommandCollection[7];
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
             }
-            else {
-                this.Adapter.InsertCommand.Parameters[1].Value = ((string)(ItemName));
-            }
-            if ((ItemDescription == null)) {
-                throw new global::System.ArgumentNullException("ItemDescription");
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[2].Value = ((string)(ItemDescription));
-            }
-            this.Adapter.InsertCommand.Parameters[3].Value = ((decimal)(ItemPrice));
-            global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
-            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
-                        != global::System.Data.ConnectionState.Open)) {
-                this.Adapter.InsertCommand.Connection.Open();
-            }
-            try {
-                int returnValue = this.Adapter.InsertCommand.ExecuteNonQuery();
-                return returnValue;
-            }
-            finally {
-                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
-                    this.Adapter.InsertCommand.Connection.Close();
-                }
-            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(int ItemID, string ItemName, string ItemDescription, decimal ItemPrice, int Original_ItemID, string Original_ItemName, string Original_ItemDescription, decimal Original_ItemPrice) {
-            this.Adapter.UpdateCommand.Parameters[0].Value = ((int)(ItemID));
-            if ((ItemName == null)) {
-                throw new global::System.ArgumentNullException("ItemName");
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int sortByPeripherals(TKNPcPartsDataSet.TKNPcPartsDBDataTable dataTable) {
+            this.Adapter.SelectCommand = this.CommandCollection[8];
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
             }
-            else {
-                this.Adapter.UpdateCommand.Parameters[1].Value = ((string)(ItemName));
-            }
-            if ((ItemDescription == null)) {
-                throw new global::System.ArgumentNullException("ItemDescription");
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[2].Value = ((string)(ItemDescription));
-            }
-            this.Adapter.UpdateCommand.Parameters[3].Value = ((decimal)(ItemPrice));
-            this.Adapter.UpdateCommand.Parameters[4].Value = ((int)(Original_ItemID));
-            if ((Original_ItemName == null)) {
-                throw new global::System.ArgumentNullException("Original_ItemName");
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[5].Value = ((string)(Original_ItemName));
-            }
-            if ((Original_ItemDescription == null)) {
-                throw new global::System.ArgumentNullException("Original_ItemDescription");
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[6].Value = ((string)(Original_ItemDescription));
-            }
-            this.Adapter.UpdateCommand.Parameters[7].Value = ((decimal)(Original_ItemPrice));
-            global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
-            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
-                        != global::System.Data.ConnectionState.Open)) {
-                this.Adapter.UpdateCommand.Connection.Open();
-            }
-            try {
-                int returnValue = this.Adapter.UpdateCommand.ExecuteNonQuery();
-                return returnValue;
-            }
-            finally {
-                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
-                    this.Adapter.UpdateCommand.Connection.Close();
-                }
-            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string ItemName, string ItemDescription, decimal ItemPrice, int Original_ItemID, string Original_ItemName, string Original_ItemDescription, decimal Original_ItemPrice) {
-            return this.Update(Original_ItemID, ItemName, ItemDescription, ItemPrice, Original_ItemID, Original_ItemName, Original_ItemDescription, Original_ItemPrice);
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int sortByPriceASC(TKNPcPartsDataSet.TKNPcPartsDBDataTable dataTable) {
+            this.Adapter.SelectCommand = this.CommandCollection[9];
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int sortByPriceDESC(TKNPcPartsDataSet.TKNPcPartsDBDataTable dataTable) {
+            this.Adapter.SelectCommand = this.CommandCollection[10];
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int sortByProcessor(TKNPcPartsDataSet.TKNPcPartsDBDataTable dataTable) {
+            this.Adapter.SelectCommand = this.CommandCollection[11];
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int sortByStorageDevices(TKNPcPartsDataSet.TKNPcPartsDBDataTable dataTable) {
+            this.Adapter.SelectCommand = this.CommandCollection[12];
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
         }
     }
     
@@ -1046,8 +1106,6 @@ SELECT ItemID, ItemName, ItemDescription, ItemPrice FROM TKNPcPartsDB WHERE (Ite
         
         private UpdateOrderOption _updateOrder;
         
-        private TKNPcPartsDBTableAdapter _tKNPcPartsDBTableAdapter;
-        
         private bool _backupDataSetBeforeUpdate;
         
         private global::System.Data.IDbConnection _connection;
@@ -1060,20 +1118,6 @@ SELECT ItemID, ItemName, ItemDescription, ItemPrice FROM TKNPcPartsDB WHERE (Ite
             }
             set {
                 this._updateOrder = value;
-            }
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
-            "ft.VSDesigner, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3" +
-            "a", "System.Drawing.Design.UITypeEditor")]
-        public TKNPcPartsDBTableAdapter TKNPcPartsDBTableAdapter {
-            get {
-                return this._tKNPcPartsDBTableAdapter;
-            }
-            set {
-                this._tKNPcPartsDBTableAdapter = value;
             }
         }
         
@@ -1096,10 +1140,6 @@ SELECT ItemID, ItemName, ItemDescription, ItemPrice FROM TKNPcPartsDB WHERE (Ite
                 if ((this._connection != null)) {
                     return this._connection;
                 }
-                if (((this._tKNPcPartsDBTableAdapter != null) 
-                            && (this._tKNPcPartsDBTableAdapter.Connection != null))) {
-                    return this._tKNPcPartsDBTableAdapter.Connection;
-                }
                 return null;
             }
             set {
@@ -1113,9 +1153,6 @@ SELECT ItemID, ItemName, ItemDescription, ItemPrice FROM TKNPcPartsDB WHERE (Ite
         public int TableAdapterInstanceCount {
             get {
                 int count = 0;
-                if ((this._tKNPcPartsDBTableAdapter != null)) {
-                    count = (count + 1);
-                }
                 return count;
             }
         }
@@ -1127,15 +1164,6 @@ SELECT ItemID, ItemName, ItemDescription, ItemPrice FROM TKNPcPartsDB WHERE (Ite
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private int UpdateUpdatedRows(TKNPcPartsDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
-            if ((this._tKNPcPartsDBTableAdapter != null)) {
-                global::System.Data.DataRow[] updatedRows = dataSet.TKNPcPartsDB.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
-                updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
-                if (((updatedRows != null) 
-                            && (0 < updatedRows.Length))) {
-                    result = (result + this._tKNPcPartsDBTableAdapter.Update(updatedRows));
-                    allChangedRows.AddRange(updatedRows);
-                }
-            }
             return result;
         }
         
@@ -1146,14 +1174,6 @@ SELECT ItemID, ItemName, ItemDescription, ItemPrice FROM TKNPcPartsDB WHERE (Ite
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private int UpdateInsertedRows(TKNPcPartsDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
-            if ((this._tKNPcPartsDBTableAdapter != null)) {
-                global::System.Data.DataRow[] addedRows = dataSet.TKNPcPartsDB.Select(null, null, global::System.Data.DataViewRowState.Added);
-                if (((addedRows != null) 
-                            && (0 < addedRows.Length))) {
-                    result = (result + this._tKNPcPartsDBTableAdapter.Update(addedRows));
-                    allAddedRows.AddRange(addedRows);
-                }
-            }
             return result;
         }
         
@@ -1164,14 +1184,6 @@ SELECT ItemID, ItemName, ItemDescription, ItemPrice FROM TKNPcPartsDB WHERE (Ite
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private int UpdateDeletedRows(TKNPcPartsDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
-            if ((this._tKNPcPartsDBTableAdapter != null)) {
-                global::System.Data.DataRow[] deletedRows = dataSet.TKNPcPartsDB.Select(null, null, global::System.Data.DataViewRowState.Deleted);
-                if (((deletedRows != null) 
-                            && (0 < deletedRows.Length))) {
-                    result = (result + this._tKNPcPartsDBTableAdapter.Update(deletedRows));
-                    allChangedRows.AddRange(deletedRows);
-                }
-            }
             return result;
         }
         
@@ -1211,11 +1223,6 @@ SELECT ItemID, ItemName, ItemDescription, ItemPrice FROM TKNPcPartsDB WHERE (Ite
             if ((dataSet.HasChanges() == false)) {
                 return 0;
             }
-            if (((this._tKNPcPartsDBTableAdapter != null) 
-                        && (this.MatchTableAdapterConnection(this._tKNPcPartsDBTableAdapter.Connection) == false))) {
-                throw new global::System.ArgumentException("All TableAdapters managed by a TableAdapterManager must use the same connection s" +
-                        "tring.");
-            }
             global::System.Data.IDbConnection workConnection = this.Connection;
             if ((workConnection == null)) {
                 throw new global::System.ApplicationException("TableAdapterManager contains no connection information. Set each TableAdapterMana" +
@@ -1248,15 +1255,6 @@ SELECT ItemID, ItemName, ItemDescription, ItemPrice FROM TKNPcPartsDB WHERE (Ite
             try {
                 // ---- Prepare for update -----------
                 //
-                if ((this._tKNPcPartsDBTableAdapter != null)) {
-                    revertConnections.Add(this._tKNPcPartsDBTableAdapter, this._tKNPcPartsDBTableAdapter.Connection);
-                    this._tKNPcPartsDBTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(workConnection));
-                    this._tKNPcPartsDBTableAdapter.Transaction = ((global::System.Data.SqlClient.SqlTransaction)(workTransaction));
-                    if (this._tKNPcPartsDBTableAdapter.Adapter.AcceptChangesDuringUpdate) {
-                        this._tKNPcPartsDBTableAdapter.Adapter.AcceptChangesDuringUpdate = false;
-                        adaptersWithAcceptChangesDuringUpdate.Add(this._tKNPcPartsDBTableAdapter.Adapter);
-                    }
-                }
                 // 
                 //---- Perform updates -----------
                 //
@@ -1314,10 +1312,6 @@ SELECT ItemID, ItemName, ItemDescription, ItemPrice FROM TKNPcPartsDB WHERE (Ite
             finally {
                 if (workConnOpened) {
                     workConnection.Close();
-                }
-                if ((this._tKNPcPartsDBTableAdapter != null)) {
-                    this._tKNPcPartsDBTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(revertConnections[this._tKNPcPartsDBTableAdapter]));
-                    this._tKNPcPartsDBTableAdapter.Transaction = null;
                 }
                 if ((0 < adaptersWithAcceptChangesDuringUpdate.Count)) {
                     global::System.Data.Common.DataAdapter[] adapters = new System.Data.Common.DataAdapter[adaptersWithAcceptChangesDuringUpdate.Count];

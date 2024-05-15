@@ -393,7 +393,7 @@
             this.groupBox6.Size = new System.Drawing.Size(277, 217);
             this.groupBox6.TabIndex = 2;
             this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Logitech G513";
+            this.groupBox6.Text = "Logitech G513 Carbon";
             // 
             // pictureBox6
             // 

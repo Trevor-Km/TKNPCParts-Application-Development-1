@@ -290,7 +290,7 @@
             this.priceLabel.Name = "priceLabel";
             this.priceLabel.Size = new System.Drawing.Size(45, 20);
             this.priceLabel.TabIndex = 5;
-            this.priceLabel.Text = "$450";
+            this.priceLabel.Text = "$440";
             // 
             // descLabel
             // 
