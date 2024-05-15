@@ -73,6 +73,7 @@
             this.groupBoxAsusRogZ790 = new System.Windows.Forms.GroupBox();
             this.g915picBox = new System.Windows.Forms.PictureBox();
             this.asusLabel = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.msiPanel.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -91,6 +92,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.g815picBox)).BeginInit();
             this.groupBoxAsusRogZ790.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.g915picBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // msiPanel
@@ -596,11 +598,23 @@
             this.asusLabel.TabIndex = 24;
             this.asusLabel.Text = "Asus";
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(1152, 31);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(130, 110);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 27;
+            this.pictureBox5.TabStop = false;
+            // 
             // Motherboards
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1482, 753);
+            this.ClientSize = new System.Drawing.Size(1282, 753);
+            this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.msiPanel);
             this.Controls.Add(this.msiLabel);
             this.Controls.Add(this.asusPanel);
@@ -611,6 +625,7 @@
             this.Controls.SetChildIndex(this.asusPanel, 0);
             this.Controls.SetChildIndex(this.msiLabel, 0);
             this.Controls.SetChildIndex(this.msiPanel, 0);
+            this.Controls.SetChildIndex(this.pictureBox5, 0);
             this.msiPanel.ResumeLayout(false);
             this.msiPanel.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -631,6 +646,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.g815picBox)).EndInit();
             this.groupBoxAsusRogZ790.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.g915picBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -682,5 +698,6 @@
         private System.Windows.Forms.GroupBox groupBoxAsusRogZ790;
         private System.Windows.Forms.PictureBox g915picBox;
         private System.Windows.Forms.Label asusLabel;
+        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }

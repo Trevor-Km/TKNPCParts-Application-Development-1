@@ -74,6 +74,7 @@
             this.groupBox4090 = new System.Windows.Forms.GroupBox();
             this.nvidiaPictureBox4090 = new System.Windows.Forms.PictureBox();
             this.nvidiaLabel = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.amdPanel.SuspendLayout();
             this.groupBoxAmd7600Xt.SuspendLayout();
@@ -93,13 +94,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.nvidiaPictureBox4080)).BeginInit();
             this.groupBox4090.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nvidiaPictureBox4090)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // logo
             // 
             this.logo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
-            this.logo.Location = new System.Drawing.Point(1144, -78);
+            this.logo.Location = new System.Drawing.Point(1126, -78);
             this.logo.Name = "logo";
             this.logo.Size = new System.Drawing.Size(142, 79);
             this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -300,7 +302,7 @@
             this.priceLabel5.Name = "priceLabel5";
             this.priceLabel5.Size = new System.Drawing.Size(54, 20);
             this.priceLabel5.TabIndex = 5;
-            this.priceLabel5.Text = "$2719";
+            this.priceLabel5.Text = "$1334";
             // 
             // descLabel5
             // 
@@ -608,12 +610,24 @@
             this.nvidiaLabel.TabIndex = 17;
             this.nvidiaLabel.Text = "NVIDIA";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1116, 31);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(130, 110);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 22;
+            this.pictureBox1.TabStop = false;
+            // 
             // GraphicsCards
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1264, 816);
+            this.ClientSize = new System.Drawing.Size(1246, 816);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.logo);
             this.Controls.Add(this.amdPanel);
             this.Controls.Add(this.amdLabel);
@@ -626,6 +640,7 @@
             this.Controls.SetChildIndex(this.amdLabel, 0);
             this.Controls.SetChildIndex(this.amdPanel, 0);
             this.Controls.SetChildIndex(this.logo, 0);
+            this.Controls.SetChildIndex(this.pictureBox1, 0);
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.amdPanel.ResumeLayout(false);
             this.amdPanel.PerformLayout();
@@ -647,6 +662,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nvidiaPictureBox4080)).EndInit();
             this.groupBox4090.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nvidiaPictureBox4090)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -699,5 +715,6 @@
         private System.Windows.Forms.GroupBox groupBox4090;
         private System.Windows.Forms.PictureBox nvidiaPictureBox4090;
         private System.Windows.Forms.Label nvidiaLabel;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

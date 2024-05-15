@@ -53,12 +53,14 @@
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.tKNPcPartsBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsDBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsBindingNavigator)).BeginInit();
             this.tKNPcPartsBindingNavigator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tKNPcPartsDBDataSet
@@ -169,7 +171,7 @@
             this.tKNPcPartsBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.tKNPcPartsBindingNavigator.Name = "tKNPcPartsBindingNavigator";
             this.tKNPcPartsBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.tKNPcPartsBindingNavigator.Size = new System.Drawing.Size(1333, 27);
+            this.tKNPcPartsBindingNavigator.Size = new System.Drawing.Size(1282, 27);
             this.tKNPcPartsBindingNavigator.TabIndex = 9;
             this.tKNPcPartsBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -267,11 +269,23 @@
             this.tKNPcPartsBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
             this.tKNPcPartsBindingNavigatorSaveItem.Text = "Save Data";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1152, 28);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(130, 110);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            // 
             // AllItems
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1333, 580);
+            this.ClientSize = new System.Drawing.Size(1282, 580);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.tKNPcPartsBindingNavigator);
             this.Controls.Add(this.tKNPcPartsDataGridView);
             this.Name = "AllItems";
@@ -279,6 +293,7 @@
             this.Load += new System.EventHandler(this.AllItems_Load);
             this.Controls.SetChildIndex(this.tKNPcPartsDataGridView, 0);
             this.Controls.SetChildIndex(this.tKNPcPartsBindingNavigator, 0);
+            this.Controls.SetChildIndex(this.pictureBox1, 0);
             ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsDBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsDataGridView)).EndInit();
@@ -286,6 +301,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsBindingNavigator)).EndInit();
             this.tKNPcPartsBindingNavigator.ResumeLayout(false);
             this.tKNPcPartsBindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -316,5 +332,6 @@
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.ToolStripButton tKNPcPartsBindingNavigatorSaveItem;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

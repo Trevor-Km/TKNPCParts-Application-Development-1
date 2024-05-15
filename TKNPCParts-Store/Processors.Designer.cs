@@ -53,6 +53,7 @@
             this.nvidiaPictureBox4090 = new System.Windows.Forms.PictureBox();
             this.amdPanel = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.amdLabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -72,7 +73,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.amdLabel = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.intelPanel.SuspendLayout();
             this.groupBox3080.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3080)).BeginInit();
@@ -91,6 +92,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // intelPanel
@@ -380,6 +382,17 @@
             this.label1.TabIndex = 17;
             this.label1.Text = "$1334";
             // 
+            // amdLabel
+            // 
+            this.amdLabel.AutoSize = true;
+            this.amdLabel.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.amdLabel.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.amdLabel.Location = new System.Drawing.Point(7, 0);
+            this.amdLabel.Name = "amdLabel";
+            this.amdLabel.Size = new System.Drawing.Size(51, 21);
+            this.amdLabel.TabIndex = 21;
+            this.amdLabel.Text = "AMD";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -586,28 +599,30 @@
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
-            // amdLabel
+            // pictureBox5
             // 
-            this.amdLabel.AutoSize = true;
-            this.amdLabel.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.amdLabel.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.amdLabel.Location = new System.Drawing.Point(7, 0);
-            this.amdLabel.Name = "amdLabel";
-            this.amdLabel.Size = new System.Drawing.Size(51, 21);
-            this.amdLabel.TabIndex = 21;
-            this.amdLabel.Text = "AMD";
+            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(1118, 31);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(130, 110);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 20;
+            this.pictureBox5.TabStop = false;
             // 
             // Processors
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1248, 753);
+            this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.amdPanel);
             this.Controls.Add(this.intelPanel);
             this.Name = "Processors";
             this.Text = "Processors";
             this.Controls.SetChildIndex(this.intelPanel, 0);
             this.Controls.SetChildIndex(this.amdPanel, 0);
+            this.Controls.SetChildIndex(this.pictureBox5, 0);
             this.intelPanel.ResumeLayout(false);
             this.intelPanel.PerformLayout();
             this.groupBox3080.ResumeLayout(false);
@@ -628,6 +643,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.groupBox4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -679,5 +695,6 @@
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label amdLabel;
+        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }

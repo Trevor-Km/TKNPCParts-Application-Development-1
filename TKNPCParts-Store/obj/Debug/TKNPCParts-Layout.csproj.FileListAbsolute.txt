@@ -57,3 +57,5 @@ C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1
 C:\Users\trevo\Downloads\TKNPCPARTS\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Motherboards.resources
 C:\Users\trevo\Downloads\TKNPCPARTS\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Peripherals.resources
 C:\Users\trevo\Downloads\TKNPCPARTS\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Storage_Devices.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Motherboards.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Storage_Devices.resources

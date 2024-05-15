@@ -72,5 +72,10 @@ namespace TKNPCParts_Layout
         {
             openNewForm(new Motherboards());
         }
+
+        private void storageDevicesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openNewForm(new Storage_Devices());
+        }
     }
 }

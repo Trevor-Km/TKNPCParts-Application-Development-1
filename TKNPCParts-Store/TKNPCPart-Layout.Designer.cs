@@ -111,6 +111,7 @@
             this.storageDevicesToolStripMenuItem.Name = "storageDevicesToolStripMenuItem";
             this.storageDevicesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.storageDevicesToolStripMenuItem.Text = "&Storage Devices";
+            this.storageDevicesToolStripMenuItem.Click += new System.EventHandler(this.storageDevicesToolStripMenuItem_Click);
             // 
             // peripheralsToolStripMenuItem
             // 
