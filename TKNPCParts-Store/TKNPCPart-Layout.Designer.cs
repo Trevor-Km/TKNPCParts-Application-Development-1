@@ -44,6 +44,7 @@
             this.licenseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logoBox = new System.Windows.Forms.PictureBox();
+            this.clock1 = new TKNPCParts_Layout.Clock();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox)).BeginInit();
             this.SuspendLayout();
@@ -175,11 +176,20 @@
             this.logoBox.TabIndex = 3;
             this.logoBox.TabStop = false;
             // 
+            // clock1
+            // 
+            this.clock1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.clock1.Location = new System.Drawing.Point(570, -6);
+            this.clock1.Name = "clock1";
+            this.clock1.Size = new System.Drawing.Size(213, 34);
+            this.clock1.TabIndex = 6;
+            // 
             // TKNPCPart_Layout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1482, 953);
+            this.Controls.Add(this.clock1);
             this.Controls.Add(this.footerText);
             this.Controls.Add(this.logoBox);
             this.Controls.Add(this.menuStrip1);
@@ -212,5 +222,6 @@
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem allItemsToolStripMenuItem;
         private System.Windows.Forms.PictureBox logoBox;
+        private Clock clock1;
     }
 }

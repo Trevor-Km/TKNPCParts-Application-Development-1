@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Storage_Devices));
-            this.msiLabel = new System.Windows.Forms.Label();
             this.asusPanel = new System.Windows.Forms.Panel();
             this.priceLabel4 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -96,17 +95,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
-            // msiLabel
-            // 
-            this.msiLabel.AutoSize = true;
-            this.msiLabel.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.msiLabel.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.msiLabel.Location = new System.Drawing.Point(-26, 453);
-            this.msiLabel.Name = "msiLabel";
-            this.msiLabel.Size = new System.Drawing.Size(42, 21);
-            this.msiLabel.TabIndex = 27;
-            this.msiLabel.Text = "MSI";
-            // 
             // asusPanel
             // 
             this.asusPanel.AutoScroll = true;
@@ -126,7 +114,7 @@
             this.asusPanel.Controls.Add(this.descLabel);
             this.asusPanel.Controls.Add(this.addToCartButton1);
             this.asusPanel.Controls.Add(this.groupBoxAsusRogZ790);
-            this.asusPanel.Location = new System.Drawing.Point(30, 413);
+            this.asusPanel.Location = new System.Drawing.Point(29, 435);
             this.asusPanel.Name = "asusPanel";
             this.asusPanel.Size = new System.Drawing.Size(1079, 328);
             this.asusPanel.TabIndex = 29;
@@ -353,7 +341,7 @@
             this.label1.AutoSize = true;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label1.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(26, 389);
+            this.label1.Location = new System.Drawing.Point(25, 411);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(176, 21);
             this.label1.TabIndex = 30;
@@ -378,7 +366,7 @@
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.groupBox4);
-            this.panel1.Location = new System.Drawing.Point(30, 58);
+            this.panel1.Location = new System.Drawing.Point(29, 80);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1079, 328);
             this.panel1.TabIndex = 32;
@@ -605,7 +593,7 @@
             this.label11.AutoSize = true;
             this.label11.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label11.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(26, 34);
+            this.label11.Location = new System.Drawing.Point(25, 56);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(102, 21);
             this.label11.TabIndex = 31;
@@ -631,12 +619,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.msiLabel);
             this.Controls.Add(this.asusPanel);
             this.Name = "Storage_Devices";
             this.Text = "Storage_Devices";
             this.Controls.SetChildIndex(this.asusPanel, 0);
-            this.Controls.SetChildIndex(this.msiLabel, 0);
             this.Controls.SetChildIndex(this.label11, 0);
             this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.label1, 0);
@@ -668,8 +654,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label msiLabel;
         private System.Windows.Forms.Panel asusPanel;
         private System.Windows.Forms.Label priceLabel4;
         private System.Windows.Forms.Label label9;

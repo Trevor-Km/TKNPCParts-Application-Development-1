@@ -69,6 +69,12 @@
     <Compile Include="AllItems.Designer.cs">
       <DependentUpon>AllItems.cs</DependentUpon>
     </Compile>
+    <Compile Include="Clock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Clock.Designer.cs">
+      <DependentUpon>Clock.cs</DependentUpon>
+    </Compile>
     <Compile Include="GraphicsCards.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +143,9 @@
   <ItemGroup>
     <EmbeddedResource Include="AllItems.resx">
       <DependentUpon>AllItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clock.resx">
+      <DependentUpon>Clock.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GraphicsCards.resx">
       <DependentUpon>GraphicsCards.cs</DependentUpon>

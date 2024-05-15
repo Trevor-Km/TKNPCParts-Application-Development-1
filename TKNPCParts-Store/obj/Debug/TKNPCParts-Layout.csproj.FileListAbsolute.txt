@@ -80,3 +80,4 @@ C:\Users\trevo\Downloads\TKN-Pc-Parts-Store\TKNPCParts-Application-Development-1
 C:\Users\trevo\Downloads\TKN-Pc-Parts-Store\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts-Layout.pdb
 C:\Users\trevo\Downloads\TKN-Pc-Parts-Store\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.License.resources
 C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.License.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Clock.resources

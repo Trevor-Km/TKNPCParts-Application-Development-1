@@ -131,7 +131,7 @@
             this.dataGridViewTextBoxColumn7,
             this.dataGridViewTextBoxColumn8});
             this.tKNPcPartsDBDataGridView.DataSource = this.tKNPcPartsDBBindingSource1;
-            this.tKNPcPartsDBDataGridView.Location = new System.Drawing.Point(16, 58);
+            this.tKNPcPartsDBDataGridView.Location = new System.Drawing.Point(12, 85);
             this.tKNPcPartsDBDataGridView.Name = "tKNPcPartsDBDataGridView";
             this.tKNPcPartsDBDataGridView.ReadOnly = true;
             this.tKNPcPartsDBDataGridView.RowHeadersWidth = 51;
@@ -283,14 +283,14 @@
             // 
             // searchDesc
             // 
-            this.searchDesc.Location = new System.Drawing.Point(175, 359);
+            this.searchDesc.Location = new System.Drawing.Point(171, 386);
             this.searchDesc.Name = "searchDesc";
             this.searchDesc.Size = new System.Drawing.Size(602, 22);
             this.searchDesc.TabIndex = 18;
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(13, 362);
+            this.label1.Location = new System.Drawing.Point(9, 389);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(156, 16);
             this.label1.TabIndex = 17;
@@ -300,7 +300,7 @@
             // 
             this.searchDescButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
             this.searchDescButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchDescButton.Location = new System.Drawing.Point(796, 352);
+            this.searchDescButton.Location = new System.Drawing.Point(792, 379);
             this.searchDescButton.Name = "searchDescButton";
             this.searchDescButton.Size = new System.Drawing.Size(150, 31);
             this.searchDescButton.TabIndex = 13;
@@ -310,14 +310,14 @@
             // 
             // inputName
             // 
-            this.inputName.Location = new System.Drawing.Point(175, 304);
+            this.inputName.Location = new System.Drawing.Point(171, 331);
             this.inputName.Name = "inputName";
             this.inputName.Size = new System.Drawing.Size(602, 22);
             this.inputName.TabIndex = 16;
             // 
             // searchLabel
             // 
-            this.searchLabel.Location = new System.Drawing.Point(13, 307);
+            this.searchLabel.Location = new System.Drawing.Point(9, 334);
             this.searchLabel.Name = "searchLabel";
             this.searchLabel.Size = new System.Drawing.Size(139, 16);
             this.searchLabel.TabIndex = 15;
@@ -327,7 +327,7 @@
             // 
             this.searchNameButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
             this.searchNameButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchNameButton.Location = new System.Drawing.Point(796, 300);
+            this.searchNameButton.Location = new System.Drawing.Point(792, 327);
             this.searchNameButton.Name = "searchNameButton";
             this.searchNameButton.Size = new System.Drawing.Size(150, 31);
             this.searchNameButton.TabIndex = 14;
@@ -339,7 +339,7 @@
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(828, 45);
+            this.pictureBox1.Location = new System.Drawing.Point(824, 72);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(130, 110);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -350,7 +350,7 @@
             // 
             this.graphicsCardButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
             this.graphicsCardButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.graphicsCardButton.Location = new System.Drawing.Point(12, 461);
+            this.graphicsCardButton.Location = new System.Drawing.Point(8, 488);
             this.graphicsCardButton.Name = "graphicsCardButton";
             this.graphicsCardButton.Size = new System.Drawing.Size(447, 31);
             this.graphicsCardButton.TabIndex = 22;
@@ -362,7 +362,7 @@
             // 
             this.processorButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
             this.processorButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.processorButton.Location = new System.Drawing.Point(486, 461);
+            this.processorButton.Location = new System.Drawing.Point(482, 488);
             this.processorButton.Name = "processorButton";
             this.processorButton.Size = new System.Drawing.Size(455, 31);
             this.processorButton.TabIndex = 23;
@@ -374,7 +374,7 @@
             // 
             this.peripheralsButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
             this.peripheralsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.peripheralsButton.Location = new System.Drawing.Point(11, 515);
+            this.peripheralsButton.Location = new System.Drawing.Point(7, 542);
             this.peripheralsButton.Name = "peripheralsButton";
             this.peripheralsButton.Size = new System.Drawing.Size(448, 31);
             this.peripheralsButton.TabIndex = 24;
@@ -386,7 +386,7 @@
             // 
             this.highEndButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
             this.highEndButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.highEndButton.Location = new System.Drawing.Point(829, 170);
+            this.highEndButton.Location = new System.Drawing.Point(825, 197);
             this.highEndButton.Name = "highEndButton";
             this.highEndButton.Size = new System.Drawing.Size(117, 41);
             this.highEndButton.TabIndex = 25;
@@ -398,7 +398,7 @@
             // 
             this.budgetButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
             this.budgetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.budgetButton.Location = new System.Drawing.Point(829, 237);
+            this.budgetButton.Location = new System.Drawing.Point(825, 264);
             this.budgetButton.Name = "budgetButton";
             this.budgetButton.Size = new System.Drawing.Size(117, 41);
             this.budgetButton.TabIndex = 26;
@@ -410,7 +410,7 @@
             // 
             this.motherboardButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
             this.motherboardButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.motherboardButton.Location = new System.Drawing.Point(485, 515);
+            this.motherboardButton.Location = new System.Drawing.Point(481, 542);
             this.motherboardButton.Name = "motherboardButton";
             this.motherboardButton.Size = new System.Drawing.Size(456, 31);
             this.motherboardButton.TabIndex = 27;
@@ -422,7 +422,7 @@
             // 
             this.allItemsButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
             this.allItemsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.allItemsButton.Location = new System.Drawing.Point(12, 408);
+            this.allItemsButton.Location = new System.Drawing.Point(8, 435);
             this.allItemsButton.Name = "allItemsButton";
             this.allItemsButton.Size = new System.Drawing.Size(929, 31);
             this.allItemsButton.TabIndex = 28;
@@ -434,7 +434,7 @@
             // 
             this.sortByStorage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
             this.sortByStorage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.sortByStorage.Location = new System.Drawing.Point(11, 570);
+            this.sortByStorage.Location = new System.Drawing.Point(7, 597);
             this.sortByStorage.Name = "sortByStorage";
             this.sortByStorage.Size = new System.Drawing.Size(448, 31);
             this.sortByStorage.TabIndex = 29;
@@ -446,7 +446,7 @@
             // 
             this.sortByPriceButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
             this.sortByPriceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.sortByPriceButton.Location = new System.Drawing.Point(12, 620);
+            this.sortByPriceButton.Location = new System.Drawing.Point(8, 647);
             this.sortByPriceButton.Name = "sortByPriceButton";
             this.sortByPriceButton.Size = new System.Drawing.Size(447, 31);
             this.sortByPriceButton.TabIndex = 30;
@@ -458,7 +458,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(486, 620);
+            this.button2.Location = new System.Drawing.Point(482, 647);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(455, 31);
             this.button2.TabIndex = 31;
@@ -470,7 +470,7 @@
             // 
             this.sortByNameButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
             this.sortByNameButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.sortByNameButton.Location = new System.Drawing.Point(485, 570);
+            this.sortByNameButton.Location = new System.Drawing.Point(481, 597);
             this.sortByNameButton.Name = "sortByNameButton";
             this.sortByNameButton.Size = new System.Drawing.Size(455, 31);
             this.sortByNameButton.TabIndex = 32;
