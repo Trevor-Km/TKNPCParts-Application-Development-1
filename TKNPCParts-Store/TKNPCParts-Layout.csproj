@@ -81,6 +81,12 @@
     <Compile Include="MainPage.Designer.cs">
       <DependentUpon>MainPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Motherboards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Motherboards.Designer.cs">
+      <DependentUpon>Motherboards.cs</DependentUpon>
+    </Compile>
     <Compile Include="Peripherals.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Motherboards.resx">
+      <DependentUpon>Motherboards.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Peripherals.resx">
       <DependentUpon>Peripherals.cs</DependentUpon>

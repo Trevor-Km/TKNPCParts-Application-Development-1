@@ -33,6 +33,7 @@
             this.priceLabel4 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.addToCartButton4 = new System.Windows.Forms.Button();
+            this.intelLabel = new System.Windows.Forms.Label();
             this.groupBox3080 = new System.Windows.Forms.GroupBox();
             this.pictureBox3080 = new System.Windows.Forms.PictureBox();
             this.priceLabel3 = new System.Windows.Forms.Label();
@@ -50,7 +51,6 @@
             this.addToCartButton1 = new System.Windows.Forms.Button();
             this.groupBox4090 = new System.Windows.Forms.GroupBox();
             this.nvidiaPictureBox4090 = new System.Windows.Forms.PictureBox();
-            this.intelLabel = new System.Windows.Forms.Label();
             this.amdPanel = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -99,6 +99,7 @@
             this.intelPanel.Controls.Add(this.priceLabel4);
             this.intelPanel.Controls.Add(this.label9);
             this.intelPanel.Controls.Add(this.addToCartButton4);
+            this.intelPanel.Controls.Add(this.intelLabel);
             this.intelPanel.Controls.Add(this.groupBox3080);
             this.intelPanel.Controls.Add(this.priceLabel3);
             this.intelPanel.Controls.Add(this.descLabel3);
@@ -149,6 +150,17 @@
             this.addToCartButton4.TabIndex = 15;
             this.addToCartButton4.Text = "Add to Cart";
             this.addToCartButton4.UseVisualStyleBackColor = false;
+            // 
+            // intelLabel
+            // 
+            this.intelLabel.AutoSize = true;
+            this.intelLabel.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.intelLabel.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.intelLabel.Location = new System.Drawing.Point(7, 0);
+            this.intelLabel.Name = "intelLabel";
+            this.intelLabel.Size = new System.Drawing.Size(62, 21);
+            this.intelLabel.TabIndex = 19;
+            this.intelLabel.Text = "INTEL";
             // 
             // groupBox3080
             // 
@@ -333,21 +345,11 @@
             this.nvidiaPictureBox4090.TabIndex = 0;
             this.nvidiaPictureBox4090.TabStop = false;
             // 
-            // intelLabel
-            // 
-            this.intelLabel.AutoSize = true;
-            this.intelLabel.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.intelLabel.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.intelLabel.Location = new System.Drawing.Point(18, 26);
-            this.intelLabel.Name = "intelLabel";
-            this.intelLabel.Size = new System.Drawing.Size(62, 21);
-            this.intelLabel.TabIndex = 19;
-            this.intelLabel.Text = "INTEL";
-            // 
             // amdPanel
             // 
             this.amdPanel.AutoScroll = true;
             this.amdPanel.Controls.Add(this.label1);
+            this.amdPanel.Controls.Add(this.amdLabel);
             this.amdPanel.Controls.Add(this.label2);
             this.amdPanel.Controls.Add(this.button1);
             this.amdPanel.Controls.Add(this.groupBox1);
@@ -589,7 +591,7 @@
             this.amdLabel.AutoSize = true;
             this.amdLabel.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.amdLabel.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.amdLabel.Location = new System.Drawing.Point(19, 398);
+            this.amdLabel.Location = new System.Drawing.Point(7, 0);
             this.amdLabel.Name = "amdLabel";
             this.amdLabel.Size = new System.Drawing.Size(51, 21);
             this.amdLabel.TabIndex = 21;
@@ -601,14 +603,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1248, 753);
             this.Controls.Add(this.amdPanel);
-            this.Controls.Add(this.amdLabel);
             this.Controls.Add(this.intelPanel);
-            this.Controls.Add(this.intelLabel);
             this.Name = "Processors";
             this.Text = "Processors";
-            this.Controls.SetChildIndex(this.intelLabel, 0);
             this.Controls.SetChildIndex(this.intelPanel, 0);
-            this.Controls.SetChildIndex(this.amdLabel, 0);
             this.Controls.SetChildIndex(this.amdPanel, 0);
             this.intelPanel.ResumeLayout(false);
             this.intelPanel.PerformLayout();

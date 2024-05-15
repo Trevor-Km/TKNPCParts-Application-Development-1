@@ -63,6 +63,14 @@ namespace TKNPCParts_Layout
             this.Hide();
         }
 
+        private void peripheralsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openNewForm(new Peripherals());
+        }
 
+        private void motherboardsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openNewForm(new Motherboards());
+        }
     }
 }

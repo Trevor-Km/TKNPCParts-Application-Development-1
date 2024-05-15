@@ -52,3 +52,5 @@ C:\Users\trevo\Downloads\TKNPCPARTS\TKNPCParts-Application-Development-1\TKNPCPa
 C:\Users\trevo\Downloads\TKNPCPARTS\TKNPCParts-Application-Development-1\TKNPCParts-Store\bin\Debug\TKNPCParts-Layout.exe
 C:\Users\trevo\Downloads\TKNPCPARTS\TKNPCParts-Application-Development-1\TKNPCParts-Store\bin\Debug\TKNPCParts-Layout.pdb
 C:\Users\trevo\Downloads\TKNPCPARTS\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Processors.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Peripherals.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Processors.resources
