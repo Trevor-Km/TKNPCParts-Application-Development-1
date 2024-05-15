@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.IO;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace TKNPCParts_Layout
 {
@@ -113,6 +114,11 @@ namespace TKNPCParts_Layout
         private void licenseToolStripMenuItem_Click(object sender, EventArgs e)
         {
             openNewForm(new License());
+        }
+
+        private void cartToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openNewForm(new Cart());
         }
     }
 }

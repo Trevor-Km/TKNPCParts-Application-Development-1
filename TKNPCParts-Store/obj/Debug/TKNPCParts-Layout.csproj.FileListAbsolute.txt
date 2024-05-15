@@ -81,3 +81,25 @@ C:\Users\trevo\Downloads\TKN-Pc-Parts-Store\TKNPCParts-Application-Development-1
 C:\Users\trevo\Downloads\TKN-Pc-Parts-Store\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.License.resources
 C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.License.resources
 C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Clock.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts-Layout.csproj.AssemblyReference.cache
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.AllItems.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Clock.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.GraphicsCards.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.License.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.MainPage.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Motherboards.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Peripherals.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Processors.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Properties.Resources.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Storage_Devices.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.TKNPCPart_Layout.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts-Layout.csproj.GenerateResource.cache
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts-Layout.csproj.CoreCompileInputs.cache
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts-Layout.exe
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts-Layout.pdb
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\bin\Debug\TKNPcPartsDB.mdf
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\bin\Debug\TKNPcPartsDB_log.ldf
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\bin\Debug\TKNPCParts-Layout.exe.config
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\bin\Debug\TKNPCParts-Layout.exe
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\bin\Debug\TKNPCParts-Layout.pdb
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Cart.resources

@@ -50,7 +50,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -68,6 +68,12 @@
     </Compile>
     <Compile Include="AllItems.Designer.cs">
       <DependentUpon>AllItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cart.Designer.cs">
+      <DependentUpon>Cart.cs</DependentUpon>
     </Compile>
     <Compile Include="Clock.cs">
       <SubType>UserControl</SubType>
@@ -99,6 +105,7 @@
     <Compile Include="Motherboards.Designer.cs">
       <DependentUpon>Motherboards.cs</DependentUpon>
     </Compile>
+    <Compile Include="PCPart.cs" />
     <Compile Include="Peripherals.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +150,9 @@
   <ItemGroup>
     <EmbeddedResource Include="AllItems.resx">
       <DependentUpon>AllItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cart.resx">
+      <DependentUpon>Cart.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Clock.resx">
       <DependentUpon>Clock.cs</DependentUpon>
