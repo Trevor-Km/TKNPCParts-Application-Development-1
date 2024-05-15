@@ -125,7 +125,7 @@
             this.priceLabel4.Name = "priceLabel4";
             this.priceLabel4.Size = new System.Drawing.Size(45, 20);
             this.priceLabel4.TabIndex = 17;
-            this.priceLabel4.Text = "$400";
+            this.priceLabel4.Text = "$170";
             // 
             // label9
             // 
@@ -133,9 +133,9 @@
             this.label9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(952, 236);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(91, 24);
+            this.label9.Size = new System.Drawing.Size(90, 24);
             this.label9.TabIndex = 16;
-            this.label9.Text = "Processor";
+            this.label9.Text = "Keyboard";
             // 
             // addToCartButton4
             // 
@@ -179,7 +179,7 @@
             this.priceLabel3.Name = "priceLabel3";
             this.priceLabel3.Size = new System.Drawing.Size(45, 20);
             this.priceLabel3.TabIndex = 13;
-            this.priceLabel3.Text = "$600";
+            this.priceLabel3.Text = "$450";
             // 
             // descLabel3
             // 
@@ -187,9 +187,9 @@
             this.descLabel3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.descLabel3.Location = new System.Drawing.Point(645, 236);
             this.descLabel3.Name = "descLabel3";
-            this.descLabel3.Size = new System.Drawing.Size(91, 24);
+            this.descLabel3.Size = new System.Drawing.Size(90, 24);
             this.descLabel3.TabIndex = 12;
-            this.descLabel3.Text = "Processor";
+            this.descLabel3.Text = "Keyboard";
             // 
             // addToCartButton3
             // 
@@ -233,7 +233,7 @@
             this.priceLabel2.Name = "priceLabel2";
             this.priceLabel2.Size = new System.Drawing.Size(45, 20);
             this.priceLabel2.TabIndex = 9;
-            this.priceLabel2.Text = "$800";
+            this.priceLabel2.Text = "$350";
             // 
             // descLabel2
             // 
@@ -242,9 +242,9 @@
             this.descLabel2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.descLabel2.Location = new System.Drawing.Point(336, 236);
             this.descLabel2.Name = "descLabel2";
-            this.descLabel2.Size = new System.Drawing.Size(91, 24);
+            this.descLabel2.Size = new System.Drawing.Size(90, 24);
             this.descLabel2.TabIndex = 8;
-            this.descLabel2.Text = "Processor";
+            this.descLabel2.Text = "Keyboard";
             // 
             // addToCartButton2
             // 
@@ -286,9 +286,9 @@
             this.priceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.priceLabel.Location = new System.Drawing.Point(227, 242);
             this.priceLabel.Name = "priceLabel";
-            this.priceLabel.Size = new System.Drawing.Size(54, 20);
+            this.priceLabel.Size = new System.Drawing.Size(45, 20);
             this.priceLabel.TabIndex = 5;
-            this.priceLabel.Text = "$1000";
+            this.priceLabel.Text = "$450";
             // 
             // descLabel
             // 
@@ -296,9 +296,9 @@
             this.descLabel.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.descLabel.Location = new System.Drawing.Point(26, 236);
             this.descLabel.Name = "descLabel";
-            this.descLabel.Size = new System.Drawing.Size(91, 24);
+            this.descLabel.Size = new System.Drawing.Size(90, 24);
             this.descLabel.TabIndex = 4;
-            this.descLabel.Text = "Processor";
+            this.descLabel.Text = "Keyboard";
             // 
             // addToCartButton1
             // 
@@ -377,7 +377,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(45, 20);
             this.label1.TabIndex = 17;
-            this.label1.Text = "$400";
+            this.label1.Text = "$100";
             // 
             // label2
             // 
@@ -385,9 +385,9 @@
             this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(952, 236);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 24);
+            this.label2.Size = new System.Drawing.Size(67, 24);
             this.label2.TabIndex = 16;
-            this.label2.Text = "Processor";
+            this.label2.Text = "Mouse";
             // 
             // button1
             // 
@@ -431,7 +431,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(45, 20);
             this.label3.TabIndex = 13;
-            this.label3.Text = "$600";
+            this.label3.Text = "$300";
             // 
             // label4
             // 
@@ -439,9 +439,9 @@
             this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(645, 236);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 24);
+            this.label4.Size = new System.Drawing.Size(67, 24);
             this.label4.TabIndex = 12;
-            this.label4.Text = "Processor";
+            this.label4.Text = "Mouse";
             // 
             // button2
             // 
@@ -485,7 +485,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(45, 20);
             this.label5.TabIndex = 9;
-            this.label5.Text = "$800";
+            this.label5.Text = "$170";
             // 
             // label6
             // 
@@ -493,9 +493,9 @@
             this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(336, 236);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(91, 24);
+            this.label6.Size = new System.Drawing.Size(67, 24);
             this.label6.TabIndex = 8;
-            this.label6.Text = "Processor";
+            this.label6.Text = "Mouse";
             // 
             // button3
             // 
@@ -537,9 +537,9 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(227, 242);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(54, 20);
+            this.label7.Size = new System.Drawing.Size(45, 20);
             this.label7.TabIndex = 5;
-            this.label7.Text = "$1000";
+            this.label7.Text = "$250";
             // 
             // label8
             // 
@@ -547,9 +547,9 @@
             this.label8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(26, 236);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(91, 24);
+            this.label8.Size = new System.Drawing.Size(67, 24);
             this.label8.TabIndex = 4;
-            this.label8.Text = "Processor";
+            this.label8.Text = "Mouse";
             // 
             // button4
             // 

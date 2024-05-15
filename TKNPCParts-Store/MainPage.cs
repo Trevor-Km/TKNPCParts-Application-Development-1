@@ -21,12 +21,7 @@ namespace TKNPCParts_Layout
             Application.Run(new MainPage());
         }
 
-        public override void graphicsCardsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            base.graphicsCardsToolStripMenuItem_Click(sender, e);
-            
-        }
+       
 
         
     }
