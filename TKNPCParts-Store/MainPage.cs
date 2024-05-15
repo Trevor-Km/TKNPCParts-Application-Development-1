@@ -16,5 +16,10 @@ namespace TKNPCParts_Layout
         {
             InitializeComponent();
         }
+        public static void Main(string[] args)
+        {
+            Application.Run(new MainPage());
+        }
+
     }
 }

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace TKNPCParts_Layout
 {
-    public partial class GraphicsCards : Form
+    public partial class GraphicsCards : TKNPCPart_Layout
     {
         public GraphicsCards()
         {
