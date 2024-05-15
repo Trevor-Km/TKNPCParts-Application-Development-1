@@ -73,6 +73,7 @@
             this.groupBoxAerox3 = new System.Windows.Forms.GroupBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.intelPanel.SuspendLayout();
             this.groupBox3080.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.g513picBox)).BeginInit();
@@ -91,6 +92,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.groupBoxAerox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // intelPanel
@@ -596,11 +598,23 @@
             this.label10.TabIndex = 21;
             this.label10.Text = "STEEL SERIES";
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(1152, 31);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(130, 110);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 23;
+            this.pictureBox5.TabStop = false;
+            // 
             // Peripherals
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1282, 753);
+            this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.steelSeriesPanel);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.intelPanel);
@@ -611,6 +625,7 @@
             this.Controls.SetChildIndex(this.intelPanel, 0);
             this.Controls.SetChildIndex(this.label10, 0);
             this.Controls.SetChildIndex(this.steelSeriesPanel, 0);
+            this.Controls.SetChildIndex(this.pictureBox5, 0);
             this.intelPanel.ResumeLayout(false);
             this.intelPanel.PerformLayout();
             this.groupBox3080.ResumeLayout(false);
@@ -631,6 +646,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.groupBoxAerox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -682,5 +698,6 @@
         private System.Windows.Forms.GroupBox groupBoxAerox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }

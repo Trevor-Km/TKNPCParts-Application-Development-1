@@ -122,10 +122,10 @@
     <Compile Include="TKNPCPart-Layout.Designer.cs">
       <DependentUpon>TKNPCPart-Layout.cs</DependentUpon>
     </Compile>
-    <Compile Include="TKNPcPartsDBDataSet.Designer.cs">
+    <Compile Include="TKNPcPartsDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>TKNPcPartsDBDataSet.xsd</DependentUpon>
+      <DependentUpon>TKNPcPartsDataSet.xsd</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -165,16 +165,16 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <None Include="Resources\TKNPCLOGO.png" />
-    <None Include="TKNPcPartsDBDataSet.xsc">
-      <DependentUpon>TKNPcPartsDBDataSet.xsd</DependentUpon>
+    <None Include="TKNPcPartsDataSet.xsc">
+      <DependentUpon>TKNPcPartsDataSet.xsd</DependentUpon>
     </None>
-    <None Include="TKNPcPartsDBDataSet.xsd">
+    <None Include="TKNPcPartsDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>TKNPcPartsDBDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>TKNPcPartsDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="TKNPcPartsDBDataSet.xss">
-      <DependentUpon>TKNPcPartsDBDataSet.xsd</DependentUpon>
+    <None Include="TKNPcPartsDataSet.xss">
+      <DependentUpon>TKNPcPartsDataSet.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -191,10 +191,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="TKNPcPartsDB.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="TKNPcPartsDB_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>TKNPcPartsDB.mdf</DependentUpon>
     </Content>
   </ItemGroup>

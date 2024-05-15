@@ -17,18 +17,10 @@ namespace TKNPCParts_Layout
             InitializeComponent();
         }
 
-        private void tKNPcPartsBindingNavigatorSaveItem_Click(object sender, EventArgs e)
-        {
-            this.Validate();
-            this.tKNPcPartsBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.tKNPcPartsDBDataSet);
-
-        }
-
         private void AllItems_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'tKNPcPartsDBDataSet.TKNPcParts' table. You can move, or remove it, as needed.
-            this.tKNPcPartsTableAdapter.Fill(this.tKNPcPartsDBDataSet.TKNPcParts);
+            // TODO: This line of code loads data into the 'tKNPcPartsDataSet.TKNPcPartsDB' table. You can move, or remove it, as needed.
+            this.tKNPcPartsDBTableAdapter.Fill(this.tKNPcPartsDataSet.TKNPcPartsDB);
 
         }
     }
