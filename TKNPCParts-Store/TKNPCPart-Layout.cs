@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
+using System.IO;
 
 namespace TKNPCParts_Layout
 {
@@ -76,6 +78,41 @@ namespace TKNPCParts_Layout
         private void storageDevicesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             openNewForm(new Storage_Devices());
+        }
+
+        private void termsAndAgreementToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+            string startupPath = Application.StartupPath;
+           
+
+           
+            string relativeFilePath = "TermsAndAgreement.txt"; 
+
+            
+            string filePath = Path.Combine(startupPath, relativeFilePath);
+
+            try
+            {
+                if (File.Exists(filePath))
+                {
+                    
+                    Process.Start(filePath);
+                }
+                else
+                {
+                    MessageBox.Show("File not found", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error opening file", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void licenseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openNewForm(new License());
         }
     }
 }

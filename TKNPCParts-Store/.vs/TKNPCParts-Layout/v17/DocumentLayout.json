@@ -1,42 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\",
+  "WorkspaceRootPath": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\allitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|solutionrelative:allitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|c:\\users\\trevo\\downloads\\tkn-pc-parts-store\\tknpcparts-application-development-1\\tknpcparts-store\\license.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|solutionrelative:license.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|c:\\users\\natha\\desktop\\appdev-final_project\\tknpcparts-application-development-1\\tknpcparts-store\\storage-devices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\storage-devices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|solutionrelative:storage-devices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|c:\\users\\natha\\desktop\\appdev-final_project\\tknpcparts-application-development-1\\tknpcparts-store\\tknpcpart-layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|solutionrelative:tknpcpart-layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\tknpcpart-layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\tknpcpart-layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|solutionrelative:tknpcpart-layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|c:\\users\\natha\\desktop\\appdev-final_project\\tknpcparts-application-development-1\\tknpcparts-store\\motherboards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\tknpcpart-layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|solutionrelative:tknpcpart-layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\motherboards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|solutionrelative:motherboards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|c:\\users\\natha\\desktop\\appdev-final_project\\tknpcparts-application-development-1\\tknpcparts-store\\graphicscards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|solutionrelative:graphicscards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|c:\\users\\natha\\desktop\\appdev-final_project\\tknpcparts-application-development-1\\tknpcparts-store\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|solutionrelative:mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|c:\\users\\natha\\desktop\\appdev-final_project\\tknpcparts-application-development-1\\tknpcparts-store\\peripherals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\peripherals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|solutionrelative:peripherals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\peripherals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|c:\\users\\trevo\\downloads\\tkn-pc-parts-store\\tknpcparts-application-development-1\\tknpcparts-store\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|solutionrelative:mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|c:\\users\\trevo\\downloads\\tkn-pc-parts-store\\tknpcparts-application-development-1\\tknpcparts-store\\license.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|solutionrelative:license.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\graphicscards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|solutionrelative:graphicscards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\peripherals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|solutionrelative:peripherals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\allitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1DEBD83D-3D65-48DF-9738-F94F2380825D}|TKNPCParts-Layout.csproj|solutionrelative:allitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,17 +54,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "License.cs",
+              "DocumentMoniker": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\License.cs",
+              "RelativeDocumentMoniker": "License.cs",
+              "ToolTip": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\License.cs",
+              "RelativeToolTip": "License.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T06:53:13.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "License.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\License.cs",
+              "RelativeDocumentMoniker": "License.cs",
+              "ToolTip": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\License.cs [Design]",
+              "RelativeToolTip": "License.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T06:50:34.704Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TKNPCPart-Layout.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\TKNPCPart-Layout.cs",
+              "DocumentMoniker": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\TKNPCPart-Layout.cs",
               "RelativeDocumentMoniker": "TKNPCPart-Layout.cs",
-              "ToolTip": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\TKNPCPart-Layout.cs",
+              "ToolTip": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\TKNPCPart-Layout.cs",
               "RelativeToolTip": "TKNPCPart-Layout.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAMwE0AAAAvAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAUwFYAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T05:01:04.075Z",
               "EditorCaption": ""
@@ -65,9 +98,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Motherboards.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\Motherboards.cs",
+              "DocumentMoniker": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\Motherboards.cs",
               "RelativeDocumentMoniker": "Motherboards.cs",
-              "ToolTip": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\Motherboards.cs [Design]",
+              "ToolTip": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\Motherboards.cs [Design]",
               "RelativeToolTip": "Motherboards.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T04:58:12.085Z",
@@ -75,11 +108,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "TKNPCPart-Layout.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\TKNPCPart-Layout.cs",
+              "DocumentMoniker": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\TKNPCPart-Layout.cs",
               "RelativeDocumentMoniker": "TKNPCPart-Layout.cs",
-              "ToolTip": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\TKNPCPart-Layout.cs [Design]",
+              "ToolTip": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\TKNPCPart-Layout.cs [Design]",
               "RelativeToolTip": "TKNPCPart-Layout.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-12T07:49:41.877Z",
@@ -89,9 +122,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Storage-Devices.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\Storage-Devices.cs",
+              "DocumentMoniker": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\Storage-Devices.cs",
               "RelativeDocumentMoniker": "Storage-Devices.cs",
-              "ToolTip": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\Storage-Devices.cs [Design]",
+              "ToolTip": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\Storage-Devices.cs [Design]",
               "RelativeToolTip": "Storage-Devices.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T04:59:47.351Z",
@@ -99,11 +132,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "AllItems.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\AllItems.cs",
+              "DocumentMoniker": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\AllItems.cs",
               "RelativeDocumentMoniker": "AllItems.cs",
-              "ToolTip": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\AllItems.cs [Design]",
+              "ToolTip": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\AllItems.cs [Design]",
               "RelativeToolTip": "AllItems.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-12T07:50:14.405Z",
@@ -111,11 +144,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "GraphicsCards.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\GraphicsCards.cs",
+              "DocumentMoniker": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\GraphicsCards.cs",
               "RelativeDocumentMoniker": "GraphicsCards.cs",
-              "ToolTip": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\GraphicsCards.cs [Design]",
+              "ToolTip": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\GraphicsCards.cs [Design]",
               "RelativeToolTip": "GraphicsCards.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T04:57:33.73Z",
@@ -125,9 +158,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "MainPage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\MainPage.cs",
+              "DocumentMoniker": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\MainPage.cs",
               "RelativeDocumentMoniker": "MainPage.cs",
-              "ToolTip": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\MainPage.cs [Design]",
+              "ToolTip": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\MainPage.cs [Design]",
               "RelativeToolTip": "MainPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T04:58:08.391Z",
@@ -135,11 +168,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Peripherals.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\Peripherals.cs",
+              "DocumentMoniker": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\Peripherals.cs",
               "RelativeDocumentMoniker": "Peripherals.cs",
-              "ToolTip": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\Peripherals.cs [Design]",
+              "ToolTip": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\Peripherals.cs [Design]",
               "RelativeToolTip": "Peripherals.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T04:58:18.37Z",
@@ -147,13 +180,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Peripherals.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\Peripherals.cs",
+              "DocumentMoniker": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\Peripherals.cs",
               "RelativeDocumentMoniker": "Peripherals.cs",
-              "ToolTip": "C:\\Users\\natha\\Desktop\\AppDev-Final_Project\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\Peripherals.cs",
+              "ToolTip": "C:\\Users\\trevo\\Downloads\\TKN-Pc-Parts-Store\\TKNPCParts-Application-Development-1\\TKNPCParts-Store\\Peripherals.cs",
               "RelativeToolTip": "Peripherals.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAmwBMAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T02:00:17.85Z",
               "EditorCaption": ""
