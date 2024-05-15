@@ -36,3 +36,13 @@ C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1
 C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.GraphicsCards.resources
 C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.MainPage.resources
 C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts-Layout.exe
+C:\Users\trevo\Downloads\TKNPCPARTS\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts-Layout.csproj.AssemblyReference.cache
+C:\Users\trevo\Downloads\TKNPCPARTS\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.AllItems.resources
+C:\Users\trevo\Downloads\TKNPCPARTS\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.GraphicsCards.resources
+C:\Users\trevo\Downloads\TKNPCPARTS\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.MainPage.resources
+C:\Users\trevo\Downloads\TKNPCPARTS\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Properties.Resources.resources
+C:\Users\trevo\Downloads\TKNPCPARTS\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.TKNPCPart_Layout.resources
+C:\Users\trevo\Downloads\TKNPCPARTS\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts-Layout.csproj.GenerateResource.cache
+C:\Users\trevo\Downloads\TKNPCPARTS\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts-Layout.csproj.CoreCompileInputs.cache
+C:\Users\trevo\Downloads\TKNPCPARTS\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts-Layout.exe
+C:\Users\trevo\Downloads\TKNPCPARTS\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts-Layout.pdb

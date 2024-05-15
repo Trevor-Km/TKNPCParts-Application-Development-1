@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace TKNPCParts_Layout
 {
-    public partial class AllItems : Form
+    public partial class AllItems : TKNPCPart_Layout
     {
         public AllItems()
         {

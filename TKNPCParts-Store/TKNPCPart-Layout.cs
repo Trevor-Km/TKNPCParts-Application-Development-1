@@ -22,10 +22,11 @@ namespace TKNPCParts_Layout
             Application.Exit();
         }
 
-        private void graphicsCardsToolStripMenuItem_Click(object sender, EventArgs e)
+        public void graphicsCardsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             GraphicsCards graphicsCardsFrame = new GraphicsCards();
             graphicsCardsFrame.ShowDialog();
+            
         }
 
         private void processorsToolStripMenuItem_Click(object sender, EventArgs e)

@@ -21,5 +21,9 @@ namespace TKNPCParts_Layout
             Application.Run(new MainPage());
         }
 
+
+
+
+
     }
 }

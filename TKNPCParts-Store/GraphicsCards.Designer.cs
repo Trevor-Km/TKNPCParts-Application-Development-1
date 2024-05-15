@@ -99,7 +99,7 @@
             // 
             this.logo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
-            this.logo.Location = new System.Drawing.Point(1362, -78);
+            this.logo.Location = new System.Drawing.Point(1144, -78);
             this.logo.Name = "logo";
             this.logo.Size = new System.Drawing.Size(142, 79);
             this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -146,9 +146,9 @@
             this.descLabel8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.descLabel8.Location = new System.Drawing.Point(952, 236);
             this.descLabel8.Name = "descLabel8";
-            this.descLabel8.Size = new System.Drawing.Size(91, 24);
+            this.descLabel8.Size = new System.Drawing.Size(127, 24);
             this.descLabel8.TabIndex = 16;
-            this.descLabel8.Text = "Processor";
+            this.descLabel8.Text = "Graphics Card";
             // 
             // addToCartButton8
             // 
@@ -200,9 +200,9 @@
             this.descLabel7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.descLabel7.Location = new System.Drawing.Point(645, 236);
             this.descLabel7.Name = "descLabel7";
-            this.descLabel7.Size = new System.Drawing.Size(91, 24);
+            this.descLabel7.Size = new System.Drawing.Size(127, 24);
             this.descLabel7.TabIndex = 12;
-            this.descLabel7.Text = "Processor";
+            this.descLabel7.Text = "Graphics Card";
             // 
             // addToCartButton7
             // 
@@ -254,9 +254,9 @@
             this.descLabel6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.descLabel6.Location = new System.Drawing.Point(336, 236);
             this.descLabel6.Name = "descLabel6";
-            this.descLabel6.Size = new System.Drawing.Size(91, 24);
+            this.descLabel6.Size = new System.Drawing.Size(127, 24);
             this.descLabel6.TabIndex = 8;
-            this.descLabel6.Text = "Processor";
+            this.descLabel6.Text = "Graphics Card";
             // 
             // addToCartButton6
             // 
@@ -308,9 +308,9 @@
             this.descLabel5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.descLabel5.Location = new System.Drawing.Point(26, 236);
             this.descLabel5.Name = "descLabel5";
-            this.descLabel5.Size = new System.Drawing.Size(91, 24);
+            this.descLabel5.Size = new System.Drawing.Size(127, 24);
             this.descLabel5.TabIndex = 4;
-            this.descLabel5.Text = "Processor";
+            this.descLabel5.Text = "Graphics Card";
             // 
             // addToCartButton5
             // 
@@ -397,9 +397,9 @@
             this.label9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(952, 236);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(91, 24);
+            this.label9.Size = new System.Drawing.Size(127, 24);
             this.label9.TabIndex = 16;
-            this.label9.Text = "Processor";
+            this.label9.Text = "Graphics Card";
             // 
             // addToCartButton4
             // 
@@ -407,7 +407,7 @@
             this.addToCartButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addToCartButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addToCartButton4.ForeColor = System.Drawing.Color.White;
-            this.addToCartButton4.Location = new System.Drawing.Point(1031, 269);
+            this.addToCartButton4.Location = new System.Drawing.Point(1029, 263);
             this.addToCartButton4.Name = "addToCartButton4";
             this.addToCartButton4.Size = new System.Drawing.Size(109, 39);
             this.addToCartButton4.TabIndex = 15;
@@ -451,9 +451,9 @@
             this.descLabel3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.descLabel3.Location = new System.Drawing.Point(645, 236);
             this.descLabel3.Name = "descLabel3";
-            this.descLabel3.Size = new System.Drawing.Size(91, 24);
+            this.descLabel3.Size = new System.Drawing.Size(127, 24);
             this.descLabel3.TabIndex = 12;
-            this.descLabel3.Text = "Processor";
+            this.descLabel3.Text = "Graphics Card";
             // 
             // addToCartButton3
             // 
@@ -461,7 +461,7 @@
             this.addToCartButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addToCartButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addToCartButton3.ForeColor = System.Drawing.Color.White;
-            this.addToCartButton3.Location = new System.Drawing.Point(722, 269);
+            this.addToCartButton3.Location = new System.Drawing.Point(731, 263);
             this.addToCartButton3.Name = "addToCartButton3";
             this.addToCartButton3.Size = new System.Drawing.Size(109, 39);
             this.addToCartButton3.TabIndex = 11;
@@ -505,9 +505,9 @@
             this.descLabel2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.descLabel2.Location = new System.Drawing.Point(336, 236);
             this.descLabel2.Name = "descLabel2";
-            this.descLabel2.Size = new System.Drawing.Size(91, 24);
+            this.descLabel2.Size = new System.Drawing.Size(127, 24);
             this.descLabel2.TabIndex = 8;
-            this.descLabel2.Text = "Processor";
+            this.descLabel2.Text = "Graphics Card";
             // 
             // addToCartButton2
             // 
@@ -559,9 +559,9 @@
             this.descLabel.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.descLabel.Location = new System.Drawing.Point(26, 236);
             this.descLabel.Name = "descLabel";
-            this.descLabel.Size = new System.Drawing.Size(91, 24);
+            this.descLabel.Size = new System.Drawing.Size(127, 24);
             this.descLabel.TabIndex = 4;
-            this.descLabel.Text = "Processor";
+            this.descLabel.Text = "Graphics Card";
             // 
             // addToCartButton1
             // 
@@ -569,7 +569,7 @@
             this.addToCartButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addToCartButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addToCartButton1.ForeColor = System.Drawing.Color.White;
-            this.addToCartButton1.Location = new System.Drawing.Point(102, 269);
+            this.addToCartButton1.Location = new System.Drawing.Point(102, 263);
             this.addToCartButton1.Name = "addToCartButton1";
             this.addToCartButton1.Size = new System.Drawing.Size(109, 39);
             this.addToCartButton1.TabIndex = 3;
@@ -613,7 +613,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1482, 816);
+            this.ClientSize = new System.Drawing.Size(1264, 816);
             this.Controls.Add(this.logo);
             this.Controls.Add(this.amdPanel);
             this.Controls.Add(this.amdLabel);
