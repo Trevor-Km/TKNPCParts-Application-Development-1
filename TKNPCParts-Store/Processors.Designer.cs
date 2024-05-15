@@ -123,9 +123,9 @@
             this.priceLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.priceLabel4.Location = new System.Drawing.Point(1153, 242);
             this.priceLabel4.Name = "priceLabel4";
-            this.priceLabel4.Size = new System.Drawing.Size(54, 20);
+            this.priceLabel4.Size = new System.Drawing.Size(45, 20);
             this.priceLabel4.TabIndex = 17;
-            this.priceLabel4.Text = "$1334";
+            this.priceLabel4.Text = "$400";
             // 
             // label9
             // 
@@ -177,9 +177,9 @@
             this.priceLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.priceLabel3.Location = new System.Drawing.Point(846, 242);
             this.priceLabel3.Name = "priceLabel3";
-            this.priceLabel3.Size = new System.Drawing.Size(54, 20);
+            this.priceLabel3.Size = new System.Drawing.Size(45, 20);
             this.priceLabel3.TabIndex = 13;
-            this.priceLabel3.Text = "$2099";
+            this.priceLabel3.Text = "$600";
             // 
             // descLabel3
             // 
@@ -231,9 +231,9 @@
             this.priceLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.priceLabel2.Location = new System.Drawing.Point(537, 242);
             this.priceLabel2.Name = "priceLabel2";
-            this.priceLabel2.Size = new System.Drawing.Size(54, 20);
+            this.priceLabel2.Size = new System.Drawing.Size(45, 20);
             this.priceLabel2.TabIndex = 9;
-            this.priceLabel2.Text = "$2610";
+            this.priceLabel2.Text = "$800";
             // 
             // descLabel2
             // 
@@ -287,7 +287,7 @@
             this.priceLabel.Name = "priceLabel";
             this.priceLabel.Size = new System.Drawing.Size(54, 20);
             this.priceLabel.TabIndex = 5;
-            this.priceLabel.Text = "$2719";
+            this.priceLabel.Text = "$1000";
             // 
             // descLabel
             // 
@@ -428,9 +428,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(846, 242);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 20);
+            this.label3.Size = new System.Drawing.Size(45, 20);
             this.label3.TabIndex = 13;
-            this.label3.Text = "$2099";
+            this.label3.Text = "$500";
             // 
             // label4
             // 
@@ -482,9 +482,9 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(537, 242);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(54, 20);
+            this.label5.Size = new System.Drawing.Size(45, 20);
             this.label5.TabIndex = 9;
-            this.label5.Text = "$2610";
+            this.label5.Text = "$700";
             // 
             // label6
             // 
@@ -536,9 +536,9 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(227, 242);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(54, 20);
+            this.label7.Size = new System.Drawing.Size(45, 20);
             this.label7.TabIndex = 5;
-            this.label7.Text = "$2719";
+            this.label7.Text = "$900";
             // 
             // label8
             // 

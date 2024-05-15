@@ -19,32 +19,50 @@ namespace TKNPCParts_Layout
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
             Application.Exit();
         }
 
-        public void graphicsCardsToolStripMenuItem_Click(object sender, EventArgs e)
+        private void close_FormClosing(object sender, FormClosingEventArgs e)
         {
-            GraphicsCards graphicsCardsFrame = new GraphicsCards();
-            graphicsCardsFrame.ShowDialog();
+            Application.Exit();
+        }
+
+
+        public virtual void graphicsCardsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openNewForm(new GraphicsCards());
             
         }
 
         private void processorsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MainPage mainFrame = new MainPage();
-            mainFrame.ShowDialog();
+            openNewForm(new Processors());
             
         }
 
+        private void mainPageToolStripMenuItem_Click(Object sender, EventArgs e)
+        {
+            openNewForm(new MainPage());
+        }
+
+
         private void allItemsToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            AllItems allItemsFrame = new AllItems();
-            allItemsFrame.Show();
+            openNewForm(new AllItems());
         }
 
         private void TKNPCPart_Layout_Load(object sender, EventArgs e)
         {
 
         }
+
+        private void openNewForm(Form form)
+        {
+            form.Show();
+            this.Hide();
+        }
+
+
     }
 }

@@ -32,13 +32,13 @@
             this.footerText = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.pCPartsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.processorsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mainToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.graphicsCardsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.motherboardsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.storageDevicesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.peripheralsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.processorsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.allItemsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allItemsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.informationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.termsAndAgreementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.licenseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -74,23 +74,23 @@
             // pCPartsToolStripMenuItem
             // 
             this.pCPartsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.processorsToolStripMenuItem,
+            this.mainToolStripMenuItem,
             this.graphicsCardsToolStripMenuItem,
             this.motherboardsToolStripMenuItem,
             this.storageDevicesToolStripMenuItem,
             this.peripheralsToolStripMenuItem,
-            this.allItemsToolStripMenuItem,
-            this.allItemsToolStripMenuItem1});
+            this.processorsToolStripMenuItem,
+            this.allItemsToolStripMenuItem});
             this.pCPartsToolStripMenuItem.Name = "pCPartsToolStripMenuItem";
             this.pCPartsToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
             this.pCPartsToolStripMenuItem.Text = "&PC Parts";
             // 
-            // processorsToolStripMenuItem
+            // mainToolStripMenuItem
             // 
-            this.processorsToolStripMenuItem.Name = "processorsToolStripMenuItem";
-            this.processorsToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
-            this.processorsToolStripMenuItem.Text = "&Main";
-            this.processorsToolStripMenuItem.Click += new System.EventHandler(this.processorsToolStripMenuItem_Click);
+            this.mainToolStripMenuItem.Name = "mainToolStripMenuItem";
+            this.mainToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
+            this.mainToolStripMenuItem.Text = "&Main";
+            this.mainToolStripMenuItem.Click += new System.EventHandler(this.mainPageToolStripMenuItem_Click);
             // 
             // graphicsCardsToolStripMenuItem
             // 
@@ -117,18 +117,19 @@
             this.peripheralsToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
             this.peripheralsToolStripMenuItem.Text = "P&eripherals";
             // 
+            // processorsToolStripMenuItem
+            // 
+            this.processorsToolStripMenuItem.Name = "processorsToolStripMenuItem";
+            this.processorsToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
+            this.processorsToolStripMenuItem.Text = "P&rocessors";
+            this.processorsToolStripMenuItem.Click += new System.EventHandler(this.processorsToolStripMenuItem_Click);
+            // 
             // allItemsToolStripMenuItem
             // 
             this.allItemsToolStripMenuItem.Name = "allItemsToolStripMenuItem";
             this.allItemsToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
-            this.allItemsToolStripMenuItem.Text = "P&rocessors";
-            // 
-            // allItemsToolStripMenuItem1
-            // 
-            this.allItemsToolStripMenuItem1.Name = "allItemsToolStripMenuItem1";
-            this.allItemsToolStripMenuItem1.Size = new System.Drawing.Size(199, 26);
-            this.allItemsToolStripMenuItem1.Text = "&All Items";
-            this.allItemsToolStripMenuItem1.Click += new System.EventHandler(this.allItemsToolStripMenuItem1_Click);
+            this.allItemsToolStripMenuItem.Text = "&All Items";
+            this.allItemsToolStripMenuItem.Click += new System.EventHandler(this.allItemsToolStripMenuItem1_Click);
             // 
             // informationToolStripMenuItem
             // 
@@ -179,6 +180,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "TKNPCPart_Layout";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.close_FormClosing);
             this.Load += new System.EventHandler(this.TKNPCPart_Layout_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -193,17 +195,17 @@
         private System.Windows.Forms.Label footerText;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem pCPartsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem processorsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mainToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem graphicsCardsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem motherboardsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem storageDevicesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem peripheralsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem allItemsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem processorsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem informationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem termsAndAgreementToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem licenseToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem allItemsToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem allItemsToolStripMenuItem;
         private System.Windows.Forms.PictureBox logoBox;
     }
 }
