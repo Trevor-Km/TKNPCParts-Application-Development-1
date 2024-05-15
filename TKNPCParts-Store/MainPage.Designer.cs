@@ -451,9 +451,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(1456, 244);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 20);
+            this.label1.Size = new System.Drawing.Size(45, 20);
             this.label1.TabIndex = 26;
-            this.label1.Text = "$1750";
+            this.label1.Text = "$175";
             // 
             // priceLabel4
             // 
@@ -471,9 +471,9 @@
             this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(1255, 238);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 24);
+            this.label2.Size = new System.Drawing.Size(67, 24);
             this.label2.TabIndex = 25;
-            this.label2.Text = "Monitor";
+            this.label2.Text = "Mouse";
             // 
             // label9
             // 
@@ -520,7 +520,7 @@
             this.groupBox1.Size = new System.Drawing.Size(277, 217);
             this.groupBox1.TabIndex = 23;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Samsung Odyssey Neo G8";
+            this.groupBox1.Text = "Steelseries AEROX 9";
             // 
             // pictureBox1
             // 
@@ -528,7 +528,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(6, 21);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(265, 190);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -541,7 +541,7 @@
             this.groupBoxNew4090.Size = new System.Drawing.Size(277, 217);
             this.groupBoxNew4090.TabIndex = 14;
             this.groupBoxNew4090.TabStop = false;
-            this.groupBoxNew4090.Text = "RTX 4090";
+            this.groupBoxNew4090.Text = "NVIDIA RTX 4090";
             // 
             // pictureBox3080
             // 

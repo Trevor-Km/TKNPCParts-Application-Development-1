@@ -378,9 +378,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(1153, 242);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 20);
+            this.label1.Size = new System.Drawing.Size(45, 20);
             this.label1.TabIndex = 17;
-            this.label1.Text = "$1334";
+            this.label1.Text = "$400";
             // 
             // amdLabel
             // 

@@ -30,20 +30,20 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AllItems));
-            this.tKNPcPartsDBDataSet = new TKNPCParts_Layout.TKNPcPartsDBDataSet();
             this.tKNPcPartsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tKNPcPartsTableAdapter = new TKNPCParts_Layout.TKNPcPartsDBDataSetTableAdapters.TKNPcPartsTableAdapter();
-            this.tableAdapterManager = new TKNPCParts_Layout.TKNPcPartsDBDataSetTableAdapters.TableAdapterManager();
-            this.tKNPcPartsDataGridView = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.logoBox = new System.Windows.Forms.PictureBox();
-            this.tKNPcPartsBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.tKNPcPartsDBBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tKNPcPartsDataSet = new TKNPCParts_Layout.TKNPcPartsDataSet();
+            this.tKNPcPartsDBBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.tKNPcPartsDBTableAdapter = new TKNPCParts_Layout.TKNPcPartsDataSetTableAdapters.TKNPcPartsDBTableAdapter();
+            this.tableAdapterManager = new TKNPCParts_Layout.TKNPcPartsDataSetTableAdapters.TableAdapterManager();
+            this.tKNPcPartsDBDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
@@ -52,86 +52,20 @@
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.tKNPcPartsBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsDBDataSet)).BeginInit();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsBindingNavigator)).BeginInit();
-            this.tKNPcPartsBindingNavigator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsDBBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsDBBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsDBDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
+            this.bindingNavigator1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // tKNPcPartsDBDataSet
-            // 
-            this.tKNPcPartsDBDataSet.DataSetName = "TKNPcPartsDBDataSet";
-            this.tKNPcPartsDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // tKNPcPartsBindingSource
             // 
             this.tKNPcPartsBindingSource.DataMember = "TKNPcParts";
-            this.tKNPcPartsBindingSource.DataSource = this.tKNPcPartsDBDataSet;
-            // 
-            // tKNPcPartsTableAdapter
-            // 
-            this.tKNPcPartsTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.TKNPcPartsDBTableAdapter = null;
-            this.tableAdapterManager.TKNPcPartsTableAdapter = this.tKNPcPartsTableAdapter;
-            this.tableAdapterManager.UpdateOrder = TKNPCParts_Layout.TKNPcPartsDBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            // 
-            // tKNPcPartsDataGridView
-            // 
-            this.tKNPcPartsDataGridView.AutoGenerateColumns = false;
-            this.tKNPcPartsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tKNPcPartsDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2,
-            this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4});
-            this.tKNPcPartsDataGridView.DataSource = this.tKNPcPartsBindingSource;
-            this.tKNPcPartsDataGridView.Location = new System.Drawing.Point(0, 58);
-            this.tKNPcPartsDataGridView.Name = "tKNPcPartsDataGridView";
-            this.tKNPcPartsDataGridView.RowHeadersWidth = 51;
-            this.tKNPcPartsDataGridView.RowTemplate.Height = 24;
-            this.tKNPcPartsDataGridView.Size = new System.Drawing.Size(850, 293);
-            this.tKNPcPartsDataGridView.TabIndex = 1;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "ItemID";
-            this.dataGridViewTextBoxColumn1.HeaderText = "ItemID";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "ItemName";
-            this.dataGridViewTextBoxColumn2.HeaderText = "ItemName";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "ItemDescription";
-            this.dataGridViewTextBoxColumn3.HeaderText = "ItemDescription";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "ItemPrice";
-            this.dataGridViewTextBoxColumn4.HeaderText = "ItemPrice";
-            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.Width = 125;
             // 
             // logoBox
             // 
@@ -144,14 +78,88 @@
             this.logoBox.TabIndex = 6;
             this.logoBox.TabStop = false;
             // 
-            // tKNPcPartsBindingNavigator
+            // tKNPcPartsDBBindingSource
             // 
-            this.tKNPcPartsBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
-            this.tKNPcPartsBindingNavigator.BindingSource = this.tKNPcPartsBindingSource;
-            this.tKNPcPartsBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.tKNPcPartsBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
-            this.tKNPcPartsBindingNavigator.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.tKNPcPartsBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tKNPcPartsDBBindingSource.DataMember = "TKNPcPartsDB";
+            // 
+            // tKNPcPartsDataSet
+            // 
+            this.tKNPcPartsDataSet.DataSetName = "TKNPcPartsDataSet";
+            this.tKNPcPartsDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tKNPcPartsDBBindingSource1
+            // 
+            this.tKNPcPartsDBBindingSource1.DataMember = "TKNPcPartsDB";
+            this.tKNPcPartsDBBindingSource1.DataSource = this.tKNPcPartsDataSet;
+            // 
+            // tKNPcPartsDBTableAdapter
+            // 
+            this.tKNPcPartsDBTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.TKNPcPartsDBTableAdapter = this.tKNPcPartsDBTableAdapter;
+            this.tableAdapterManager.UpdateOrder = TKNPCParts_Layout.TKNPcPartsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            // 
+            // tKNPcPartsDBDataGridView
+            // 
+            this.tKNPcPartsDBDataGridView.AutoGenerateColumns = false;
+            this.tKNPcPartsDBDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tKNPcPartsDBDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn7,
+            this.dataGridViewTextBoxColumn8});
+            this.tKNPcPartsDBDataGridView.DataSource = this.tKNPcPartsDBBindingSource1;
+            this.tKNPcPartsDBDataGridView.Location = new System.Drawing.Point(0, 58);
+            this.tKNPcPartsDBDataGridView.Name = "tKNPcPartsDBDataGridView";
+            this.tKNPcPartsDBDataGridView.ReadOnly = true;
+            this.tKNPcPartsDBDataGridView.RowHeadersWidth = 51;
+            this.tKNPcPartsDBDataGridView.RowTemplate.Height = 24;
+            this.tKNPcPartsDBDataGridView.Size = new System.Drawing.Size(775, 220);
+            this.tKNPcPartsDBDataGridView.TabIndex = 5;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "ItemID";
+            this.dataGridViewTextBoxColumn5.HeaderText = "ItemID";
+            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "ItemName";
+            this.dataGridViewTextBoxColumn6.HeaderText = "ItemName";
+            this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "ItemDescription";
+            this.dataGridViewTextBoxColumn7.HeaderText = "ItemDescription";
+            this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "ItemPrice";
+            this.dataGridViewTextBoxColumn8.HeaderText = "ItemPrice";
+            this.dataGridViewTextBoxColumn8.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.dataGridViewTextBoxColumn8.Width = 125;
+            // 
+            // bindingNavigator1
+            // 
+            this.bindingNavigator1.AddNewItem = null;
+            this.bindingNavigator1.BindingSource = this.tKNPcPartsDBBindingSource1;
+            this.bindingNavigator1.CountItem = this.bindingNavigatorCountItem;
+            this.bindingNavigator1.DeleteItem = null;
+            this.bindingNavigator1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.bindingNavigator1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorMoveFirstItem,
             this.bindingNavigatorMovePreviousItem,
             this.bindingNavigatorSeparator,
@@ -161,28 +169,17 @@
             this.bindingNavigatorMoveNextItem,
             this.bindingNavigatorMoveLastItem,
             this.bindingNavigatorSeparator2,
-            this.bindingNavigatorAddNewItem,
-            this.bindingNavigatorDeleteItem,
-            this.tKNPcPartsBindingNavigatorSaveItem});
-            this.tKNPcPartsBindingNavigator.Location = new System.Drawing.Point(0, 28);
-            this.tKNPcPartsBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
-            this.tKNPcPartsBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
-            this.tKNPcPartsBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
-            this.tKNPcPartsBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
-            this.tKNPcPartsBindingNavigator.Name = "tKNPcPartsBindingNavigator";
-            this.tKNPcPartsBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.tKNPcPartsBindingNavigator.Size = new System.Drawing.Size(1282, 27);
-            this.tKNPcPartsBindingNavigator.TabIndex = 9;
-            this.tKNPcPartsBindingNavigator.Text = "bindingNavigator1";
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
-            this.bindingNavigatorAddNewItem.Text = "Add new";
+            this.toolStripButton1});
+            this.bindingNavigator1.Location = new System.Drawing.Point(0, 28);
+            this.bindingNavigator1.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
+            this.bindingNavigator1.MoveLastItem = this.bindingNavigatorMoveLastItem;
+            this.bindingNavigator1.MoveNextItem = this.bindingNavigatorMoveNextItem;
+            this.bindingNavigator1.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
+            this.bindingNavigator1.Name = "bindingNavigator1";
+            this.bindingNavigator1.PositionItem = this.bindingNavigatorPositionItem;
+            this.bindingNavigator1.Size = new System.Drawing.Size(1502, 27);
+            this.bindingNavigator1.TabIndex = 6;
+            this.bindingNavigator1.Text = "bindingNavigator1";
             // 
             // bindingNavigatorCountItem
             // 
@@ -190,15 +187,6 @@
             this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 24);
             this.bindingNavigatorCountItem.Text = "of {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
-            this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -261,47 +249,36 @@
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 27);
             // 
-            // tKNPcPartsBindingNavigatorSaveItem
+            // toolStripButton1
             // 
-            this.tKNPcPartsBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tKNPcPartsBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("tKNPcPartsBindingNavigatorSaveItem.Image")));
-            this.tKNPcPartsBindingNavigatorSaveItem.Name = "tKNPcPartsBindingNavigatorSaveItem";
-            this.tKNPcPartsBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
-            this.tKNPcPartsBindingNavigatorSaveItem.Text = "Save Data";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1152, 28);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(130, 110);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton1.Text = "toolStripButton1";
             // 
             // AllItems
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1282, 580);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.tKNPcPartsBindingNavigator);
-            this.Controls.Add(this.tKNPcPartsDataGridView);
+            this.ClientSize = new System.Drawing.Size(1502, 964);
+            this.Controls.Add(this.bindingNavigator1);
+            this.Controls.Add(this.tKNPcPartsDBDataGridView);
             this.Name = "AllItems";
             this.Text = "All Items";
             this.Load += new System.EventHandler(this.AllItems_Load);
-            this.Controls.SetChildIndex(this.tKNPcPartsDataGridView, 0);
-            this.Controls.SetChildIndex(this.tKNPcPartsBindingNavigator, 0);
-            this.Controls.SetChildIndex(this.pictureBox1, 0);
-            ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsDBDataSet)).EndInit();
+            this.Controls.SetChildIndex(this.tKNPcPartsDBDataGridView, 0);
+            this.Controls.SetChildIndex(this.bindingNavigator1, 0);
             ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsBindingNavigator)).EndInit();
-            this.tKNPcPartsBindingNavigator.ResumeLayout(false);
-            this.tKNPcPartsBindingNavigator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsDBBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsDBBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tKNPcPartsDBDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
+            this.bindingNavigator1.ResumeLayout(false);
+            this.bindingNavigator1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -309,20 +286,24 @@
 
         #endregion
 
-        private TKNPcPartsDBDataSet tKNPcPartsDBDataSet;
         private System.Windows.Forms.BindingSource tKNPcPartsBindingSource;
-        private TKNPcPartsDBDataSetTableAdapters.TKNPcPartsTableAdapter tKNPcPartsTableAdapter;
-        private TKNPcPartsDBDataSetTableAdapters.TableAdapterManager tableAdapterManager;
-        private System.Windows.Forms.DataGridView tKNPcPartsDataGridView;
+        private System.Windows.Forms.PictureBox logoBox;
+        private System.Windows.Forms.BindingSource tKNPcPartsDBBindingSource;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.PictureBox logoBox;
-        private System.Windows.Forms.BindingNavigator tKNPcPartsBindingNavigator;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
+        private TKNPcPartsDataSet tKNPcPartsDataSet;
+        private System.Windows.Forms.BindingSource tKNPcPartsDBBindingSource1;
+        private TKNPcPartsDataSetTableAdapters.TKNPcPartsDBTableAdapter tKNPcPartsDBTableAdapter;
+        private TKNPcPartsDataSetTableAdapters.TableAdapterManager tableAdapterManager;
+        private System.Windows.Forms.DataGridView tKNPcPartsDBDataGridView;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.BindingNavigator bindingNavigator1;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorDeleteItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;
@@ -331,7 +312,6 @@
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
-        private System.Windows.Forms.ToolStripButton tKNPcPartsBindingNavigatorSaveItem;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripButton toolStripButton1;
     }
 }
