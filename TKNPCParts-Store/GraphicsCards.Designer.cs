@@ -99,7 +99,7 @@
             // 
             this.logo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
-            this.logo.Location = new System.Drawing.Point(1469, -78);
+            this.logo.Location = new System.Drawing.Point(1362, -78);
             this.logo.Name = "logo";
             this.logo.Size = new System.Drawing.Size(142, 79);
             this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -127,7 +127,7 @@
             this.amdPanel.Controls.Add(this.groupBoxAmdRadeon7900);
             this.amdPanel.Location = new System.Drawing.Point(30, 461);
             this.amdPanel.Name = "amdPanel";
-            this.amdPanel.Size = new System.Drawing.Size(1238, 343);
+            this.amdPanel.Size = new System.Drawing.Size(1079, 343);
             this.amdPanel.TabIndex = 20;
             // 
             // priceLabel8
@@ -378,7 +378,7 @@
             this.nvidiaPanel.Controls.Add(this.groupBox4090);
             this.nvidiaPanel.Location = new System.Drawing.Point(30, 95);
             this.nvidiaPanel.Name = "nvidiaPanel";
-            this.nvidiaPanel.Size = new System.Drawing.Size(1238, 320);
+            this.nvidiaPanel.Size = new System.Drawing.Size(1079, 320);
             this.nvidiaPanel.TabIndex = 18;
             // 
             // priceLabel4
@@ -612,7 +612,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1589, 816);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1482, 816);
             this.Controls.Add(this.logo);
             this.Controls.Add(this.amdPanel);
             this.Controls.Add(this.amdLabel);

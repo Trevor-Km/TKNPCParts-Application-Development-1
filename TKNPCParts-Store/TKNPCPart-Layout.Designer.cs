@@ -52,7 +52,7 @@
             // 
             this.footerText.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.footerText.AutoSize = true;
-            this.footerText.Location = new System.Drawing.Point(487, 928);
+            this.footerText.Location = new System.Drawing.Point(637, 928);
             this.footerText.Name = "footerText";
             this.footerText.Size = new System.Drawing.Size(191, 16);
             this.footerText.TabIndex = 4;
@@ -67,7 +67,7 @@
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1182, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1482, 28);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -88,45 +88,45 @@
             // processorsToolStripMenuItem
             // 
             this.processorsToolStripMenuItem.Name = "processorsToolStripMenuItem";
-            this.processorsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.processorsToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
             this.processorsToolStripMenuItem.Text = "&Main";
             this.processorsToolStripMenuItem.Click += new System.EventHandler(this.processorsToolStripMenuItem_Click);
             // 
             // graphicsCardsToolStripMenuItem
             // 
             this.graphicsCardsToolStripMenuItem.Name = "graphicsCardsToolStripMenuItem";
-            this.graphicsCardsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.graphicsCardsToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
             this.graphicsCardsToolStripMenuItem.Text = "&Graphics Cards";
             this.graphicsCardsToolStripMenuItem.Click += new System.EventHandler(this.graphicsCardsToolStripMenuItem_Click);
             // 
             // motherboardsToolStripMenuItem
             // 
             this.motherboardsToolStripMenuItem.Name = "motherboardsToolStripMenuItem";
-            this.motherboardsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.motherboardsToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
             this.motherboardsToolStripMenuItem.Text = "&Motherboards";
             // 
             // storageDevicesToolStripMenuItem
             // 
             this.storageDevicesToolStripMenuItem.Name = "storageDevicesToolStripMenuItem";
-            this.storageDevicesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.storageDevicesToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
             this.storageDevicesToolStripMenuItem.Text = "&Storage Devices";
             // 
             // peripheralsToolStripMenuItem
             // 
             this.peripheralsToolStripMenuItem.Name = "peripheralsToolStripMenuItem";
-            this.peripheralsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.peripheralsToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
             this.peripheralsToolStripMenuItem.Text = "P&eripherals";
             // 
             // allItemsToolStripMenuItem
             // 
             this.allItemsToolStripMenuItem.Name = "allItemsToolStripMenuItem";
-            this.allItemsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.allItemsToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
             this.allItemsToolStripMenuItem.Text = "P&rocessors";
             // 
             // allItemsToolStripMenuItem1
             // 
             this.allItemsToolStripMenuItem1.Name = "allItemsToolStripMenuItem1";
-            this.allItemsToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.allItemsToolStripMenuItem1.Size = new System.Drawing.Size(199, 26);
             this.allItemsToolStripMenuItem1.Text = "&All Items";
             this.allItemsToolStripMenuItem1.Click += new System.EventHandler(this.allItemsToolStripMenuItem1_Click);
             // 
@@ -162,7 +162,7 @@
             // 
             this.logoBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.logoBox.Image = ((System.Drawing.Image)(resources.GetObject("logoBox.Image")));
-            this.logoBox.Location = new System.Drawing.Point(1041, 30);
+            this.logoBox.Location = new System.Drawing.Point(1352, 31);
             this.logoBox.Name = "logoBox";
             this.logoBox.Size = new System.Drawing.Size(130, 110);
             this.logoBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -173,7 +173,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1182, 953);
+            this.ClientSize = new System.Drawing.Size(1482, 953);
             this.Controls.Add(this.footerText);
             this.Controls.Add(this.logoBox);
             this.Controls.Add(this.menuStrip1);
@@ -191,7 +191,6 @@
         #endregion
 
         private System.Windows.Forms.Label footerText;
-        private System.Windows.Forms.PictureBox logoBox;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem pCPartsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem processorsToolStripMenuItem;
@@ -205,5 +204,6 @@
         private System.Windows.Forms.ToolStripMenuItem licenseToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem allItemsToolStripMenuItem1;
+        private System.Windows.Forms.PictureBox logoBox;
     }
 }
