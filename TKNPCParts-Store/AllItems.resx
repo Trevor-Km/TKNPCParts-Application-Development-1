@@ -124,6 +124,10 @@
   <data name="processorButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>362, 396</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="inputName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="peripheralsButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>336, 25</value>
   </data>
@@ -132,10 +136,6 @@
   </data>
   <data name="bindingNavigatorSeparator.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 27</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="processorButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
   </data>
   <data name="searchLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
@@ -153,9 +153,6 @@
   <data name="button2.Text" xml:space="preserve">
     <value>Sort by Price DESC</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 316</value>
-  </data>
   <data name="searchLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 271</value>
   </data>
@@ -164,9 +161,6 @@
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Search by Description</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;highEndButton.Name" xml:space="preserve">
     <value>highEndButton</value>
@@ -177,14 +171,8 @@
   <data name="inputName.Location" type="System.Drawing.Point, System.Drawing">
     <value>128, 269</value>
   </data>
-  <data name="allItemsButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
   <data name="&gt;&gt;bindingNavigatorCountItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="motherboardButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
   </data>
   <data name="searchLabel.Text" xml:space="preserve">
     <value>Search by Name:</value>
@@ -210,8 +198,8 @@
   <data name="sortByStorage.Text" xml:space="preserve">
     <value>Sort by Storage Devices</value>
   </data>
-  <data name="&gt;&gt;inputName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;peripheralsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;searchLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -231,9 +219,6 @@
   <data name="sortByPriceButton.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
   </data>
-  <data name="allItemsButton.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
   <data name="&gt;&gt;allItemsButton.Name" xml:space="preserve">
     <value>allItemsButton</value>
   </data>
@@ -246,11 +231,14 @@
   <data name="&gt;&gt;peripheralsButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="peripheralsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
   <data name="dataGridViewTextBoxColumn8.Width" type="System.Int32, mscorlib">
     <value>125</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
+  <data name="&gt;&gt;highEndButton.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="bindingNavigatorMoveLastItem.Text" xml:space="preserve">
     <value>Move last</value>
@@ -267,9 +255,6 @@
   <data name="bindingNavigatorCountItem.Text" xml:space="preserve">
     <value>of {0}</value>
   </data>
-  <data name="&gt;&gt;bindingNavigator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.BindingNavigator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="bindingNavigatorMovePreviousItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
@@ -279,6 +264,9 @@
         08g3AARUPCZQZsBgBQwMANAUYJgEulBVAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="&gt;&gt;tKNPcPartsDBDataGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="bindingNavigatorPositionItem.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
@@ -287,6 +275,9 @@
   </data>
   <data name="&gt;&gt;bindingNavigatorMovePreviousItem.Name" xml:space="preserve">
     <value>bindingNavigatorMovePreviousItem</value>
+  </data>
+  <data name="graphicsCardButton.Text" xml:space="preserve">
+    <value>Sort by Graphics Card</value>
   </data>
   <data name="&gt;&gt;searchDescButton.Parent" xml:space="preserve">
     <value>$this</value>
@@ -300,17 +291,20 @@
   <data name="tKNPcPartsDBDataGridView.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;tKNPcPartsDBBindingSource1.Type" xml:space="preserve">
     <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="logoBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
   <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
     <value>pictureBox1</value>
-  </data>
-  <data name="bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>AllItems</value>
@@ -320,6 +314,9 @@
   </data>
   <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
     <value>ItemName</value>
+  </data>
+  <data name="bindingNavigator1.Text" xml:space="preserve">
+    <value>bindingNavigator1</value>
   </data>
   <data name="&gt;&gt;tKNPcPartsDBDataGridView.ZOrder" xml:space="preserve">
     <value>19</value>
@@ -336,17 +333,29 @@
   <data name="logoBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>1203, 28</value>
   </data>
-  <data name="&gt;&gt;inputName.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="bindingNavigatorCountItem.ToolTipText" xml:space="preserve">
+    <value>Total number of items</value>
   </data>
-  <data name="graphicsCardButton.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
+  <data name="bindingNavigatorMoveNextItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        cQAAEnEB89x6jgAAAKNJREFUOE9jGHygcNbz/1AmeSB35rP/Cd33yDckY8rT//P2//6f0HWHPEMSep78
+        n73v1//OrX//u5VeJt2QyK5H/6ds+/W/ZOnf/wnT//63yT1LmiGBzQ//t659D9ZsXPLlv3T0tf/GkcuI
+        N8Sj6v7/krnv4JoVXXpIc4F96d3/gS3PyNMMAhZ5d/7bFFwhTzMIGGbdJl8zCOik3SBf81AEDAwAoH5f
+        oAc0QjgAAAAASUVORK5CYII=
+</value>
   </data>
   <data name="&gt;&gt;bindingNavigatorMoveNextItem.Name" xml:space="preserve">
     <value>bindingNavigatorMoveNextItem</value>
   </data>
-  <data name="&gt;&gt;sortByPriceButton.Type" xml:space="preserve">
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchDescButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 32</value>
   </data>
   <data name="dataGridViewTextBoxColumn5.Width" type="System.Int32, mscorlib">
     <value>125</value>
@@ -369,9 +378,6 @@
   <data name="searchLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 45</value>
   </data>
-  <data name="sortByStorage.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
   <data name="&gt;&gt;logoBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -380,9 +386,6 @@
   </data>
   <data name="dataGridViewTextBoxColumn6.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn7</value>
   </data>
   <data name="&gt;&gt;inputName.Name" xml:space="preserve">
     <value>inputName</value>
@@ -393,11 +396,8 @@
   <data name="sortByNameButton.Text" xml:space="preserve">
     <value>Sort by Name</value>
   </data>
-  <data name="&gt;&gt;graphicsCardButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="allItemsButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 353</value>
+  <data name="searchDesc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="bindingNavigatorMoveFirstItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -410,14 +410,17 @@
         lf8gBXgVDULAwAAA8HbAq6XlmnAAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="searchNameButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 35</value>
   </data>
+  <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
+    <value>ItemPrice</value>
+  </data>
   <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
-  </data>
-  <data name="&gt;&gt;highEndButton.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="&gt;&gt;searchNameButton.ZOrder" xml:space="preserve">
     <value>17</value>
@@ -427,9 +430,6 @@
   </data>
   <data name="searchNameButton.Text" xml:space="preserve">
     <value>Search Name</value>
-  </data>
-  <data name="bindingNavigatorPositionItem.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;budgetButton.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -476,6 +476,9 @@
   <data name="searchDescButton.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
+  <data name="&gt;&gt;motherboardButton.Name" xml:space="preserve">
+    <value>motherboardButton</value>
+  </data>
   <data name="logoBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
@@ -515,17 +518,11 @@
   <data name="&gt;&gt;searchDescButton.Name" xml:space="preserve">
     <value>searchDescButton</value>
   </data>
-  <data name="dataGridViewTextBoxColumn7.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="searchLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+  <data name="searchDescButton.Text" xml:space="preserve">
+    <value>Search Description</value>
   </data>
   <data name="dataGridViewTextBoxColumn7.Width" type="System.Int32, mscorlib">
     <value>125</value>
-  </data>
-  <data name="bindingNavigatorPositionItem.AccessibleName" xml:space="preserve">
-    <value>Position</value>
   </data>
   <data name="&gt;&gt;dataGridViewTextBoxColumn8.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -539,10 +536,16 @@
   <data name="allItemsButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>697, 25</value>
   </data>
+  <data name="&gt;&gt;tKNPcPartsDBBindingSource1.Name" xml:space="preserve">
+    <value>tKNPcPartsDBBindingSource1</value>
+  </data>
   <data name="&gt;&gt;tKNPcPartsBindingSource.Name" xml:space="preserve">
     <value>tKNPcPartsBindingSource</value>
   </data>
   <data name="&gt;&gt;allItemsButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;motherboardButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;bindingNavigator1.ZOrder" xml:space="preserve">
@@ -554,11 +557,14 @@
   <data name="&gt;&gt;tKNPcPartsDBBindingSource.Type" xml:space="preserve">
     <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tKNPcPartsDataSet.Type" xml:space="preserve">
-    <value>TKNPCParts_Layout.TKNPcPartsDataSet, TKNPcPartsDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="searchDescButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="&gt;&gt;motherboardButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="logoBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 110</value>
   </data>
   <data name="allItemsButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -575,8 +581,8 @@
   <data name="&gt;&gt;searchNameButton.Name" xml:space="preserve">
     <value>searchNameButton</value>
   </data>
-  <data name="&gt;&gt;peripheralsButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="sortByStorage.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>TKNPCParts_Layout.TKNPCPart_Layout, TKNPCParts-Layout, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -587,6 +593,9 @@
   <data name="budgetButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 33</value>
   </data>
+  <data name="&gt;&gt;peripheralsButton.Name" xml:space="preserve">
+    <value>peripheralsButton</value>
+  </data>
   <data name="&gt;&gt;searchDescButton.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
@@ -595,6 +604,9 @@
   </data>
   <data name="&gt;&gt;sortByNameButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sortByStorage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 485</value>
   </data>
   <data name="dataGridViewTextBoxColumn8.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
@@ -622,6 +634,12 @@
   </data>
   <data name="pictureBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;searchDesc.Name" xml:space="preserve">
+    <value>searchDesc</value>
   </data>
   <data name="logoBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -5213,11 +5231,11 @@
         p/IAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="&gt;&gt;searchLabel.ZOrder" xml:space="preserve">
+    <value>16</value>
   </data>
-  <data name="budgetButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="&gt;&gt;searchDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -5243,29 +5261,26 @@
   <data name="&gt;&gt;sortByPriceButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;motherboardButton.Name" xml:space="preserve">
-    <value>motherboardButton</value>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn7</value>
   </data>
   <data name="&gt;&gt;searchNameButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;searchLabel.ZOrder" xml:space="preserve">
-    <value>16</value>
+  <data name="bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;tKNPcPartsDBTableAdapter.Name" xml:space="preserve">
     <value>tKNPcPartsDBTableAdapter</value>
   </data>
-  <data name="graphicsCardButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="searchDescButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="&gt;&gt;sortByPriceButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="inputName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>452, 22</value>
-  </data>
-  <data name="bindingNavigatorMovePreviousItem.Text" xml:space="preserve">
-    <value>Move previous</value>
+  <data name="&gt;&gt;motherboardButton.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="bindingNavigatorMoveNextItem.Text" xml:space="preserve">
     <value>Move next</value>
@@ -5288,8 +5303,8 @@
   <data name="motherboardButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>361, 440</value>
   </data>
-  <data name="&gt;&gt;searchLabel.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 2, 4, 2</value>
   </data>
   <data name="&gt;&gt;bindingNavigatorMoveNextItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5300,11 +5315,11 @@
   <data name="&gt;&gt;sortByStorage.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;peripheralsButton.Name" xml:space="preserve">
-    <value>peripheralsButton</value>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 316</value>
   </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>341, 25</value>
+  <data name="&gt;&gt;bindingNavigatorPositionItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="searchDescButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>112, 25</value>
@@ -5324,20 +5339,11 @@
   <data name="sortByNameButton.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
   </data>
-  <data name="sortByPriceButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
   <data name="graphicsCardButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>335, 25</value>
   </data>
-  <data name="bindingNavigatorMoveNextItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
-        cQAAEnEB89x6jgAAAKNJREFUOE9jGHygcNbz/1AmeSB35rP/Cd33yDckY8rT//P2//6f0HWHPEMSep78
-        n73v1//OrX//u5VeJt2QyK5H/6ds+/W/ZOnf/wnT//63yT1LmiGBzQ//t659D9ZsXPLlv3T0tf/GkcuI
-        N8Sj6v7/krnv4JoVXXpIc4F96d3/gS3PyNMMAhZ5d/7bFFwhTzMIGGbdJl8zCOik3SBf81AEDAwAoH5f
-        oAc0QjgAAAAASUVORK5CYII=
-</value>
+  <data name="allItemsButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="sortByPriceButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>335, 25</value>
@@ -5348,14 +5354,11 @@
   <data name="logoBox.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="searchNameButton.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="allItemsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
   </data>
-  <data name="bindingNavigatorCountItem.ToolTipText" xml:space="preserve">
-    <value>Total number of items</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 2, 4, 2</value>
+  <data name="allItemsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 353</value>
   </data>
   <data name="highEndButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>619, 160</value>
@@ -5363,11 +5366,11 @@
   <data name="searchDesc.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
-  <data name="&gt;&gt;motherboardButton.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;inputName.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;bindingNavigatorPositionItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;inputName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
     <value>362, 526</value>
@@ -5390,11 +5393,11 @@
   <data name="bindingNavigatorPositionItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>38, 23</value>
   </data>
-  <data name="processorButton.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
+  <data name="&gt;&gt;tKNPcPartsDataSet.Type" xml:space="preserve">
+    <value>TKNPCParts_Layout.TKNPcPartsDataSet, TKNPcPartsDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;tKNPcPartsDBBindingSource1.Name" xml:space="preserve">
-    <value>tKNPcPartsDBBindingSource1</value>
+  <data name="graphicsCardButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="sortByStorage.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -5402,14 +5405,14 @@
   <data name="&gt;&gt;graphicsCardButton.Name" xml:space="preserve">
     <value>graphicsCardButton</value>
   </data>
-  <data name="graphicsCardButton.Text" xml:space="preserve">
-    <value>Sort by Graphics Card</value>
+  <data name="processorButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="searchDescButton.Text" xml:space="preserve">
-    <value>Search Description</value>
+  <data name="bindingNavigatorPositionItem.AccessibleName" xml:space="preserve">
+    <value>Position</value>
   </data>
   <data name="budgetButton.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -5417,17 +5420,14 @@
   <data name="highEndButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="sortByPriceButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 526</value>
-  </data>
   <data name="&gt;&gt;bindingNavigatorMoveLastItem.Name" xml:space="preserve">
     <value>bindingNavigatorMoveLastItem</value>
   </data>
-  <data name="&gt;&gt;toolStripButton1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="sortByPriceButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 526</value>
   </data>
-  <data name="bindingNavigator1.Text" xml:space="preserve">
-    <value>bindingNavigator1</value>
+  <data name="budgetButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="&gt;&gt;sortByPriceButton.Name" xml:space="preserve">
     <value>sortByPriceButton</value>
@@ -5441,23 +5441,23 @@
   <data name="&gt;&gt;sortByStorage.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="motherboardButton.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
+  <data name="inputName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 22</value>
   </data>
-  <data name="&gt;&gt;tKNPcPartsDBDataGridView.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="bindingNavigatorPositionItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>613, 32</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
-    <value>ItemPrice</value>
+  <data name="dataGridViewTextBoxColumn7.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;tKNPcPartsBindingSource.Type" xml:space="preserve">
     <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="bindingNavigatorMovePreviousItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 24</value>
+  </data>
+  <data name="budgetButton.Text" xml:space="preserve">
+    <value>Budget Build</value>
   </data>
   <data name="&gt;&gt;bindingNavigatorSeparator2.Name" xml:space="preserve">
     <value>bindingNavigatorSeparator2</value>
@@ -10067,17 +10067,14 @@
   <data name="processorButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="sortByStorage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 485</value>
+  <data name="bindingNavigatorMovePreviousItem.Text" xml:space="preserve">
+    <value>Move previous</value>
   </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;bindingNavigator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingNavigator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="dataGridViewTextBoxColumn5.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="budgetButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>619, 214</value>
+  <data name="sortByPriceButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
     <value>ItemID</value>
@@ -10088,11 +10085,14 @@
   <data name="&gt;&gt;bindingNavigatorSeparator1.Name" xml:space="preserve">
     <value>bindingNavigatorSeparator1</value>
   </data>
+  <data name="tKNPcPartsDBDataGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="&gt;&gt;tKNPcPartsDBTableAdapter.Type" xml:space="preserve">
     <value>TKNPCParts_Layout.TKNPcPartsDataSetTableAdapters.TKNPcPartsDBTableAdapter, TKNPcPartsDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>11</value>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="graphicsCardButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 396</value>
@@ -10103,8 +10103,8 @@
   <data name="&gt;&gt;dataGridViewTextBoxColumn6.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;searchDesc.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="motherboardButton.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
   </data>
   <data name="searchDesc.Location" type="System.Drawing.Point, System.Drawing">
     <value>128, 314</value>
@@ -10118,20 +10118,20 @@
   <data name="&gt;&gt;processorButton.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="budgetButton.Text" xml:space="preserve">
-    <value>Budget Build</value>
+  <data name="graphicsCardButton.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
   </data>
   <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 25</value>
   </data>
-  <data name="peripheralsButton.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
+  <data name="&gt;&gt;searchLabel.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="searchDesc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="searchLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
   </data>
   <data name="bindingNavigatorMoveLastItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -10156,7 +10156,7 @@
   <data name="searchDescButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>594, 308</value>
   </data>
-  <data name="tKNPcPartsDBDataGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="motherboardButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
   <data name="motherboardButton.Size" type="System.Drawing.Size, System.Drawing">
@@ -10165,8 +10165,8 @@
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
-  <data name="&gt;&gt;searchDesc.Name" xml:space="preserve">
-    <value>searchDesc</value>
+  <data name="searchNameButton.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
   </data>
   <data name="&gt;&gt;toolStripButton1.Name" xml:space="preserve">
     <value>toolStripButton1</value>
@@ -10177,26 +10177,26 @@
   <data name="&gt;&gt;processorButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="searchNameButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="processorButton.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
   </data>
-  <data name="&gt;&gt;motherboardButton.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
   </data>
-  <data name="&gt;&gt;searchDescButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="budgetButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 214</value>
   </data>
   <data name="&gt;&gt;tableAdapterManager.Name" xml:space="preserve">
     <value>tableAdapterManager</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="allItemsButton.Text" xml:space="preserve">
     <value>Show all Items</value>
   </data>
-  <data name="logoBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 110</value>
+  <data name="&gt;&gt;toolStripButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;bindingNavigator1.Name" xml:space="preserve">
     <value>bindingNavigator1</value>
@@ -10204,8 +10204,8 @@
   <data name="highEndButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 33</value>
   </data>
-  <data name="inputName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="&gt;&gt;graphicsCardButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <metadata name="tKNPcPartsDBBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>808, 17</value>
@@ -10225,14 +10225,14 @@
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>25</value>
+  <metadata name="bindingNavigator1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>224, 58</value>
   </metadata>
   <metadata name="tKNPcPartsDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>625, 17</value>
   </metadata>
-  <metadata name="bindingNavigator1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>224, 58</value>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
   </metadata>
   <metadata name="tableAdapterManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 58</value>
