@@ -120,5 +120,28 @@ namespace TKNPCParts_Layout
         {
             openNewForm(new Cart());
         }
+
+        private void LanguageToolStripComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var changeLanguage = new ChangeLanguage();
+
+            switch (LanguageToolStripComboBox.SelectedIndex)
+            {
+                case 0:
+                    changeLanguage.UpdateConfig("language", "en");
+                    Application.Restart();
+                    break;
+
+                case 1:
+                    changeLanguage.UpdateConfig("language", "fr-CA");
+                    Application.Restart();
+                    break;
+
+                case 2:
+                    changeLanguage.UpdateConfig("language", "es-MX");
+                    Application.Restart();
+                    break;
+            }
+        }
     }
 }

@@ -57,7 +57,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
@@ -73,7 +72,9 @@
             this.button4 = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.intelPanel.SuspendLayout();
             this.groupBox3080.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3080)).BeginInit();
@@ -85,14 +86,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.nvidiaPictureBox4090)).BeginInit();
             this.amdPanel.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // intelPanel
@@ -116,9 +118,9 @@
             this.intelPanel.Controls.Add(this.addToCartButton1);
             this.intelPanel.Controls.Add(this.groupBox4090);
             this.intelPanel.Location = new System.Drawing.Point(9, 41);
-            this.intelPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.intelPanel.Margin = new System.Windows.Forms.Padding(2);
             this.intelPanel.Name = "intelPanel";
-            this.intelPanel.Size = new System.Drawing.Size(809, 260);
+            this.intelPanel.Size = new System.Drawing.Size(809, 269);
             this.intelPanel.TabIndex = 20;
             // 
             // priceLabel4
@@ -150,7 +152,7 @@
             this.addToCartButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addToCartButton4.ForeColor = System.Drawing.Color.White;
             this.addToCartButton4.Location = new System.Drawing.Point(772, 214);
-            this.addToCartButton4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.addToCartButton4.Margin = new System.Windows.Forms.Padding(2);
             this.addToCartButton4.Name = "addToCartButton4";
             this.addToCartButton4.Size = new System.Drawing.Size(82, 32);
             this.addToCartButton4.TabIndex = 15;
@@ -175,9 +177,9 @@
             this.groupBox3080.Controls.Add(this.pictureBox3080);
             this.groupBox3080.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3080.Location = new System.Drawing.Point(710, 20);
-            this.groupBox3080.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3080.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3080.Name = "groupBox3080";
-            this.groupBox3080.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3080.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox3080.Size = new System.Drawing.Size(208, 176);
             this.groupBox3080.TabIndex = 14;
             this.groupBox3080.TabStop = false;
@@ -187,7 +189,7 @@
             // 
             this.pictureBox3080.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3080.Image")));
             this.pictureBox3080.Location = new System.Drawing.Point(4, 17);
-            this.pictureBox3080.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3080.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3080.Name = "pictureBox3080";
             this.pictureBox3080.Size = new System.Drawing.Size(199, 154);
             this.pictureBox3080.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -223,7 +225,7 @@
             this.addToCartButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addToCartButton3.ForeColor = System.Drawing.Color.White;
             this.addToCartButton3.Location = new System.Drawing.Point(548, 214);
-            this.addToCartButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.addToCartButton3.Margin = new System.Windows.Forms.Padding(2);
             this.addToCartButton3.Name = "addToCartButton3";
             this.addToCartButton3.Size = new System.Drawing.Size(82, 32);
             this.addToCartButton3.TabIndex = 11;
@@ -236,9 +238,9 @@
             this.groupBox3090.Controls.Add(this.nvidiaPictureBox3090Ti);
             this.groupBox3090.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3090.Location = new System.Drawing.Point(479, 20);
-            this.groupBox3090.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3090.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3090.Name = "groupBox3090";
-            this.groupBox3090.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3090.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox3090.Size = new System.Drawing.Size(208, 176);
             this.groupBox3090.TabIndex = 10;
             this.groupBox3090.TabStop = false;
@@ -248,7 +250,7 @@
             // 
             this.nvidiaPictureBox3090Ti.Image = ((System.Drawing.Image)(resources.GetObject("nvidiaPictureBox3090Ti.Image")));
             this.nvidiaPictureBox3090Ti.Location = new System.Drawing.Point(4, 17);
-            this.nvidiaPictureBox3090Ti.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nvidiaPictureBox3090Ti.Margin = new System.Windows.Forms.Padding(2);
             this.nvidiaPictureBox3090Ti.Name = "nvidiaPictureBox3090Ti";
             this.nvidiaPictureBox3090Ti.Size = new System.Drawing.Size(199, 154);
             this.nvidiaPictureBox3090Ti.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -284,7 +286,7 @@
             this.addToCartButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addToCartButton2.ForeColor = System.Drawing.Color.White;
             this.addToCartButton2.Location = new System.Drawing.Point(307, 214);
-            this.addToCartButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.addToCartButton2.Margin = new System.Windows.Forms.Padding(2);
             this.addToCartButton2.Name = "addToCartButton2";
             this.addToCartButton2.Size = new System.Drawing.Size(82, 32);
             this.addToCartButton2.TabIndex = 7;
@@ -297,9 +299,9 @@
             this.groupBox4080.Controls.Add(this.nvidiaPictureBox4080);
             this.groupBox4080.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4080.Location = new System.Drawing.Point(248, 20);
-            this.groupBox4080.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4080.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4080.Name = "groupBox4080";
-            this.groupBox4080.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4080.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox4080.Size = new System.Drawing.Size(208, 176);
             this.groupBox4080.TabIndex = 6;
             this.groupBox4080.TabStop = false;
@@ -309,7 +311,7 @@
             // 
             this.nvidiaPictureBox4080.Image = ((System.Drawing.Image)(resources.GetObject("nvidiaPictureBox4080.Image")));
             this.nvidiaPictureBox4080.Location = new System.Drawing.Point(5, 24);
-            this.nvidiaPictureBox4080.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nvidiaPictureBox4080.Margin = new System.Windows.Forms.Padding(2);
             this.nvidiaPictureBox4080.Name = "nvidiaPictureBox4080";
             this.nvidiaPictureBox4080.Size = new System.Drawing.Size(199, 154);
             this.nvidiaPictureBox4080.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -345,7 +347,7 @@
             this.addToCartButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addToCartButton1.ForeColor = System.Drawing.Color.White;
             this.addToCartButton1.Location = new System.Drawing.Point(76, 214);
-            this.addToCartButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.addToCartButton1.Margin = new System.Windows.Forms.Padding(2);
             this.addToCartButton1.Name = "addToCartButton1";
             this.addToCartButton1.Size = new System.Drawing.Size(82, 32);
             this.addToCartButton1.TabIndex = 3;
@@ -358,9 +360,9 @@
             this.groupBox4090.Controls.Add(this.nvidiaPictureBox4090);
             this.groupBox4090.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4090.Location = new System.Drawing.Point(15, 20);
-            this.groupBox4090.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4090.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4090.Name = "groupBox4090";
-            this.groupBox4090.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4090.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox4090.Size = new System.Drawing.Size(208, 176);
             this.groupBox4090.TabIndex = 2;
             this.groupBox4090.TabStop = false;
@@ -370,7 +372,7 @@
             // 
             this.nvidiaPictureBox4090.Image = ((System.Drawing.Image)(resources.GetObject("nvidiaPictureBox4090.Image")));
             this.nvidiaPictureBox4090.Location = new System.Drawing.Point(4, 19);
-            this.nvidiaPictureBox4090.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nvidiaPictureBox4090.Margin = new System.Windows.Forms.Padding(2);
             this.nvidiaPictureBox4090.Name = "nvidiaPictureBox4090";
             this.nvidiaPictureBox4090.Size = new System.Drawing.Size(203, 153);
             this.nvidiaPictureBox4090.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -398,9 +400,9 @@
             this.amdPanel.Controls.Add(this.button4);
             this.amdPanel.Controls.Add(this.groupBox4);
             this.amdPanel.Location = new System.Drawing.Point(9, 342);
-            this.amdPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.amdPanel.Margin = new System.Windows.Forms.Padding(2);
             this.amdPanel.Name = "amdPanel";
-            this.amdPanel.Size = new System.Drawing.Size(809, 260);
+            this.amdPanel.Size = new System.Drawing.Size(809, 273);
             this.amdPanel.TabIndex = 22;
             // 
             // label1
@@ -444,7 +446,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(772, 214);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(82, 32);
             this.button1.TabIndex = 15;
@@ -454,27 +456,16 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.pictureBox1);
+            this.groupBox1.Controls.Add(this.pictureBox6);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(710, 20);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(208, 176);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ryzen 3";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(4, 17);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(199, 154);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // label3
             // 
@@ -505,7 +496,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(548, 214);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(82, 32);
             this.button2.TabIndex = 11;
@@ -518,9 +509,9 @@
             this.groupBox2.Controls.Add(this.pictureBox2);
             this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(479, 20);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(208, 176);
             this.groupBox2.TabIndex = 10;
             this.groupBox2.TabStop = false;
@@ -530,7 +521,7 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(4, 17);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(199, 154);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -566,7 +557,7 @@
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(307, 214);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(82, 32);
             this.button3.TabIndex = 7;
@@ -579,9 +570,9 @@
             this.groupBox3.Controls.Add(this.pictureBox3);
             this.groupBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(248, 20);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox3.Size = new System.Drawing.Size(208, 176);
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
@@ -591,7 +582,7 @@
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(4, 24);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(199, 154);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -627,7 +618,7 @@
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(76, 214);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(82, 32);
             this.button4.TabIndex = 3;
@@ -640,9 +631,9 @@
             this.groupBox4.Controls.Add(this.pictureBox4);
             this.groupBox4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.Location = new System.Drawing.Point(15, 20);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox4.Size = new System.Drawing.Size(208, 176);
             this.groupBox4.TabIndex = 2;
             this.groupBox4.TabStop = false;
@@ -652,30 +643,52 @@
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(4, 17);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(203, 153);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(4, 17);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(199, 154);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // pictureBox5
             // 
             this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(838, 25);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(98, 89);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 20;
             this.pictureBox5.TabStop = false;
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(5, 17);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(199, 154);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 1;
+            this.pictureBox6.TabStop = false;
+            // 
             // Processors
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(936, 612);
+            this.ClientSize = new System.Drawing.Size(936, 711);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.amdPanel);
             this.Controls.Add(this.intelPanel);
@@ -697,14 +710,15 @@
             this.amdPanel.ResumeLayout(false);
             this.amdPanel.PerformLayout();
             this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.groupBox4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -757,5 +771,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label amdLabel;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
     }
 }

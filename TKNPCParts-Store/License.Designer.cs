@@ -34,10 +34,11 @@
             // 
             // licenseBox
             // 
-            this.licenseBox.Location = new System.Drawing.Point(144, 95);
+            this.licenseBox.Location = new System.Drawing.Point(108, 77);
+            this.licenseBox.Margin = new System.Windows.Forms.Padding(2);
             this.licenseBox.Name = "licenseBox";
             this.licenseBox.ReadOnly = true;
-            this.licenseBox.Size = new System.Drawing.Size(512, 467);
+            this.licenseBox.Size = new System.Drawing.Size(385, 380);
             this.licenseBox.TabIndex = 6;
             this.licenseBox.Text = "";
             // 
@@ -45,17 +46,18 @@
             // 
             this.licenseTitle.AutoSize = true;
             this.licenseTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.licenseTitle.Location = new System.Drawing.Point(333, 42);
+            this.licenseTitle.Location = new System.Drawing.Point(250, 34);
+            this.licenseTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.licenseTitle.Name = "licenseTitle";
-            this.licenseTitle.Size = new System.Drawing.Size(120, 32);
+            this.licenseTitle.Size = new System.Drawing.Size(94, 26);
             this.licenseTitle.TabIndex = 7;
             this.licenseTitle.Text = "License";
             // 
             // License
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 726);
+            this.ClientSize = new System.Drawing.Size(600, 711);
             this.Controls.Add(this.licenseTitle);
             this.Controls.Add(this.licenseBox);
             this.Name = "License";

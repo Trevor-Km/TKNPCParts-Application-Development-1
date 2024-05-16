@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -18,6 +20,11 @@ namespace TKNPCParts_Layout
         }
         public static void Main(string[] args)
         {
+            var language = ConfigurationManager.AppSettings["language"];
+
+            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(language);
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(language);
+
             Application.Run(new MainPage());
         }
 

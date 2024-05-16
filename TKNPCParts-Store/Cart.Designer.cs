@@ -112,7 +112,7 @@
             // 
             // checkoutButton
             // 
-            this.checkoutButton.Location = new System.Drawing.Point(285, 547);
+            this.checkoutButton.Location = new System.Drawing.Point(265, 507);
             this.checkoutButton.Name = "checkoutButton";
             this.checkoutButton.Size = new System.Drawing.Size(145, 43);
             this.checkoutButton.TabIndex = 44;
@@ -132,7 +132,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(695, 611);
+            this.ClientSize = new System.Drawing.Size(695, 711);
             this.Controls.Add(this.clearCartButton);
             this.Controls.Add(this.totalTextBox);
             this.Controls.Add(this.totalLabel);

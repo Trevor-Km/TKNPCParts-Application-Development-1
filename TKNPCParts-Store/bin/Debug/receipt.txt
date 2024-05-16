@@ -1,0 +1,12 @@
+Webstore Transaction Receipt
+Wednesday, May 15, 2024 9:55:08 PM
+
+Items:
+- Intel Core i9: Processor - $1050
+- Samsung 980 PRO: SSD - $500
+- MSI PRO Z790-A MAX: Motherboard - $350
+- NVIDIA RTX 4090: Graphics Card - $2650
+- Steelseries AEROX 9: Mouse - $175
+- Logitech G513: Keyboard - $170
+
+Total Price: $4895

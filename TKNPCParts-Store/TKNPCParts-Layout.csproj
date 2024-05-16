@@ -52,6 +52,7 @@
     <Reference Include="System">
       <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
     </Reference>
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
@@ -75,6 +76,7 @@
     <Compile Include="Cart.Designer.cs">
       <DependentUpon>Cart.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChangeLanguage.cs" />
     <Compile Include="Clock.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -148,6 +150,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AllItems.es-MX.resx">
+      <DependentUpon>AllItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllItems.fr-CA.resx">
+      <DependentUpon>AllItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllItems.fr-CM.resx">
+      <DependentUpon>AllItems.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AllItems.resx">
       <DependentUpon>AllItems.cs</DependentUpon>
     </EmbeddedResource>
@@ -157,14 +168,32 @@
     <EmbeddedResource Include="Clock.resx">
       <DependentUpon>Clock.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GraphicsCards.es-MX.resx">
+      <DependentUpon>GraphicsCards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphicsCards.fr-CA.resx">
+      <DependentUpon>GraphicsCards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphicsCards.fr.resx">
+      <DependentUpon>GraphicsCards.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GraphicsCards.resx">
       <DependentUpon>GraphicsCards.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="License.resx">
       <DependentUpon>License.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.es-MX.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.fr-CA.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Motherboards.fr-CA.resx">
+      <DependentUpon>Motherboards.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Motherboards.resx">
       <DependentUpon>Motherboards.cs</DependentUpon>
@@ -181,6 +210,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Storage-Devices.resx">
       <DependentUpon>Storage-Devices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TKNPCPart-Layout.es-MX.resx">
+      <DependentUpon>TKNPCPart-Layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TKNPCPart-Layout.fr-CA.resx">
+      <DependentUpon>TKNPCPart-Layout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TKNPCPart-Layout.resx">
       <DependentUpon>TKNPCPart-Layout.cs</DependentUpon>

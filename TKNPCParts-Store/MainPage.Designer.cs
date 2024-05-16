@@ -64,7 +64,7 @@
             this.addToCartButton21 = new System.Windows.Forms.Button();
             this.addToCartButton20 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.groupBoxNew4090 = new System.Windows.Forms.GroupBox();
             this.pictureBox3080 = new System.Windows.Forms.PictureBox();
             this.priceLabel3 = new System.Windows.Forms.Label();
@@ -82,6 +82,7 @@
             this.addToCartButton17 = new System.Windows.Forms.Button();
             this.groupBoxi9 = new System.Windows.Forms.GroupBox();
             this.nvidiaPictureBox4090 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.newLabel = new System.Windows.Forms.Label();
             this.featuredPanel.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -96,7 +97,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.newPanel.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.groupBoxNew4090.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3080)).BeginInit();
             this.groupBoxi5.SuspendLayout();
@@ -105,11 +106,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.nvidiaPictureBox4080)).BeginInit();
             this.groupBoxi9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nvidiaPictureBox4090)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // featuredPanel
             // 
-            this.featuredPanel.AutoScroll = true;
+            resources.ApplyResources(this.featuredPanel, "featuredPanel");
             this.featuredPanel.Controls.Add(this.label3);
             this.featuredPanel.Controls.Add(this.label4);
             this.featuredPanel.Controls.Add(this.label5);
@@ -130,333 +132,177 @@
             this.featuredPanel.Controls.Add(this.label13);
             this.featuredPanel.Controls.Add(this.button5);
             this.featuredPanel.Controls.Add(this.groupBox6);
-            this.featuredPanel.Location = new System.Drawing.Point(16, 341);
-            this.featuredPanel.Margin = new System.Windows.Forms.Padding(2);
             this.featuredPanel.Name = "featuredPanel";
-            this.featuredPanel.Size = new System.Drawing.Size(993, 266);
-            this.featuredPanel.TabIndex = 28;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(1092, 198);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 17);
-            this.label3.TabIndex = 26;
-            this.label3.Text = "$500";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(865, 197);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 17);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "$2610";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(941, 193);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(102, 19);
-            this.label5.TabIndex = 25;
-            this.label5.Text = "Motherboard";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(714, 192);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(103, 19);
-            this.label6.TabIndex = 16;
-            this.label6.Text = "Graphics Card";
             // 
             // button1
             // 
+            resources.ApplyResources(this.button1, "button1");
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(142)))), ((int)(((byte)(20)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(999, 215);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(82, 32);
-            this.button1.TabIndex = 24;
-            this.button1.Text = "Add to Cart";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
+            resources.ApplyResources(this.button2, "button2");
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(142)))), ((int)(((byte)(20)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(772, 214);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(82, 32);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Add to Cart";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // groupBox2
             // 
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.pictureBox2);
-            this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(937, 20);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox2.Size = new System.Drawing.Size(208, 178);
-            this.groupBox2.TabIndex = 23;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "MPG Z790 Carbon ";
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(2, 17);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(199, 154);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
             // groupBox3
             // 
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Controls.Add(this.pictureBox3);
-            this.groupBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(710, 20);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox3.Size = new System.Drawing.Size(208, 176);
-            this.groupBox3.TabIndex = 14;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "RTX 4080 SUPER";
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(4, 17);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.pictureBox3, "pictureBox3");
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(199, 154);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(634, 197);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(40, 17);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "$400";
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(484, 192);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label8, "label8");
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 19);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "SSD";
             // 
             // button3
             // 
+            resources.ApplyResources(this.button3, "button3");
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(142)))), ((int)(((byte)(20)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(548, 214);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(82, 32);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "Add to Cart";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // groupBox4
             // 
+            resources.ApplyResources(this.groupBox4, "groupBox4");
             this.groupBox4.Controls.Add(this.pictureBox4);
-            this.groupBox4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(479, 20);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox4.Size = new System.Drawing.Size(208, 176);
-            this.groupBox4.TabIndex = 10;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Western Digital BLUE SN550";
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(4, 17);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.pictureBox4, "pictureBox4");
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(199, 154);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(403, 197);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label10, "label10");
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(40, 17);
-            this.label10.TabIndex = 9;
-            this.label10.Text = "$500";
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(252, 192);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label11, "label11");
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(75, 19);
-            this.label11.TabIndex = 8;
-            this.label11.Text = "Processor";
             // 
             // button4
             // 
+            resources.ApplyResources(this.button4, "button4");
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(142)))), ((int)(((byte)(20)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(307, 214);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(82, 32);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "Add to Cart";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // groupBox5
             // 
+            resources.ApplyResources(this.groupBox5, "groupBox5");
             this.groupBox5.Controls.Add(this.pictureBox5);
-            this.groupBox5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.Location = new System.Drawing.Point(248, 20);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox5.Size = new System.Drawing.Size(208, 176);
-            this.groupBox5.TabIndex = 6;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Ryzen 5";
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(5, 24);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.pictureBox5, "pictureBox5");
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(199, 154);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(170, 197);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label12, "label12");
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(40, 17);
-            this.label12.TabIndex = 5;
-            this.label12.Text = "$170";
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(20, 192);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label13, "label13");
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(75, 19);
-            this.label13.TabIndex = 4;
-            this.label13.Text = "Keyboard";
             // 
             // button5
             // 
+            resources.ApplyResources(this.button5, "button5");
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(142)))), ((int)(((byte)(20)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(76, 214);
-            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(82, 32);
-            this.button5.TabIndex = 3;
-            this.button5.Text = "Add to Cart";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // groupBox6
             // 
+            resources.ApplyResources(this.groupBox6, "groupBox6");
             this.groupBox6.Controls.Add(this.pictureBox6);
-            this.groupBox6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox6.Location = new System.Drawing.Point(15, 20);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox6.Size = new System.Drawing.Size(208, 176);
-            this.groupBox6.TabIndex = 2;
             this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Logitech G513 Carbon";
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.InitialImage = null;
-            this.pictureBox6.Location = new System.Drawing.Point(4, 19);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.pictureBox6, "pictureBox6");
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(203, 153);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
             // 
             // featuredLabel
             // 
-            this.featuredLabel.AutoSize = true;
+            resources.ApplyResources(this.featuredLabel, "featuredLabel");
             this.featuredLabel.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.featuredLabel.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.featuredLabel.Location = new System.Drawing.Point(21, 322);
-            this.featuredLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.featuredLabel.Name = "featuredLabel";
-            this.featuredLabel.Size = new System.Drawing.Size(72, 18);
-            this.featuredLabel.TabIndex = 27;
-            this.featuredLabel.Text = "Featured";
             // 
             // newPanel
             // 
-            this.newPanel.AutoScroll = true;
+            resources.ApplyResources(this.newPanel, "newPanel");
             this.newPanel.Controls.Add(this.label1);
             this.newPanel.Controls.Add(this.priceLabel4);
             this.newPanel.Controls.Add(this.label2);
@@ -477,341 +323,189 @@
             this.newPanel.Controls.Add(this.descLabel);
             this.newPanel.Controls.Add(this.addToCartButton17);
             this.newPanel.Controls.Add(this.groupBoxi9);
-            this.newPanel.Location = new System.Drawing.Point(9, 49);
-            this.newPanel.Margin = new System.Windows.Forms.Padding(2);
             this.newPanel.Name = "newPanel";
-            this.newPanel.Size = new System.Drawing.Size(1000, 266);
-            this.newPanel.TabIndex = 26;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(1092, 198);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 17);
-            this.label1.TabIndex = 26;
-            this.label1.Text = "$175";
             // 
             // priceLabel4
             // 
-            this.priceLabel4.AutoSize = true;
-            this.priceLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.priceLabel4.Location = new System.Drawing.Point(865, 197);
-            this.priceLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.priceLabel4, "priceLabel4");
             this.priceLabel4.Name = "priceLabel4";
-            this.priceLabel4.Size = new System.Drawing.Size(48, 17);
-            this.priceLabel4.TabIndex = 17;
-            this.priceLabel4.Text = "$2650";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(941, 193);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 19);
-            this.label2.TabIndex = 25;
-            this.label2.Text = "Mouse";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(714, 192);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label9, "label9");
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(103, 19);
-            this.label9.TabIndex = 16;
-            this.label9.Text = "Graphics Card";
             // 
             // addToCartButton21
             // 
+            resources.ApplyResources(this.addToCartButton21, "addToCartButton21");
             this.addToCartButton21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(142)))), ((int)(((byte)(20)))));
-            this.addToCartButton21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addToCartButton21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addToCartButton21.ForeColor = System.Drawing.Color.White;
-            this.addToCartButton21.Location = new System.Drawing.Point(999, 215);
-            this.addToCartButton21.Margin = new System.Windows.Forms.Padding(2);
             this.addToCartButton21.Name = "addToCartButton21";
-            this.addToCartButton21.Size = new System.Drawing.Size(82, 32);
-            this.addToCartButton21.TabIndex = 24;
-            this.addToCartButton21.Text = "Add to Cart";
             this.addToCartButton21.UseVisualStyleBackColor = false;
             this.addToCartButton21.Click += new System.EventHandler(this.addToCartButton21_Click);
             // 
             // addToCartButton20
             // 
+            resources.ApplyResources(this.addToCartButton20, "addToCartButton20");
             this.addToCartButton20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(142)))), ((int)(((byte)(20)))));
-            this.addToCartButton20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addToCartButton20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addToCartButton20.ForeColor = System.Drawing.Color.White;
-            this.addToCartButton20.Location = new System.Drawing.Point(772, 214);
-            this.addToCartButton20.Margin = new System.Windows.Forms.Padding(2);
             this.addToCartButton20.Name = "addToCartButton20";
-            this.addToCartButton20.Size = new System.Drawing.Size(82, 32);
-            this.addToCartButton20.TabIndex = 15;
-            this.addToCartButton20.Text = "Add to Cart";
             this.addToCartButton20.UseVisualStyleBackColor = false;
             this.addToCartButton20.Click += new System.EventHandler(this.addToCartButton20_Click);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.pictureBox1);
-            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(937, 21);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Controls.Add(this.pictureBox7);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(208, 176);
-            this.groupBox1.TabIndex = 23;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Steelseries AEROX 9";
             // 
-            // pictureBox1
+            // pictureBox7
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(4, 17);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(199, 154);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            resources.ApplyResources(this.pictureBox7, "pictureBox7");
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.TabStop = false;
             // 
             // groupBoxNew4090
             // 
+            resources.ApplyResources(this.groupBoxNew4090, "groupBoxNew4090");
             this.groupBoxNew4090.Controls.Add(this.pictureBox3080);
-            this.groupBoxNew4090.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBoxNew4090.Location = new System.Drawing.Point(710, 20);
-            this.groupBoxNew4090.Margin = new System.Windows.Forms.Padding(2);
             this.groupBoxNew4090.Name = "groupBoxNew4090";
-            this.groupBoxNew4090.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBoxNew4090.Size = new System.Drawing.Size(208, 176);
-            this.groupBoxNew4090.TabIndex = 14;
             this.groupBoxNew4090.TabStop = false;
-            this.groupBoxNew4090.Text = "NVIDIA RTX 4090";
             // 
             // pictureBox3080
             // 
-            this.pictureBox3080.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3080.Image")));
-            this.pictureBox3080.Location = new System.Drawing.Point(4, 17);
-            this.pictureBox3080.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.pictureBox3080, "pictureBox3080");
             this.pictureBox3080.Name = "pictureBox3080";
-            this.pictureBox3080.Size = new System.Drawing.Size(199, 154);
-            this.pictureBox3080.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3080.TabIndex = 0;
             this.pictureBox3080.TabStop = false;
             // 
             // priceLabel3
             // 
-            this.priceLabel3.AutoSize = true;
-            this.priceLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.priceLabel3.Location = new System.Drawing.Point(634, 197);
-            this.priceLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.priceLabel3, "priceLabel3");
             this.priceLabel3.Name = "priceLabel3";
-            this.priceLabel3.Size = new System.Drawing.Size(40, 17);
-            this.priceLabel3.TabIndex = 13;
-            this.priceLabel3.Text = "$500";
             // 
             // descLabel3
             // 
-            this.descLabel3.AutoSize = true;
-            this.descLabel3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.descLabel3.Location = new System.Drawing.Point(484, 192);
-            this.descLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.descLabel3, "descLabel3");
             this.descLabel3.Name = "descLabel3";
-            this.descLabel3.Size = new System.Drawing.Size(35, 19);
-            this.descLabel3.TabIndex = 12;
-            this.descLabel3.Text = "SSD";
             // 
             // addToCartButton19
             // 
+            resources.ApplyResources(this.addToCartButton19, "addToCartButton19");
             this.addToCartButton19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(142)))), ((int)(((byte)(20)))));
-            this.addToCartButton19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addToCartButton19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addToCartButton19.ForeColor = System.Drawing.Color.White;
-            this.addToCartButton19.Location = new System.Drawing.Point(548, 214);
-            this.addToCartButton19.Margin = new System.Windows.Forms.Padding(2);
             this.addToCartButton19.Name = "addToCartButton19";
-            this.addToCartButton19.Size = new System.Drawing.Size(82, 32);
-            this.addToCartButton19.TabIndex = 11;
-            this.addToCartButton19.Text = "Add to Cart";
             this.addToCartButton19.UseVisualStyleBackColor = false;
             this.addToCartButton19.Click += new System.EventHandler(this.addToCartButton19_Click);
             // 
             // groupBoxi5
             // 
+            resources.ApplyResources(this.groupBoxi5, "groupBoxi5");
             this.groupBoxi5.Controls.Add(this.nvidiaPictureBox3090Ti);
-            this.groupBoxi5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBoxi5.Location = new System.Drawing.Point(479, 20);
-            this.groupBoxi5.Margin = new System.Windows.Forms.Padding(2);
             this.groupBoxi5.Name = "groupBoxi5";
-            this.groupBoxi5.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBoxi5.Size = new System.Drawing.Size(208, 176);
-            this.groupBoxi5.TabIndex = 10;
             this.groupBoxi5.TabStop = false;
-            this.groupBoxi5.Text = "Samsung 980 PRO";
             // 
             // nvidiaPictureBox3090Ti
             // 
-            this.nvidiaPictureBox3090Ti.Image = ((System.Drawing.Image)(resources.GetObject("nvidiaPictureBox3090Ti.Image")));
-            this.nvidiaPictureBox3090Ti.Location = new System.Drawing.Point(4, 17);
-            this.nvidiaPictureBox3090Ti.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.nvidiaPictureBox3090Ti, "nvidiaPictureBox3090Ti");
             this.nvidiaPictureBox3090Ti.Name = "nvidiaPictureBox3090Ti";
-            this.nvidiaPictureBox3090Ti.Size = new System.Drawing.Size(199, 154);
-            this.nvidiaPictureBox3090Ti.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.nvidiaPictureBox3090Ti.TabIndex = 0;
             this.nvidiaPictureBox3090Ti.TabStop = false;
             // 
             // priceLabel2
             // 
-            this.priceLabel2.AutoSize = true;
-            this.priceLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.priceLabel2.Location = new System.Drawing.Point(403, 197);
-            this.priceLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.priceLabel2, "priceLabel2");
             this.priceLabel2.Name = "priceLabel2";
-            this.priceLabel2.Size = new System.Drawing.Size(40, 17);
-            this.priceLabel2.TabIndex = 9;
-            this.priceLabel2.Text = "$350";
             // 
             // descLabel2
             // 
-            this.descLabel2.AutoSize = true;
-            this.descLabel2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.descLabel2.Location = new System.Drawing.Point(252, 192);
-            this.descLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.descLabel2, "descLabel2");
             this.descLabel2.Name = "descLabel2";
-            this.descLabel2.Size = new System.Drawing.Size(102, 19);
-            this.descLabel2.TabIndex = 8;
-            this.descLabel2.Text = "Motherboard";
             // 
             // addToCartButton18
             // 
+            resources.ApplyResources(this.addToCartButton18, "addToCartButton18");
             this.addToCartButton18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(142)))), ((int)(((byte)(20)))));
-            this.addToCartButton18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addToCartButton18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addToCartButton18.ForeColor = System.Drawing.Color.White;
-            this.addToCartButton18.Location = new System.Drawing.Point(307, 214);
-            this.addToCartButton18.Margin = new System.Windows.Forms.Padding(2);
             this.addToCartButton18.Name = "addToCartButton18";
-            this.addToCartButton18.Size = new System.Drawing.Size(82, 32);
-            this.addToCartButton18.TabIndex = 7;
-            this.addToCartButton18.Text = "Add to Cart";
             this.addToCartButton18.UseVisualStyleBackColor = false;
             this.addToCartButton18.Click += new System.EventHandler(this.addToCartButton18_Click);
             // 
             // groupBoxz790_Motherboard
             // 
+            resources.ApplyResources(this.groupBoxz790_Motherboard, "groupBoxz790_Motherboard");
             this.groupBoxz790_Motherboard.Controls.Add(this.nvidiaPictureBox4080);
-            this.groupBoxz790_Motherboard.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBoxz790_Motherboard.Location = new System.Drawing.Point(248, 20);
-            this.groupBoxz790_Motherboard.Margin = new System.Windows.Forms.Padding(2);
             this.groupBoxz790_Motherboard.Name = "groupBoxz790_Motherboard";
-            this.groupBoxz790_Motherboard.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBoxz790_Motherboard.Size = new System.Drawing.Size(208, 176);
-            this.groupBoxz790_Motherboard.TabIndex = 6;
             this.groupBoxz790_Motherboard.TabStop = false;
-            this.groupBoxz790_Motherboard.Text = "MSI PRO Z790-A MAX ";
             // 
             // nvidiaPictureBox4080
             // 
-            this.nvidiaPictureBox4080.Image = ((System.Drawing.Image)(resources.GetObject("nvidiaPictureBox4080.Image")));
-            this.nvidiaPictureBox4080.Location = new System.Drawing.Point(5, 24);
-            this.nvidiaPictureBox4080.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.nvidiaPictureBox4080, "nvidiaPictureBox4080");
             this.nvidiaPictureBox4080.Name = "nvidiaPictureBox4080";
-            this.nvidiaPictureBox4080.Size = new System.Drawing.Size(199, 154);
-            this.nvidiaPictureBox4080.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.nvidiaPictureBox4080.TabIndex = 0;
             this.nvidiaPictureBox4080.TabStop = false;
             // 
             // priceLabel
             // 
-            this.priceLabel.AutoSize = true;
-            this.priceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.priceLabel.Location = new System.Drawing.Point(170, 197);
-            this.priceLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.priceLabel, "priceLabel");
             this.priceLabel.Name = "priceLabel";
-            this.priceLabel.Size = new System.Drawing.Size(48, 17);
-            this.priceLabel.TabIndex = 5;
-            this.priceLabel.Text = "$1050";
             // 
             // descLabel
             // 
-            this.descLabel.AutoSize = true;
-            this.descLabel.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.descLabel.Location = new System.Drawing.Point(20, 192);
-            this.descLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.descLabel, "descLabel");
             this.descLabel.Name = "descLabel";
-            this.descLabel.Size = new System.Drawing.Size(75, 19);
-            this.descLabel.TabIndex = 4;
-            this.descLabel.Text = "Processor";
             // 
             // addToCartButton17
             // 
+            resources.ApplyResources(this.addToCartButton17, "addToCartButton17");
             this.addToCartButton17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(142)))), ((int)(((byte)(20)))));
-            this.addToCartButton17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addToCartButton17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addToCartButton17.ForeColor = System.Drawing.Color.White;
-            this.addToCartButton17.Location = new System.Drawing.Point(76, 214);
-            this.addToCartButton17.Margin = new System.Windows.Forms.Padding(2);
             this.addToCartButton17.Name = "addToCartButton17";
-            this.addToCartButton17.Size = new System.Drawing.Size(82, 32);
-            this.addToCartButton17.TabIndex = 3;
-            this.addToCartButton17.Text = "Add to Cart";
             this.addToCartButton17.UseVisualStyleBackColor = false;
             this.addToCartButton17.Click += new System.EventHandler(this.addToCartButton17_Click);
             // 
             // groupBoxi9
             // 
+            resources.ApplyResources(this.groupBoxi9, "groupBoxi9");
             this.groupBoxi9.Controls.Add(this.nvidiaPictureBox4090);
-            this.groupBoxi9.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBoxi9.Location = new System.Drawing.Point(15, 20);
-            this.groupBoxi9.Margin = new System.Windows.Forms.Padding(2);
             this.groupBoxi9.Name = "groupBoxi9";
-            this.groupBoxi9.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBoxi9.Size = new System.Drawing.Size(208, 176);
-            this.groupBoxi9.TabIndex = 2;
             this.groupBoxi9.TabStop = false;
-            this.groupBoxi9.Text = "Intel Core i9";
             // 
             // nvidiaPictureBox4090
             // 
-            this.nvidiaPictureBox4090.Image = ((System.Drawing.Image)(resources.GetObject("nvidiaPictureBox4090.Image")));
-            this.nvidiaPictureBox4090.Location = new System.Drawing.Point(4, 19);
-            this.nvidiaPictureBox4090.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.nvidiaPictureBox4090, "nvidiaPictureBox4090");
             this.nvidiaPictureBox4090.Name = "nvidiaPictureBox4090";
-            this.nvidiaPictureBox4090.Size = new System.Drawing.Size(203, 153);
-            this.nvidiaPictureBox4090.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.nvidiaPictureBox4090.TabIndex = 0;
             this.nvidiaPictureBox4090.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
             // 
             // newLabel
             // 
-            this.newLabel.AutoSize = true;
+            resources.ApplyResources(this.newLabel, "newLabel");
             this.newLabel.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.newLabel.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.newLabel.Location = new System.Drawing.Point(14, 29);
-            this.newLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.newLabel.Name = "newLabel";
-            this.newLabel.Size = new System.Drawing.Size(42, 18);
-            this.newLabel.TabIndex = 25;
-            this.newLabel.Text = "NEW";
             // 
             // MainPage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1112, 612);
             this.Controls.Add(this.featuredPanel);
             this.Controls.Add(this.featuredLabel);
             this.Controls.Add(this.newPanel);
             this.Controls.Add(this.newLabel);
             this.Name = "MainPage";
-            this.Text = "MainPage";
             this.Controls.SetChildIndex(this.newLabel, 0);
             this.Controls.SetChildIndex(this.newPanel, 0);
             this.Controls.SetChildIndex(this.featuredLabel, 0);
@@ -831,7 +525,7 @@
             this.newPanel.ResumeLayout(false);
             this.newPanel.PerformLayout();
             this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.groupBoxNew4090.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3080)).EndInit();
             this.groupBoxi5.ResumeLayout(false);
@@ -840,6 +534,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nvidiaPictureBox4080)).EndInit();
             this.groupBoxi9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nvidiaPictureBox4090)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -901,5 +596,6 @@
         private System.Windows.Forms.PictureBox nvidiaPictureBox4090;
         private System.Windows.Forms.Label newLabel;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }
