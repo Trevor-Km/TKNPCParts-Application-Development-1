@@ -118,80 +118,86 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pCPartsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 23</value>
-  </data>
-  <data name="pCPartsToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Partes</value>
-  </data>
   <data name="mainToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>219, 26</value>
   </data>
   <data name="mainToolStripMenuItem.Text" xml:space="preserve">
     <value>P&amp;rincipal</value>
   </data>
   <data name="graphicsCardsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>219, 26</value>
   </data>
   <data name="graphicsCardsToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Tarjetas Graficas</value>
   </data>
   <data name="motherboardsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>219, 26</value>
   </data>
   <data name="motherboardsToolStripMenuItem.Text" xml:space="preserve">
     <value>Placas &amp;Base</value>
   </data>
   <data name="storageDevicesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>219, 26</value>
   </data>
   <data name="storageDevicesToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Unidades SSD</value>
   </data>
   <data name="peripheralsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>219, 26</value>
   </data>
   <data name="peripheralsToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Accesorios</value>
   </data>
   <data name="processorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>219, 26</value>
   </data>
   <data name="processorsToolStripMenuItem.Text" xml:space="preserve">
     <value>Unidades &amp;Centrales</value>
   </data>
   <data name="allItemsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>219, 26</value>
   </data>
   <data name="allItemsToolStripMenuItem.Text" xml:space="preserve">
     <value>T&amp;odos los Artículos</value>
   </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 6</value>
+    <value>216, 6</value>
   </data>
   <data name="cartToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>219, 26</value>
   </data>
   <data name="cartToolStripMenuItem.Text" xml:space="preserve">
     <value>C&amp;esta</value>
   </data>
-  <data name="informationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 23</value>
+  <data name="pCPartsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 28</value>
   </data>
-  <data name="informationToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Información</value>
+  <data name="pCPartsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Partes</value>
   </data>
   <data name="termsAndAgreementToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 22</value>
+    <value>227, 26</value>
   </data>
   <data name="termsAndAgreementToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Términos y acuerdos</value>
   </data>
   <data name="licenseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 22</value>
+    <value>227, 26</value>
   </data>
   <data name="licenseToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Licencia</value>
+  </data>
+  <data name="userManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 26</value>
+  </data>
+  <data name="userManualToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Manual de Usuario</value>
+  </data>
+  <data name="informationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 28</value>
+  </data>
+  <data name="informationToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Información</value>
   </data>
   <data name="toolStripTextBox1.Text" xml:space="preserve">
     <value>Idioma:</value>
@@ -199,8 +205,14 @@
   <data name="LanguageToolStripComboBox.Text" xml:space="preserve">
     <value>Spanish</value>
   </data>
+  <data name="darkModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 28</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Modo Oscuro</value>
+  </data>
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
+    <value>64, 28</value>
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Salida</value>
@@ -9384,5 +9396,8 @@
         xtc75mtG/2L7khT2NezfmmP2uYcpU4K/7U/3O9g/Mu39E/jCiWkResT0wvpEa3Zphh//af4/0+GZ+2bq
         p/IAAAAASUVORK5CYII=
 </value>
+  </data>
+  <data name="clock1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>666, -2</value>
   </data>
 </root>

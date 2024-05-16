@@ -241,10 +241,19 @@
     <EmbeddedResource Include="Storage-Devices.resx">
       <DependentUpon>Storage-Devices.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TKNPCPart-Layout.en-CA.resx">
+      <DependentUpon>TKNPCPart-Layout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TKNPCPart-Layout.es-MX.resx">
       <DependentUpon>TKNPCPart-Layout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TKNPCPart-Layout.fr-CA.resx">
+      <DependentUpon>TKNPCPart-Layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TKNPCPart-Layout.fr-FR.resx">
+      <DependentUpon>TKNPCPart-Layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TKNPCPart-Layout.nl.resx">
       <DependentUpon>TKNPCPart-Layout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TKNPCPart-Layout.resx">

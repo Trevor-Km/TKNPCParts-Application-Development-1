@@ -15,6 +15,7 @@ namespace TKNPCParts_Layout
 {
     public partial class TKNPCPart_Layout : Form
     {
+        private bool isDarkMode = false;
         public TKNPCPart_Layout()
         {
             InitializeComponent();
@@ -35,13 +36,13 @@ namespace TKNPCParts_Layout
         public virtual void graphicsCardsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             openNewForm(new GraphicsCards());
-            
+
         }
 
         private void processorsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             openNewForm(new Processors());
-            
+
         }
 
         private void mainPageToolStripMenuItem_Click(Object sender, EventArgs e)
@@ -83,21 +84,21 @@ namespace TKNPCParts_Layout
 
         private void termsAndAgreementToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+
             string startupPath = Application.StartupPath;
-           
 
-           
-            string relativeFilePath = "TermsAndAgreement.txt"; 
 
-            
+
+            string relativeFilePath = "TermsAndAgreement.txt";
+
+
             string filePath = Path.Combine(startupPath, relativeFilePath);
 
             try
             {
                 if (File.Exists(filePath))
                 {
-                    
+
                     Process.Start(filePath);
                 }
                 else
@@ -142,6 +143,39 @@ namespace TKNPCParts_Layout
                     Application.Restart();
                     break;
             }
+        }
+
+        private void userManualToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            String URL = "https://github.com/Trevor-Km/TKNPCParts-Application-Development-1/blob/main/UserManual/User_Manual.pdf";
+            try
+            {
+                Process.Start(URL);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Invalid Link", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void darkModeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ToggleDarkMode();
+        }
+
+        private void ToggleDarkMode()
+        {
+            if (isDarkMode)
+            {
+                this.BackColor = Color.White;
+                this.ForeColor = Color.Black;
+            }
+            else
+            {
+                this.BackColor = Color.Black;
+                this.ForeColor = Color.White;
+            }
+            isDarkMode = !isDarkMode; // Toggle the mode
         }
     }
 }

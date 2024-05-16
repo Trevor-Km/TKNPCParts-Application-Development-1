@@ -44,8 +44,10 @@
             this.informationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.termsAndAgreementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.licenseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.userManualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
             this.LanguageToolStripComboBox = new System.Windows.Forms.ToolStripComboBox();
+            this.darkModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.logoBox = new System.Windows.Forms.PictureBox();
@@ -69,6 +71,7 @@
             this.informationToolStripMenuItem,
             this.toolStripTextBox1,
             this.LanguageToolStripComboBox,
+            this.darkModeToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.menuStrip1.Name = "menuStrip1";
             // 
@@ -145,7 +148,8 @@
             resources.ApplyResources(this.informationToolStripMenuItem, "informationToolStripMenuItem");
             this.informationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.termsAndAgreementToolStripMenuItem,
-            this.licenseToolStripMenuItem});
+            this.licenseToolStripMenuItem,
+            this.userManualToolStripMenuItem});
             this.informationToolStripMenuItem.Name = "informationToolStripMenuItem";
             // 
             // termsAndAgreementToolStripMenuItem
@@ -159,6 +163,12 @@
             resources.ApplyResources(this.licenseToolStripMenuItem, "licenseToolStripMenuItem");
             this.licenseToolStripMenuItem.Name = "licenseToolStripMenuItem";
             this.licenseToolStripMenuItem.Click += new System.EventHandler(this.licenseToolStripMenuItem_Click);
+            // 
+            // userManualToolStripMenuItem
+            // 
+            resources.ApplyResources(this.userManualToolStripMenuItem, "userManualToolStripMenuItem");
+            this.userManualToolStripMenuItem.Name = "userManualToolStripMenuItem";
+            this.userManualToolStripMenuItem.Click += new System.EventHandler(this.userManualToolStripMenuItem_Click);
             // 
             // toolStripTextBox1
             // 
@@ -175,6 +185,12 @@
             resources.GetString("LanguageToolStripComboBox.Items2")});
             this.LanguageToolStripComboBox.Name = "LanguageToolStripComboBox";
             this.LanguageToolStripComboBox.SelectedIndexChanged += new System.EventHandler(this.LanguageToolStripComboBox_SelectedIndexChanged);
+            // 
+            // darkModeToolStripMenuItem
+            // 
+            resources.ApplyResources(this.darkModeToolStripMenuItem, "darkModeToolStripMenuItem");
+            this.darkModeToolStripMenuItem.Name = "darkModeToolStripMenuItem";
+            this.darkModeToolStripMenuItem.Click += new System.EventHandler(this.darkModeToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
@@ -245,5 +261,7 @@
         private System.Windows.Forms.ToolStripTextBox toolStripTextBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.ToolStripComboBox LanguageToolStripComboBox;
+        private System.Windows.Forms.ToolStripMenuItem userManualToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem darkModeToolStripMenuItem;
     }
 }
