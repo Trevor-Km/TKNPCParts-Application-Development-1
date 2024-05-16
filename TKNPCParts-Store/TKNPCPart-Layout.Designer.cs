@@ -242,8 +242,8 @@
         private Clock clock1;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem cartToolStripMenuItem;
-        private System.Windows.Forms.ToolStripComboBox LanguageToolStripComboBox;
         private System.Windows.Forms.ToolStripTextBox toolStripTextBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        public System.Windows.Forms.ToolStripComboBox LanguageToolStripComboBox;
     }
 }

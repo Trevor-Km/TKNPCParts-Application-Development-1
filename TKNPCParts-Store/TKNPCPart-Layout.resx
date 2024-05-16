@@ -121,8 +121,9 @@
   <data name="pCPartsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 23</value>
   </data>
-  <data name="&gt;&gt;clock1.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="footerText.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
   </data>
   <data name="&gt;&gt;storageDevicesToolStripMenuItem.Name" xml:space="preserve">
     <value>storageDevicesToolStripMenuItem</value>
@@ -130,7 +131,6 @@
   <data name="LanguageToolStripComboBox.Items" xml:space="preserve">
     <value>English</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="footerText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
   </data>
@@ -158,14 +158,12 @@
   <data name="&gt;&gt;informationToolStripMenuItem.Name" xml:space="preserve">
     <value>informationToolStripMenuItem</value>
   </data>
-  <data name="footerText.Text" xml:space="preserve">
-    <value>Copyright TKN PC Parts © 2024</value>
+  <data name="clock1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, -5</value>
   </data>
-  <data name="&gt;&gt;licenseToolStripMenuItem.Name" xml:space="preserve">
-    <value>licenseToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="clock1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="peripheralsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>157, 22</value>
@@ -4775,9 +4773,6 @@
   <data name="&gt;&gt;logoBox.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;clock1.Type" xml:space="preserve">
-    <value>TKNPCParts_Layout.Clock, TKNPCParts-Layout, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
   <data name="graphicsCardsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>157, 22</value>
   </data>
@@ -4802,8 +4797,14 @@
   <data name="&gt;&gt;cartToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
   <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
+  </data>
+  <data name="footerText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 659</value>
   </data>
   <data name="processorsToolStripMenuItem.Text" xml:space="preserve">
     <value>P&amp;rocessors</value>
@@ -4826,11 +4827,11 @@
   <data name="toolStripTextBox1.TextBoxTextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="LanguageToolStripComboBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 23</value>
+  </data>
+  <data name="&gt;&gt;logoBox.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4841,7 +4842,6 @@
   <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="footerText.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
@@ -4850,6 +4850,18 @@
   </data>
   <data name="motherboardsToolStripMenuItem.Text" xml:space="preserve">
     <value>Mother&amp;boards</value>
+  </data>
+  <data name="&gt;&gt;peripheralsToolStripMenuItem.Name" xml:space="preserve">
+    <value>peripheralsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;processorsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="logoBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="footerText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -4860,8 +4872,8 @@
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>154, 6</value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="toolStripTextBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold</value>
   </data>
   <data name="&gt;&gt;logoBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4878,35 +4890,29 @@
   <data name="logoBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 89</value>
+  </data>
   <data name="mainToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Main</value>
   </data>
   <data name="logoBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>98, 89</value>
   </data>
-  <data name="logoBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Exit</value>
   </data>
   <data name="peripheralsToolStripMenuItem.Text" xml:space="preserve">
     <value>P&amp;eripherals</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>TKNPCPart_Layout</value>
+  <data name="LanguageToolStripComboBox.Text" xml:space="preserve">
+    <value>English</value>
   </data>
   <data name="informationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 23</value>
   </data>
-  <data name="cartToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 22</value>
-  </data>
   <data name="&gt;&gt;footerText.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;clock1.Name" xml:space="preserve">
-    <value>clock1</value>
   </data>
   <data name="informationToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Information</value>
@@ -4920,11 +4926,11 @@
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>38, 23</value>
   </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 89</value>
+  <data name="&gt;&gt;clock1.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>1014, 29</value>
@@ -4932,8 +4938,8 @@
   <data name="clock1.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 28</value>
   </data>
-  <data name="&gt;&gt;mainToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="motherboardsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
@@ -4941,14 +4947,17 @@
   <data name="&gt;&gt;graphicsCardsToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="LanguageToolStripComboBox.Items1" xml:space="preserve">
+    <value>French</value>
+  </data>
   <data name="&gt;&gt;termsAndAgreementToolStripMenuItem.Name" xml:space="preserve">
     <value>termsAndAgreementToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;toolStripTextBox1.Name" xml:space="preserve">
     <value>toolStripTextBox1</value>
   </data>
-  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Exit</value>
+  <data name="&gt;&gt;motherboardsToolStripMenuItem.Name" xml:space="preserve">
+    <value>motherboardsToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -4956,11 +4965,8 @@
   <data name="pCPartsToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;PC Parts</value>
   </data>
-  <data name="&gt;&gt;peripheralsToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="clock1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;licenseToolStripMenuItem.Name" xml:space="preserve">
+    <value>licenseToolStripMenuItem</value>
   </data>
   <data name="logoBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>1142, 25</value>
@@ -4983,8 +4989,8 @@
   <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
     <value>menuStrip1</value>
   </data>
-  <data name="clock1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>428, -5</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TKNPCPart_Layout</value>
   </data>
   <data name="&gt;&gt;informationToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4994,9 +5000,6 @@
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
-    <value>toolStripMenuItem1</value>
   </data>
   <data name="&gt;&gt;LanguageToolStripComboBox.Name" xml:space="preserve">
     <value>LanguageToolStripComboBox</value>
@@ -5010,20 +5013,17 @@
   <data name="logoBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="&gt;&gt;processorsToolStripMenuItem.Type" xml:space="preserve">
+  <data name="cartToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="&gt;&gt;mainToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripTextBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="footerText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 659</value>
   </data>
   <data name="&gt;&gt;footerText.Name" xml:space="preserve">
     <value>footerText</value>
   </data>
-  <data name="footerText.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
   </data>
   <data name="logoBox.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -9630,29 +9630,29 @@
   <data name="licenseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>190, 22</value>
   </data>
-  <data name="motherboardsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 22</value>
+  <data name="&gt;&gt;clock1.Name" xml:space="preserve">
+    <value>clock1</value>
   </data>
-  <data name="LanguageToolStripComboBox.Items1" xml:space="preserve">
-    <value>French</value>
+  <data name="&gt;&gt;toolStripTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="termsAndAgreementToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>190, 22</value>
   </data>
-  <data name="&gt;&gt;storageDevicesToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;pCPartsToolStripMenuItem.Name" xml:space="preserve">
+    <value>pCPartsToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;peripheralsToolStripMenuItem.Name" xml:space="preserve">
-    <value>peripheralsToolStripMenuItem</value>
+  <data name="footerText.Text" xml:space="preserve">
+    <value>Copyright TKN PC Parts © 2024</value>
   </data>
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;logoBox.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;storageDevicesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;motherboardsToolStripMenuItem.Name" xml:space="preserve">
-    <value>motherboardsToolStripMenuItem</value>
+  <data name="&gt;&gt;clock1.Type" xml:space="preserve">
+    <value>TKNPCParts_Layout.Clock, TKNPCParts-Layout, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="footerText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -9660,17 +9660,17 @@
   <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
     <value>exitToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;pCPartsToolStripMenuItem.Name" xml:space="preserve">
-    <value>pCPartsToolStripMenuItem</value>
+  <data name="&gt;&gt;peripheralsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;allItemsToolStripMenuItem.Name" xml:space="preserve">
     <value>allItemsToolStripMenuItem</value>
   </data>
-  <data name="toolStripTextBox1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 9pt, style=Bold</value>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
   </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

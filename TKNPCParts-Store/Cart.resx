@@ -118,6 +118,65 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="totalTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 463</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="totalTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="priceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="&gt;&gt;totalTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="itemLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>TKNPCParts_Layout.TKNPCPart_Layout, TKNPCParts-Layout, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;clearCartButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;totalTextBox.Name" xml:space="preserve">
+    <value>totalTextBox</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="totalTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;priceLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="totalLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="&gt;&gt;priceListBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkoutButton.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;itemLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;totalLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;priceLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cartListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 45</value>
+  </data>
+  <data name="&gt;&gt;totalLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAiEAAAG/CAYAAACOkwcpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
@@ -4708,4 +4767,199 @@
         p/IAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="&gt;&gt;cartListBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;itemLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;totalTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cartListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="priceLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cartListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>398, 394</value>
+  </data>
+  <data name="totalLabel.Text" xml:space="preserve">
+    <value>TOTAL:</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pictureBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="priceListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 394</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Cart</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="priceLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;totalLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;clearCartButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="totalLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="pictureBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 89</value>
+  </data>
+  <data name="pictureBox5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="clearCartButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 455</value>
+  </data>
+  <data name="&gt;&gt;itemLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="itemLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;priceLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="priceLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="clearCartButton.Text" xml:space="preserve">
+    <value>Clear Cart</value>
+  </data>
+  <data name="cartListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="priceListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>695, 711</value>
+  </data>
+  <data name="itemLabel.Text" xml:space="preserve">
+    <value>ITEM</value>
+  </data>
+  <data name="&gt;&gt;itemLabel.Name" xml:space="preserve">
+    <value>itemLabel</value>
+  </data>
+  <data name="&gt;&gt;priceListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;priceListBox.Name" xml:space="preserve">
+    <value>priceListBox</value>
+  </data>
+  <data name="clearCartButton.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;clearCartButton.Name" xml:space="preserve">
+    <value>clearCartButton</value>
+  </data>
+  <data name="&gt;&gt;totalLabel.Name" xml:space="preserve">
+    <value>totalLabel</value>
+  </data>
+  <data name="itemLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="priceLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 26</value>
+  </data>
+  <data name="checkoutButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 507</value>
+  </data>
+  <data name="pictureBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 26</value>
+  </data>
+  <data name="checkoutButton.Text" xml:space="preserve">
+    <value>Checkout</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Cart</value>
+  </data>
+  <data name="&gt;&gt;checkoutButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkoutButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cartListBox.Name" xml:space="preserve">
+    <value>cartListBox</value>
+  </data>
+  <data name="&gt;&gt;checkoutButton.Name" xml:space="preserve">
+    <value>checkoutButton</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Name" xml:space="preserve">
+    <value>pictureBox5</value>
+  </data>
+  <data name="&gt;&gt;checkoutButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;priceLabel.Name" xml:space="preserve">
+    <value>priceLabel</value>
+  </data>
+  <data name="priceListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 45</value>
+  </data>
+  <data name="&gt;&gt;cartListBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="totalLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="checkoutButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 43</value>
+  </data>
+  <data name="itemLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 26</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="totalTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="pictureBox5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="totalLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 463</value>
+  </data>
+  <data name="&gt;&gt;totalTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="clearCartButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 28</value>
+  </data>
+  <data name="&gt;&gt;clearCartButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="totalLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="itemLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;priceListBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="priceLabel.Text" xml:space="preserve">
+    <value>PRICE</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

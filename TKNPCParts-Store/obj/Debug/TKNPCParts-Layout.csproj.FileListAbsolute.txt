@@ -121,3 +121,13 @@ P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCP
 P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.MainPage.fr-CA.resources
 P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\fr-CM\TKNPCParts-Layout.resources.dll
 P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\fr\TKNPCParts-Layout.resources.dll
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Motherboards.fr-CA.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Cart.es-MX.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Cart.fr-CA.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Motherboards.es-MX.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Peripherals.es-MX.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Peripherals.fr-CA.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Processors.es-MX.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Processors.fr-CA.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Storage_Devices.es-MX.resources
+P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Storage_Devices.fr-CA.resources

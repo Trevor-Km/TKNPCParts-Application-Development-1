@@ -43,96 +43,61 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(597, 26);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.pictureBox5, "pictureBox5");
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(98, 89);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 28;
             this.pictureBox5.TabStop = false;
             // 
             // clearCartButton
             // 
-            this.clearCartButton.Location = new System.Drawing.Point(15, 455);
+            resources.ApplyResources(this.clearCartButton, "clearCartButton");
             this.clearCartButton.Name = "clearCartButton";
-            this.clearCartButton.Size = new System.Drawing.Size(128, 28);
-            this.clearCartButton.TabIndex = 50;
-            this.clearCartButton.Text = "Clear Cart";
             this.clearCartButton.UseVisualStyleBackColor = true;
             this.clearCartButton.Click += new System.EventHandler(this.clearCartButton_Click);
             // 
             // totalTextBox
             // 
-            this.totalTextBox.Location = new System.Drawing.Point(416, 463);
+            resources.ApplyResources(this.totalTextBox, "totalTextBox");
             this.totalTextBox.Name = "totalTextBox";
             this.totalTextBox.ReadOnly = true;
-            this.totalTextBox.Size = new System.Drawing.Size(158, 20);
-            this.totalTextBox.TabIndex = 49;
-            this.totalTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // totalLabel
             // 
-            this.totalLabel.AutoSize = true;
-            this.totalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalLabel.Location = new System.Drawing.Point(350, 463);
+            resources.ApplyResources(this.totalLabel, "totalLabel");
             this.totalLabel.Name = "totalLabel";
-            this.totalLabel.Size = new System.Drawing.Size(60, 16);
-            this.totalLabel.TabIndex = 48;
-            this.totalLabel.Text = "TOTAL:";
             // 
             // priceLabel
             // 
-            this.priceLabel.AutoSize = true;
-            this.priceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.priceLabel.Location = new System.Drawing.Point(413, 26);
+            resources.ApplyResources(this.priceLabel, "priceLabel");
             this.priceLabel.Name = "priceLabel";
-            this.priceLabel.Size = new System.Drawing.Size(52, 16);
-            this.priceLabel.TabIndex = 47;
-            this.priceLabel.Text = "PRICE";
             // 
             // itemLabel
             // 
-            this.itemLabel.AutoSize = true;
-            this.itemLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.itemLabel.Location = new System.Drawing.Point(12, 26);
+            resources.ApplyResources(this.itemLabel, "itemLabel");
             this.itemLabel.Name = "itemLabel";
-            this.itemLabel.Size = new System.Drawing.Size(43, 16);
-            this.itemLabel.TabIndex = 46;
-            this.itemLabel.Text = "ITEM";
             // 
             // priceListBox
             // 
+            resources.ApplyResources(this.priceListBox, "priceListBox");
             this.priceListBox.FormattingEnabled = true;
-            this.priceListBox.Location = new System.Drawing.Point(416, 45);
             this.priceListBox.Name = "priceListBox";
-            this.priceListBox.Size = new System.Drawing.Size(158, 394);
-            this.priceListBox.TabIndex = 45;
             // 
             // checkoutButton
             // 
-            this.checkoutButton.Location = new System.Drawing.Point(265, 507);
+            resources.ApplyResources(this.checkoutButton, "checkoutButton");
             this.checkoutButton.Name = "checkoutButton";
-            this.checkoutButton.Size = new System.Drawing.Size(145, 43);
-            this.checkoutButton.TabIndex = 44;
-            this.checkoutButton.Text = "Checkout";
             this.checkoutButton.UseVisualStyleBackColor = true;
             this.checkoutButton.Click += new System.EventHandler(this.checkoutButton_Click);
             // 
             // cartListBox
             // 
+            resources.ApplyResources(this.cartListBox, "cartListBox");
             this.cartListBox.FormattingEnabled = true;
-            this.cartListBox.Location = new System.Drawing.Point(12, 45);
             this.cartListBox.Name = "cartListBox";
-            this.cartListBox.Size = new System.Drawing.Size(398, 394);
-            this.cartListBox.TabIndex = 43;
             // 
             // Cart
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(695, 711);
             this.Controls.Add(this.clearCartButton);
             this.Controls.Add(this.totalTextBox);
             this.Controls.Add(this.totalLabel);
@@ -143,7 +108,6 @@
             this.Controls.Add(this.cartListBox);
             this.Controls.Add(this.pictureBox5);
             this.Name = "Cart";
-            this.Text = "Cart";
             this.Load += new System.EventHandler(this.Cart_Load);
             this.Controls.SetChildIndex(this.pictureBox5, 0);
             this.Controls.SetChildIndex(this.cartListBox, 0);

@@ -162,6 +162,12 @@
     <EmbeddedResource Include="AllItems.resx">
       <DependentUpon>AllItems.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Cart.es-MX.resx">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cart.fr-CA.resx">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cart.resx">
       <DependentUpon>Cart.cs</DependentUpon>
     </EmbeddedResource>
@@ -192,14 +198,29 @@
     <EmbeddedResource Include="MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Motherboards.es-MX.resx">
+      <DependentUpon>Motherboards.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Motherboards.fr-CA.resx">
       <DependentUpon>Motherboards.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Motherboards.resx">
       <DependentUpon>Motherboards.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Peripherals.es-MX.resx">
+      <DependentUpon>Peripherals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peripherals.fr-CA.resx">
+      <DependentUpon>Peripherals.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Peripherals.resx">
       <DependentUpon>Peripherals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processors.es-MX.resx">
+      <DependentUpon>Processors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processors.fr-CA.resx">
+      <DependentUpon>Processors.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Processors.resx">
       <DependentUpon>Processors.cs</DependentUpon>
@@ -207,6 +228,12 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storage-Devices.es-MX.resx">
+      <DependentUpon>Storage-Devices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storage-Devices.fr-CA.resx">
+      <DependentUpon>Storage-Devices.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Storage-Devices.resx">
       <DependentUpon>Storage-Devices.cs</DependentUpon>

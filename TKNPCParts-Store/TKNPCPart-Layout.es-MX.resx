@@ -118,6 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pCPartsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 23</value>
+  </data>
+  <data name="pCPartsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Partes</value>
+  </data>
   <data name="mainToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 22</value>
   </data>
@@ -169,11 +175,11 @@
   <data name="cartToolStripMenuItem.Text" xml:space="preserve">
     <value>C&amp;esta</value>
   </data>
-  <data name="pCPartsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 23</value>
+  <data name="informationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 23</value>
   </data>
-  <data name="pCPartsToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Partes</value>
+  <data name="informationToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Información</value>
   </data>
   <data name="termsAndAgreementToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>182, 22</value>
@@ -187,14 +193,11 @@
   <data name="licenseToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Licencia</value>
   </data>
-  <data name="informationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 23</value>
-  </data>
-  <data name="informationToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Información</value>
-  </data>
   <data name="toolStripTextBox1.Text" xml:space="preserve">
     <value>Idioma:</value>
+  </data>
+  <data name="LanguageToolStripComboBox.Text" xml:space="preserve">
+    <value>Spanish</value>
   </data>
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 23</value>
@@ -9381,9 +9384,5 @@
         xtc75mtG/2L7khT2NezfmmP2uYcpU4K/7U/3O9g/Mu39E/jCiWkResT0wvpEa3Zphh//af4/0+GZ+2bq
         p/IAAAAASUVORK5CYII=
 </value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
   </data>
 </root>

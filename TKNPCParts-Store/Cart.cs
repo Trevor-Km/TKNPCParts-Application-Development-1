@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.SymbolStore;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -41,22 +42,61 @@ namespace TKNPCParts_Layout
         {
             if (PCPart.partsList.Count != 0)
             {
-                for (int i = 0; i < PCPart.partsList.Count; i++)
+                switch (LanguageToolStripComboBox.Text)
                 {
-                    priceListBox.Items.Add("$ " + PCPart.partsList[i].Price);
+                    case "English":
+                        for (int i = 0; i < PCPart.partsList.Count; i++)
+                        {
+                            priceListBox.Items.Add("$ " + PCPart.partsList[i].Price);
+                        }
+                        break;
+
+                    case "French":
+                        for (int i = 0; i < PCPart.partsList.Count; i++)
+                        {
+                            priceListBox.Items.Add("$ " + PCPart.partsList[i].Price);
+                        }
+                        break;
+
+                    case "Spanish":
+                        for (int i = 0; i < PCPart.partsList.Count; i++)
+                        {
+                            priceListBox.Items.Add("$ " + (int)(PCPart.partsList[i].Price * 12.27));
+                        }
+                        break;
                 }
+
             }
         }
 
         private void CalculateTotal()
         {
-            int total = 0;
+            double total = 0;
 
             if (PCPart.partsList.Count != 0)
             {
-                for (int i = 0; i < PCPart.partsList.Count; i++)
+                switch (LanguageToolStripComboBox.Text)
                 {
-                    total += PCPart.partsList[i].Price;
+                    case "English":
+                        for (int i = 0; i < PCPart.partsList.Count; i++)
+                        {
+                            total += PCPart.partsList[i].Price;
+                        }
+                        break;
+
+                    case "French":
+                        for (int i = 0; i < PCPart.partsList.Count; i++)
+                        {
+                            total += PCPart.partsList[i].Price;
+                        }
+                        break;
+
+                    case "Spanish":
+                        for (int i = 0; i < PCPart.partsList.Count; i++)
+                        {
+                            total += (int)(PCPart.partsList[i].Price * 12.27);
+                        }
+                        break;
                 }
             }
 

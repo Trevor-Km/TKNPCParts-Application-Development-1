@@ -118,6 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pCPartsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="pCPartsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pièces d'&amp;Ordi</value>
+  </data>
   <data name="mainToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>170, 22</value>
   </data>
@@ -169,12 +175,6 @@
   <data name="cartToolStripMenuItem.Text" xml:space="preserve">
     <value>Pa&amp;nier</value>
   </data>
-  <data name="pCPartsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 23</value>
-  </data>
-  <data name="pCPartsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Pièces d'&amp;Ordi</value>
-  </data>
   <data name="termsAndAgreementToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>183, 22</value>
   </data>
@@ -189,6 +189,9 @@
   </data>
   <data name="toolStripTextBox1.Text" xml:space="preserve">
     <value>Langue:</value>
+  </data>
+  <data name="LanguageToolStripComboBox.Text" xml:space="preserve">
+    <value>French</value>
   </data>
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 23</value>
@@ -9378,6 +9381,6 @@
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
+    <value>NoControl</value>
   </data>
 </root>

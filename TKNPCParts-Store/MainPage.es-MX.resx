@@ -118,6 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 17</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>$6135</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>$32024</value>
+  </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 19</value>
   </data>
@@ -134,19 +146,76 @@
     <value>999, 213</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 43</value>
+    <value>82, 34</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
-    <value>Añadir a la cesta</value>
+    <value>Añadir</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
     <value>772, 213</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 43</value>
+    <value>82, 34</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
-    <value>Añadir a la cesta</value>
+    <value>Añadir</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 17</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>$4908</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 213</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 34</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>Añadir</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 17</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>$6135</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 19</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Procesador</value>
+  </data>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 213</value>
+  </data>
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 34</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>Añadir</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 17</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>$2085</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 19</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Teclado</value>
+  </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 213</value>
+  </data>
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 34</value>
+  </data>
+  <data name="button5.Text" xml:space="preserve">
+    <value>Añadir</value>
   </data>
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2151,15 +2220,6 @@
         ZYUjB3TndAsFs3Zfxmz8jP8AEcqPiEe36OXrK9JC+qMYV46BAvx0k79Eg216BA9BOQq33Msdi6F5xDfT
         tk92LhoQaAwf5f/Z
 </value>
-  </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>548, 213</value>
-  </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 43</value>
-  </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>Añadir a la cesta</value>
   </data>
   <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -5517,21 +5577,6 @@
         nb9BkrT5AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 19</value>
-  </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>Procesador</value>
-  </data>
-  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>307, 213</value>
-  </data>
-  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 43</value>
-  </data>
-  <data name="button4.Text" xml:space="preserve">
-    <value>Añadir a la cesta</value>
-  </data>
   <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAASwAAAFDCAIAAAAPvaStAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
@@ -7593,21 +7638,6 @@
         nQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 19</value>
-  </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>Teclado</value>
-  </data>
-  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 213</value>
-  </data>
-  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 45</value>
-  </data>
-  <data name="button5.Text" xml:space="preserve">
-    <value>Añadir a la cesta</value>
-  </data>
   <data name="pictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAUFBQkGCQkJCQwTDg4MDg4ZEg4SEBcOEBAXEBcXEBQXFBQa
@@ -7882,6 +7912,18 @@
   <data name="featuredLabel.Text" xml:space="preserve">
     <value>Destacados</value>
   </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 17</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>$2147</value>
+  </data>
+  <data name="priceLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="priceLabel4.Text" xml:space="preserve">
+    <value>$32515</value>
+  </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 19</value>
   </data>
@@ -7898,19 +7940,19 @@
     <value>999, 213</value>
   </data>
   <data name="addToCartButton21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 40</value>
+    <value>82, 34</value>
   </data>
   <data name="addToCartButton21.Text" xml:space="preserve">
-    <value>Añadir a la cesta</value>
+    <value>Añadir</value>
   </data>
   <data name="addToCartButton20.Location" type="System.Drawing.Point, System.Drawing">
     <value>772, 213</value>
   </data>
   <data name="addToCartButton20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 40</value>
+    <value>82, 34</value>
   </data>
   <data name="addToCartButton20.Text" xml:space="preserve">
-    <value>Añadir a la cesta</value>
+    <value>Añadir</value>
   </data>
   <data name="pictureBox7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11086,14 +11128,20 @@
         oBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgP//Z
 </value>
   </data>
+  <data name="priceLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 17</value>
+  </data>
+  <data name="priceLabel3.Text" xml:space="preserve">
+    <value>$6135</value>
+  </data>
   <data name="addToCartButton19.Location" type="System.Drawing.Point, System.Drawing">
     <value>548, 213</value>
   </data>
   <data name="addToCartButton19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 40</value>
+    <value>82, 34</value>
   </data>
   <data name="addToCartButton19.Text" xml:space="preserve">
-    <value>Añadir a la cesta</value>
+    <value>Añadir</value>
   </data>
   <data name="nvidiaPictureBox3090Ti.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13434,6 +13482,12 @@
         AAAASUVORK5CYII=
 </value>
   </data>
+  <data name="priceLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 17</value>
+  </data>
+  <data name="priceLabel2.Text" xml:space="preserve">
+    <value>$4294</value>
+  </data>
   <data name="descLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 19</value>
   </data>
@@ -13444,10 +13498,10 @@
     <value>307, 213</value>
   </data>
   <data name="addToCartButton18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 40</value>
+    <value>82, 34</value>
   </data>
   <data name="addToCartButton18.Text" xml:space="preserve">
-    <value>Añadir a la cesta</value>
+    <value>Añadir</value>
   </data>
   <data name="nvidiaPictureBox4080.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -14056,6 +14110,12 @@
         sovtFMpspNkHHTn/2Q==
 </value>
   </data>
+  <data name="priceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="priceLabel.Text" xml:space="preserve">
+    <value>$12883</value>
+  </data>
   <data name="descLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 19</value>
   </data>
@@ -14063,13 +14123,13 @@
     <value>Procesador</value>
   </data>
   <data name="addToCartButton17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 213</value>
+    <value>79, 213</value>
   </data>
   <data name="addToCartButton17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 42</value>
+    <value>82, 34</value>
   </data>
   <data name="addToCartButton17.Text" xml:space="preserve">
-    <value>Añadir a la cesta</value>
+    <value>Añadir</value>
   </data>
   <data name="nvidiaPictureBox4090.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
