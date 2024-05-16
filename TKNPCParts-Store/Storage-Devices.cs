@@ -19,7 +19,19 @@ namespace TKNPCParts_Layout
 
         public void showCartMessage()
         {
-            MessageBox.Show("Your Item has been added to cart!", "Added to Cart", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            switch (LanguageToolStripComboBox.Text)
+            {
+                case "English":
+                    MessageBox.Show("Your Item has been added to cart!", "Added to Cart", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    break;
+                case "French":
+                    MessageBox.Show("Votre article a été ajouté au panier!", "Ajouté au panier", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    break;
+                case "Spanish":
+                    MessageBox.Show("¡Tu artículo ha sido agregado al cesta!", "Agregado al cesta", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    break;
+
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)

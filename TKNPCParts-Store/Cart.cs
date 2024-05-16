@@ -149,12 +149,37 @@ namespace TKNPCParts_Layout
                     writer.WriteLine($"Total Price: ${totalPrice}");
                 }
 
-                MessageBox.Show("Receipt generated successfully in /bin/Debug !", "Checkout", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                switch (LanguageToolStripComboBox.Text)
+                {
+                    case "English":
+                        MessageBox.Show("Receipt generated successfully in /bin/Debug !", "Checkout", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        break;
+                    case "French":
+                        MessageBox.Show("Reçu généré avec succès dans bin/debug", "Caisse", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        break;
+                    case "Spanish":
+                        MessageBox.Show("Recibo generado exitosamente en bin/debug", "Caja", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        break;
+
+                }
                 clearCartButton_Click(sender, e);
             }
             else
             {
-                MessageBox.Show("Cart is Empty! Please add items to cart before proceeding to checkout.", "Checkout", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                switch (LanguageToolStripComboBox.Text)
+                {
+                    case "English":
+                        MessageBox.Show("Cart is Empty! Please add items to cart before proceeding to checkout.", "Checkout", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        break;
+                    case "French":
+                        MessageBox.Show("Le panier est vide! Veuillez ajouter des articles au panier avant de procéder au paiement.", "Caisse", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        break;
+                    case "Spanish":
+                        MessageBox.Show("¡El carrito esta vacío! Agregue artículos al carrito antes de realizar el pago.", "Caja", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        break;
+
+                }
+               
             }
         }
 

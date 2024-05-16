@@ -5,6 +5,7 @@ using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -30,7 +31,19 @@ namespace TKNPCParts_Layout
 
         public void showCartMessage()
         {
-            MessageBox.Show("Your Item has been added to cart!", "Added to Cart", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            switch (LanguageToolStripComboBox.Text)
+            {
+                case "English":
+                    MessageBox.Show("Your Item has been added to cart!", "Added to Cart", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    break;
+                case "French":
+                    MessageBox.Show("Votre article a été ajouté au panier!", "Ajouté au panier", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    break;
+                case "Spanish":
+                    MessageBox.Show("¡Tu artículo ha sido agregado al cesta!", "Agregado al cesta", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    break;
+
+            }
         }
 
         private void addToCartButton21_Click(object sender, EventArgs e)

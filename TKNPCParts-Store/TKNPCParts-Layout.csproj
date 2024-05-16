@@ -150,6 +150,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AllItems.en-CA.resx">
+      <DependentUpon>AllItems.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AllItems.es-MX.resx">
       <DependentUpon>AllItems.cs</DependentUpon>
     </EmbeddedResource>

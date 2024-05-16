@@ -131,3 +131,35 @@ P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCP
 P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Processors.fr-CA.resources
 P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Storage_Devices.es-MX.resources
 P:\Vanier Projects\Semester 3\Application Development\Final Project\FINAL\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Storage_Devices.fr-CA.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\bin\Debug\es-MX\TKNPCParts-Layout.resources.dll
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\bin\Debug\fr-CA\TKNPCParts-Layout.resources.dll
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\bin\Debug\fr-CM\TKNPCParts-Layout.resources.dll
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\bin\Debug\fr\TKNPCParts-Layout.resources.dll
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Cart.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.AllItems.es-MX.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.AllItems.fr-CA.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.AllItems.fr-CM.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Cart.es-MX.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Cart.fr-CA.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.GraphicsCards.es-MX.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.GraphicsCards.fr-CA.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.GraphicsCards.fr.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.MainPage.es-MX.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.MainPage.fr-CA.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Motherboards.es-MX.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Motherboards.fr-CA.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Peripherals.es-MX.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Peripherals.fr-CA.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Processors.es-MX.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Processors.fr-CA.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Storage_Devices.es-MX.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.Storage_Devices.fr-CA.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.TKNPCPart_Layout.es-MX.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.TKNPCPart_Layout.fr-CA.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\es-MX\TKNPCParts-Layout.resources.dll
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\fr-CA\TKNPCParts-Layout.resources.dll
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\fr-CM\TKNPCParts-Layout.resources.dll
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\fr\TKNPCParts-Layout.resources.dll
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\bin\Debug\en-CA\TKNPCParts-Layout.resources.dll
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\TKNPCParts_Layout.AllItems.en-CA.resources
+C:\Users\natha\Desktop\AppDev-Final_Project\TKNPCParts-Application-Development-1\TKNPCParts-Store\obj\Debug\en-CA\TKNPCParts-Layout.resources.dll

@@ -4751,7 +4751,7 @@
   <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
         YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
         0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
         bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
@@ -4764,10 +4764,10 @@
 </value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 308</value>
+    <value>7, 310</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 26</value>
+    <value>117, 41</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Rechercher par Description:</value>
@@ -4776,16 +4776,22 @@
     <value>591, 303</value>
   </data>
   <data name="searchDescButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 41</value>
+    <value>112, 48</value>
   </data>
   <data name="searchDescButton.Text" xml:space="preserve">
     <value>Rechercher (Description)</value>
   </data>
   <data name="searchLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 13</value>
+    <value>117, 37</value>
   </data>
   <data name="searchLabel.Text" xml:space="preserve">
     <value>Rechercher par Nom:</value>
+  </data>
+  <data name="searchNameButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 252</value>
+  </data>
+  <data name="searchNameButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 47</value>
   </data>
   <data name="searchNameButton.Text" xml:space="preserve">
     <value>Rechercher (Nom)</value>
@@ -9380,35 +9386,74 @@
         p/IAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="graphicsCardButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 416</value>
+  </data>
   <data name="graphicsCardButton.Text" xml:space="preserve">
     <value>Trier par Carte Graphique</value>
+  </data>
+  <data name="processorButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 416</value>
   </data>
   <data name="processorButton.Text" xml:space="preserve">
     <value>Trier par Processeurs</value>
   </data>
+  <data name="peripheralsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 460</value>
+  </data>
   <data name="peripheralsButton.Text" xml:space="preserve">
     <value>Trier par Accessoires</value>
+  </data>
+  <data name="highEndButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 125</value>
+  </data>
+  <data name="highEndButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 50</value>
   </data>
   <data name="highEndButton.Text" xml:space="preserve">
     <value>Gros Budget</value>
   </data>
+  <data name="budgetButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>618, 188</value>
+  </data>
+  <data name="budgetButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 50</value>
+  </data>
   <data name="budgetButton.Text" xml:space="preserve">
     <value>Petit Budget</value>
+  </data>
+  <data name="motherboardButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 460</value>
   </data>
   <data name="motherboardButton.Text" xml:space="preserve">
     <value>Trier par Carte Mère</value>
   </data>
+  <data name="allItemsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 373</value>
+  </data>
   <data name="allItemsButton.Text" xml:space="preserve">
     <value>Afficher Tout</value>
+  </data>
+  <data name="sortByStorage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 505</value>
   </data>
   <data name="sortByStorage.Text" xml:space="preserve">
     <value>Trier par Disques SSD</value>
   </data>
+  <data name="sortByPriceButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 546</value>
+  </data>
   <data name="sortByPriceButton.Text" xml:space="preserve">
     <value>Trier par Prix ASC</value>
   </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 546</value>
+  </data>
   <data name="button2.Text" xml:space="preserve">
     <value>Trier par Prix DESC</value>
+  </data>
+  <data name="sortByNameButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 505</value>
   </data>
   <data name="sortByNameButton.Text" xml:space="preserve">
     <value>Trier par Nom</value>
